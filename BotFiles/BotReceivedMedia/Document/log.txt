@@ -1,0 +1,1763 @@
+[2024.09.25 10:02:36] Launched version: 5004001, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2024.09.25 10:02:36] Executable dir: C:/Users/serge/Downloads/, name: AyuGram_Sergey427_Edition.exe
+[2024.09.25 10:02:36] Initial working dir: C:/Users/serge/Downloads/
+[2024.09.25 10:02:36] Working dir: C:/Users/serge/Downloads/
+[2024.09.25 10:02:36] Command line: C:\Users\serge\Downloads\AyuGram_Sergey427_Edition.exe
+[2024.09.25 10:02:36] Executable path before check: C:/Users/serge/Downloads/AyuGram_Sergey427_Edition.exe
+[2024.09.25 10:02:36] Logs started
+[2024.09.25 10:02:36] AppUserModelID: Telegram.TelegramDesktop.b750c9be842d7acafb6e13214260f301
+[2024.09.25 10:02:36] Using DirectX compiler 'C:\Windows\SYSTEM32\d3dcompiler_47.dll'.
+[2024.09.25 10:02:36] Connecting local socket to Global\c01d8c6a14b3235c8895fe555557426d-{87A94AB0-E370-4cde-98D3-ACC110C59666}...
+[2024.09.25 10:02:36] This is the only instance of Telegram, starting server and app...
+[2024.09.25 10:02:36] Moved logging from 'C:/Users/serge/Downloads/log_start7.txt' to 'C:/Users/serge/Downloads/log.txt'!
+[2024.09.25 10:02:36] Old start log 'log_start0.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Old start log 'log_start1.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Old start log 'log_start2.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Old start log 'log_start3.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Old start log 'log_start4.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Old start log 'log_start5.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Old start log 'log_start6.txt' found, deleted: [TRUE]
+[2024.09.25 10:02:36] Opened 'C:/Users/serge/Downloads/tdata/working' for reading, the previous AyuGram Desktop launch was not finished properly :( Crash log size: 0
+[2024.09.25 10:02:36] Global devicePixelRatio: 1
+[2024.09.25 10:02:36] QT_DPI_ADJUSTMENT_POLICY: AdjustDpi
+[2024.09.25 10:02:36] Primary screen DPI: 120, Base: 96.
+[2024.09.25 10:02:36] Computed screen scale: 125
+[2024.09.25 10:02:36] DevicePixelRatio: 1
+[2024.09.25 10:02:36] ScreenScale: 125
+[2024.09.25 10:02:36] Media Info: Type Playback, default: {0.0.0.00000000}.{1361e918-e9e8-4b9e-bcd8-069cb7bb3384}, list: { "Динамики (Realtek(R) Audio)" <{0.0.0.00000000}.{1361e918-e9e8-4b9e-bcd8-069cb7bb3384}>, "SAMSUNG (NVIDIA High Definition Audio)" <{0.0.0.00000000}.{1bdce244-2a22-4c46-a5f8-47401224cd1e}>, "HISENSE (NVIDIA High Definition Audio)" <{0.0.0.00000000}.{1e1e2967-6b06-47dc-adc8-f11d96e811bd}>, "Динамики (Realtek(R) Audio)" <{0.0.0.00000000}.{1eba333d-aaa2-421f-966c-2376817255dd}>, "Headphones (Realtek(R) Audio)" <{0.0.0.00000000}.{32fe8c9d-fc67-4db0-a6b1-44fc8664a1f4}>, "Digital Audio (HDMI) (High Definition Audio Device)" <{0.0.0.00000000}.{b75cde51-2fb3-4fa4-aa98-0e0928569026}> }, full list refresh: false
+[2024.09.25 10:02:36] Media Info: Type Capture, default: {0.0.1.00000000}.{bced7396-d7e0-461a-a008-7349ff035d4d}, list: { "Внутренний разъем  AUX (NVIDIA High Definition Audio)" <{0.0.1.00000000}.{1e91e0d2-a615-4c33-92b9-c7b4e5f516af}>, "Внутренний разъем  AUX (High Definition Audio Device)" <{0.0.1.00000000}.{23edbaaf-54c2-4da1-a98c-afeabd635140}>, "Внутренний разъем  AUX (Realtek(R) Audio)" <{0.0.1.00000000}.{39ba40ea-2bc9-498c-9cfb-563c6e47776b}>, "Стерео микшер (Realtek(R) Audio)" <{0.0.1.00000000}.{4b34dcc7-d69f-4675-a195-c2f3b315baa3}>, "Microphone (Realtek(R) Audio)" <{0.0.1.00000000}.{83e85445-3277-4b2a-80fa-5da573b0e01a}>, "Микрофон (Realtek(R) Audio)" <{0.0.1.00000000}.{bced7396-d7e0-461a-a008-7349ff035d4d}> }, full list refresh: false
+[2024.09.25 10:02:36] Media Info: Type Camera, default: \\?\usb#vid_13d3&pid_56a2&mi_00#7&c91c3a9&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global, list: { "USB2.0 HD UVC WebCam" <\\?\usb#vid_13d3&pid_56a2&mi_00#7&c91c3a9&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global> }, full list refresh: true
+[2024.09.25 10:02:36] App Info: reading settings...
+[2024.09.25 10:02:36] App Info: reading encrypted settings...
+[2024.09.25 10:02:36] Lang Info: Loaded cached, keys: 7395
+[2024.09.25 10:02:36] Current Language pack ID: ru, Base ID: 
+[2024.09.25 10:02:37] Fetching ru lang pack...
+[2024.09.25 10:02:37] Font: from ':/gui/fonts/OpenSans-Regular.ttf' loaded 'Open Sans'
+[2024.09.25 10:02:37] Font: from ':/gui/fonts/OpenSans-Italic.ttf' loaded 'Open Sans'
+[2024.09.25 10:02:37] Font: from ':/gui/fonts/OpenSans-SemiBold.ttf' loaded 'Open Sans Semibold'
+[2024.09.25 10:02:37] Font: from ':/gui/fonts/OpenSans-SemiBoldItalic.ttf' loaded 'Open Sans Semibold'
+[2024.09.25 10:02:37] Font: from ':/gui/fonts/Vazirmatn-UI-NL-Regular.ttf' loaded 'Vazirmatn UI NL'
+[2024.09.25 10:02:37] Font: from ':/gui/fonts/Vazirmatn-UI-NL-SemiBold.ttf' loaded 'Vazirmatn UI NL SemiBold'
+[2024.09.25 10:02:38] OpenAL Logging Level: (not set)
+[2024.09.25 10:02:39] App Info: reading accounts info...
+[2024.09.25 10:02:39] App Info: reading encrypted info...
+[2024.09.25 10:02:39] App Info: reading map...
+[2024.09.25 10:02:39] App Info: reading encrypted map...
+[2024.09.25 10:02:39] App Info: reading encrypted user settings...
+[2024.09.25 10:02:39] App Info: encrypted user settings read.
+[2024.09.25 10:02:39] App Info: reading encrypted mtp data...
+[2024.09.25 10:02:39] MTP Info: read keys, current: 4, to destroy: 0
+[2024.09.25 10:02:39] Map read time: 62
+[2024.09.25 10:02:39] App Info: reading encrypted mtp config...
+[2024.09.25 10:02:39] App Info: reading map...
+[2024.09.25 10:02:39] App Info: reading encrypted map...
+[2024.09.25 10:02:39] App Info: reading encrypted user settings...
+[2024.09.25 10:02:39] App Info: encrypted user settings read.
+[2024.09.25 10:02:39] App Info: reading encrypted mtp data...
+[2024.09.25 10:02:39] MTP Info: read keys, current: 5, to destroy: 0
+[2024.09.25 10:02:39] Map read time: 103
+[2024.09.25 10:02:39] App Info: reading encrypted mtp config...
+[2024.09.25 10:02:40] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:02:40] OpenGL: Using custom 'gpu_driver_bug_list.json'.
+[2024.09.25 10:02:40] OpenGL Profile: OpenGLES.
+[2024.09.25 10:02:40] OpenGL Renderer: ANGLE (AMD, AMD Radeon(TM) Vega 8 Graphics Direct3D11 vs_5_0 ps_5_0, D3D11-27.20.1032.2)
+[2024.09.25 10:02:40] OpenGL Vendor: Google Inc. (AMD)
+[2024.09.25 10:02:40] OpenGL Version: OpenGL ES 3.0.0 (ANGLE 2.1.10 git hash: e3f59e8d0c3e)
+[2024.09.25 10:02:40] OpenGL Extensions: GL_ANGLE_depth_texture, GL_ANGLE_get_tex_level_parameter, GL_OES_texture_half_float, GL_NV_EGL_stream_consumer_external, GL_EXT_unpack_subimage, GL_OES_shader_multisample_interpolation, GL_KHR_debug, GL_ANGLE_multi_draw, GL_EXT_instanced_arrays, GL_OES_compressed_ETC2_RGB8_texture, GL_OES_draw_elements_base_vertex, GL_EXT_draw_buffers, GL_OES_mapbuffer, GL_EXT_polygon_offset_clamp, GL_ANGLE_base_vertex_base_instance_shader_builtin, GL_OES_compressed_EAC_R11_unsigned_texture, GL_ANGLE_texture_compression_dxt3, , GL_EXT_frag_depth, GL_OES_depth24, GL_ANGLE_translated_shader_source, GL_EXT_disjoint_timer_query, GL_OES_compressed_EAC_RG11_unsigned_texture, GL_ANGLE_texture_compression_dxt5, GL_OES_compressed_EAC_RG11_signed_texture, GL_OES_depth32, GL_EXT_multi_draw_indirect, GL_OES_texture_float, GL_EXT_texture_type_2_10_10_10_REV, GL_EXT_conservative_depth, GL_NV_framebuffer_blit, GL_OES_surfaceless_context, GL_OVR_multiview2, GL_EXT_blend_minmax, GL_OES_compressed_ETC2_RGBA8_texture, GL_EXT_occlusion_query_boolean, GL_EXT_color_buffer_float, GL_EXT_depth_clamp, GL_EXT_texture_mirror_clamp_to_edge, GL_EXT_draw_buffers_indexed, GL_APPLE_clip_distance, GL_WEBGL_video_texture, GL_CHROMIUM_copy_compressed_texture, GL_EXT_robustness, GL_OES_texture_border_clamp, GL_ANGLE_robust_client_memory, GL_OES_texture_float_linear, GL_OES_element_index_uint, GL_EXT_texture_compression_rgtc, GL_ANGLE_base_vertex_base_instance, GL_ANGLE_texture_multisample, GL_OES_fbo_render_mipmap, GL_EXT_texture_format_BGRA8888, GL_OES_EGL_image, GL_OES_sample_variables, GL_ANGLE_polygon_mode, GL_EXT_read_format_bgra, GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture, GL_OES_compressed_EAC_R11_signed_texture, GL_OES_texture_half_float_linear, GL_OVR_multiview, GL_EXT_shader_texture_lod, GL_ANGLE_instanced_arrays, GL_EXT_debug_label, GL_ANGLE_renderability_validation, GL_CHROMIUM_lose_context, GL_ANGLE_multiview_multisample, GL_EXT_map_buffer_range, GL_ANGLE_request_extension, GL_OES_compressed_ETC2_sRGB8_texture, GL_ANGLE_memory_size, GL_AMD_performance_monitor, GL_KHR_parallel_shader_compile, GL_OES_draw_buffers_indexed, GL_OES_texture_stencil8, GL_EXT_texture_compression_bptc, GL_EXT_texture_compression_s3tc_srgb, GL_EXT_texture_rg, GL_OES_get_program_binary, GL_NV_pixel_buffer_object, GL_ANGLE_client_arrays, GL_EXT_render_snorm, GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture, GL_EXT_draw_elements_base_vertex, GL_EXT_multisampled_render_to_texture, GL_CHROMIUM_sync_query, GL_ANGLE_clip_cull_distance, GL_ANGLE_pack_reverse_row_order, GL_ANGLE_shader_pixel_local_storage, GL_ANGLE_provoking_vertex, GL_OES_EGL_image_external_essl3, GL_OES_standard_derivatives, GL_EXT_discard_framebuffer, GL_ANGLE_get_serialized_context_string, GL_ANGLE_program_cache_control, GL_CHROMIUM_bind_uniform_location, GL_ANGLE_lossy_etc_decode, GL_EXT_sRGB, GL_NV_shader_noperspective_interpolation, GL_EXT_base_instance, GL_ANGLE_shader_pixel_local_storage_coherent, GL_EXT_color_buffer_half_float, GL_NV_fence, GL_ANGLE_framebuffer_blit, GL_EXT_clip_control, GL_ANGLE_copy_texture_3d, GL_CHROMIUM_bind_generates_resource, GL_EXT_float_blend, GL_EXT_texture_filter_anisotropic, GL_OES_packed_depth_stencil, GL_ANGLE_texture_usage, GL_EXT_blend_func_extended, GL_EXT_debug_marker, GL_OES_EGL_image_external, GL_CHROMIUM_copy_texture, GL_NV_pack_subimage, GL_ANGLE_framebuffer_multisample, GL_OES_vertex_array_object, GL_ANGLE_stencil_texturing, GL_OES_rgb8_rgba8, GL_EXT_EGL_image_external_wrap_modes, GL_OES_compressed_ETC2_sRGB8_alpha8_texture, GL_EXT_texture_norm16, GL_OES_texture_npot, GL_EXT_texture_storage, GL_EXT_clip_cull_distance, GL_EXT_texture_compression_dxt1, GL_EXT_texture_border_clamp
+[2024.09.25 10:02:40] EGL Extensions: EGL_EXT_create_context_robustness, EGL_ANGLE_d3d_share_handle_client_buffer, EGL_ANGLE_d3d_texture_client_buffer, EGL_ANGLE_surface_d3d_texture_2d_share_handle, EGL_ANGLE_query_surface_pointer, EGL_ANGLE_window_fixed_size, EGL_ANGLE_keyed_mutex, EGL_ANGLE_surface_orientation, EGL_ANGLE_direct_composition, EGL_ANGLE_windows_ui_composition, EGL_NV_post_sub_buffer, EGL_KHR_create_context, EGL_KHR_image, EGL_KHR_image_base, EGL_KHR_gl_texture_2D_image, EGL_KHR_gl_texture_cubemap_image, EGL_KHR_gl_renderbuffer_image, EGL_KHR_get_all_proc_addresses, EGL_KHR_stream, EGL_KHR_stream_consumer_gltexture, EGL_NV_stream_consumer_gltexture_yuv, EGL_ANGLE_stream_producer_d3d_texture, EGL_ANGLE_create_context_webgl_compatibility, EGL_CHROMIUM_create_context_bind_generates_resource, EGL_CHROMIUM_sync_control, EGL_EXT_pixel_format_float, EGL_KHR_surfaceless_context, EGL_ANGLE_display_texture_share_group, EGL_ANGLE_display_semaphore_share_group, EGL_ANGLE_create_context_client_arrays, EGL_ANGLE_program_cache_control, EGL_ANGLE_robust_resource_initialization, EGL_ANGLE_create_context_extensions_enabled, EGL_ANDROID_blob_cache, EGL_ANDROID_recordable, EGL_ANGLE_image_d3d11_texture, EGL_ANGLE_create_context_backwards_compatible, EGL_KHR_no_config_context, EGL_KHR_create_context_no_error, EGL_KHR_reusable_sync, 
+[2024.09.25 10:02:40] OpenGL: QOpenGLContext created, version: 3.3.
+[2024.09.25 10:02:40] OpenGL: [TRUE] (Window)
+[2024.09.25 10:02:49] RPC Error: request 134 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.25 10:03:01] RPC Error: request 248 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:03:01] RPC Error: request 259 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:03:04] API Error: Got empty admins list from server.
+[2024.09.25 10:03:08] RPC Error: request 310 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:03:08] RPC Error: request 320 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:03:55] RPC Error: request 359 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:04:00] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:16] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:18] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:21] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:34] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:35] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:38] Skipping message, because it is already in blocks!
+[2024.09.25 10:04:44] Skipping message, because it is already in blocks!
+[2024.09.25 10:05:05] Skipping message, because it is already in blocks!
+[2024.09.25 10:05:11] RPC Error: request 454 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:06:48] Skipping message, because it is already in blocks!
+[2024.09.25 10:06:50] Skipping message, because it is already in blocks!
+[2024.09.25 10:07:56] Skipping message, because it is already in blocks!
+[2024.09.25 10:08:01] RPC Error: request 596 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:08:46] Skipping message, because it is already in blocks!
+[2024.09.25 10:09:08] Skipping message, because it is already in blocks!
+[2024.09.25 10:09:52] RPC Error: request 693 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:09:54] Skipping message, because it is already in blocks!
+[2024.09.25 10:10:03] Skipping message, because it is already in blocks!
+[2024.09.25 10:10:32] Skipping message, because it is already in blocks!
+[2024.09.25 10:10:32] Skipping message, because it is already in blocks!
+[2024.09.25 10:11:08] Skipping message, because it is already in blocks!
+[2024.09.25 10:11:13] Skipping message, because it is already in blocks!
+[2024.09.25 10:11:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:11:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:11:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:11:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:11:59] Skipping message, because it is already in blocks!
+[2024.09.25 10:12:39] Skipping message, because it is already in blocks!
+[2024.09.25 10:12:54] Skipping message, because it is already in blocks!
+[2024.09.25 10:12:58] Skipping message, because it is already in blocks!
+[2024.09.25 10:13:00] Skipping message, because it is already in blocks!
+[2024.09.25 10:13:01] Skipping message, because it is already in blocks!
+[2024.09.25 10:13:22] Skipping message, because it is already in blocks!
+[2024.09.25 10:13:29] Skipping message, because it is already in blocks!
+[2024.09.25 10:14:29] Skipping message, because it is already in blocks!
+[2024.09.25 10:14:31] RPC Error: request 904 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:14:33] Skipping message, because it is already in blocks!
+[2024.09.25 10:15:27] Skipping message, because it is already in blocks!
+[2024.09.25 10:15:27] Skipping message, because it is already in blocks!
+[2024.09.25 10:16:45] Skipping message, because it is already in blocks!
+[2024.09.25 10:17:07] Skipping message, because it is already in blocks!
+[2024.09.25 10:17:33] Skipping message, because it is already in blocks!
+[2024.09.25 10:17:33] Skipping message, because it is already in blocks!
+[2024.09.25 10:17:48] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 10:18:32] RPC Error: request 1056 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:19:09] Skipping message, because it is already in blocks!
+[2024.09.25 10:20:16] Skipping message, because it is already in blocks!
+[2024.09.25 10:20:24] Skipping message, because it is already in blocks!
+[2024.09.25 10:20:43] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:21:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:21:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:21:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:21:56] Skipping message, because it is already in blocks!
+[2024.09.25 10:24:32] Skipping message, because it is already in blocks!
+[2024.09.25 10:27:16] Skipping message, because it is already in blocks!
+[2024.09.25 10:27:32] Skipping message, because it is already in blocks!
+[2024.09.25 10:28:18] Skipping message, because it is already in blocks!
+[2024.09.25 10:28:19] Skipping message, because it is already in blocks!
+[2024.09.25 10:28:24] Skipping message, because it is already in blocks!
+[2024.09.25 10:28:37] Skipping message, because it is already in blocks!
+[2024.09.25 10:29:21] RPC Error: request 1490 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:29:43] Skipping message, because it is already in blocks!
+[2024.09.25 10:29:48] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 10:29:51] Skipping message, because it is already in blocks!
+[2024.09.25 10:29:55] Skipping message, because it is already in blocks!
+[2024.09.25 10:30:07] Skipping message, because it is already in blocks!
+[2024.09.25 10:31:03] Skipping message, because it is already in blocks!
+[2024.09.25 10:31:32] Skipping message, because it is already in blocks!
+[2024.09.25 10:31:47] Skipping message, because it is already in blocks!
+[2024.09.25 10:31:47] Skipping message, because it is already in blocks!
+[2024.09.25 10:31:51] RPC Error: request 1595 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:31:58] Skipping message, because it is already in blocks!
+[2024.09.25 10:32:39] Skipping message, because it is already in blocks!
+[2024.09.25 10:32:44] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 10:32:46] Skipping message, because it is already in blocks!
+[2024.09.25 10:33:30] Skipping message, because it is already in blocks!
+[2024.09.25 10:33:46] Skipping message, because it is already in blocks!
+[2024.09.25 10:34:09] Skipping message, because it is already in blocks!
+[2024.09.25 10:34:47] Skipping message, because it is already in blocks!
+[2024.09.25 10:34:52] RPC Error: request 1731 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:34:55] Skipping message, because it is already in blocks!
+[2024.09.25 10:35:13] Skipping message, because it is already in blocks!
+[2024.09.25 10:35:26] Skipping message, because it is already in blocks!
+[2024.09.25 10:35:54] Skipping message, because it is already in blocks!
+[2024.09.25 10:36:01] Skipping message, because it is already in blocks!
+[2024.09.25 10:37:23] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:09] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:13] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:17] RPC Error: request 1865 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:39:20] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:21] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:25] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:29] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:39:34] RPC Error: request 1926 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:39:35] RPC Error: request 1933 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] App Error: Can't read history till unknown local message.
+[2024.09.25 10:39:42] Skipping message, because it is already in blocks!
+[2024.09.25 10:39:45] Skipping message, because it is already in blocks!
+[2024.09.25 10:40:01] Skipping message, because it is already in blocks!
+[2024.09.25 10:40:15] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:41:00] Skipping message, because it is already in blocks!
+[2024.09.25 10:41:16] Skipping message, because it is already in blocks!
+[2024.09.25 10:41:33] Skipping message, because it is already in blocks!
+[2024.09.25 10:42:23] RPC Error: request 2066 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:42:31] Skipping message, because it is already in blocks!
+[2024.09.25 10:42:39] Skipping message, because it is already in blocks!
+[2024.09.25 10:42:46] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:42:47] Skipping message, because it is already in blocks!
+[2024.09.25 10:42:51] Skipping message, because it is already in blocks!
+[2024.09.25 10:42:53] Skipping message, because it is already in blocks!
+[2024.09.25 10:44:07] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:44:09] RPC Error: request 2146 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:44:10] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 10:44:30] Skipping message, because it is already in blocks!
+[2024.09.25 10:45:01] Skipping message, because it is already in blocks!
+[2024.09.25 10:45:03] Skipping message, because it is already in blocks!
+[2024.09.25 10:45:29] Skipping message, because it is already in blocks!
+[2024.09.25 10:45:46] Skipping message, because it is already in blocks!
+[2024.09.25 10:46:54] API Warning: not loaded minimal channel applied.
+[2024.09.25 10:47:14] Skipping message, because it is already in blocks!
+[2024.09.25 10:47:16] RPC Error: request 2246 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:47:21] Skipping message, because it is already in blocks!
+[2024.09.25 10:48:36] Skipping message, because it is already in blocks!
+[2024.09.25 10:48:39] Skipping message, because it is already in blocks!
+[2024.09.25 10:49:26] Skipping message, because it is already in blocks!
+[2024.09.25 10:49:59] Skipping message, because it is already in blocks!
+[2024.09.25 10:50:57] Skipping message, because it is already in blocks!
+[2024.09.25 10:51:04] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:51:05] Skipping message, because it is already in blocks!
+[2024.09.25 10:53:03] Skipping message, because it is already in blocks!
+[2024.09.25 10:53:09] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:53:13] Skipping message, because it is already in blocks!
+[2024.09.25 10:55:45] Skipping message, because it is already in blocks!
+[2024.09.25 10:55:48] RPC Error: request 2480 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:55:57] Skipping message, because it is already in blocks!
+[2024.09.25 10:56:02] Skipping message, because it is already in blocks!
+[2024.09.25 10:56:17] Skipping message, because it is already in blocks!
+[2024.09.25 10:56:20] Skipping message, because it is already in blocks!
+[2024.09.25 10:57:11] Skipping message, because it is already in blocks!
+[2024.09.25 10:57:52] RPC Error: request 2567 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:57:52] RPC Error: request 2575 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 10:57:54] Skipping message, because it is already in blocks!
+[2024.09.25 10:58:26] Skipping message, because it is already in blocks!
+[2024.09.25 10:58:30] Skipping message, because it is already in blocks!
+[2024.09.25 10:58:33] Skipping message, because it is already in blocks!
+[2024.09.25 10:58:37] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:58:38] Skipping message, because it is already in blocks!
+[2024.09.25 10:58:43] Skipping message, because it is already in blocks!
+[2024.09.25 10:58:52] Export Info: Destroy top bar by controller removal.
+[2024.09.25 10:59:16] Skipping message, because it is already in blocks!
+[2024.09.25 10:59:42] Skipping message, because it is already in blocks!
+[2024.09.25 11:00:15] API Warning: not loaded minimal channel applied.
+[2024.09.25 11:00:15] API Warning: not loaded minimal channel applied.
+[2024.09.25 11:00:24] Skipping message, because it is already in blocks!
+[2024.09.25 11:00:32] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:00:35] Skipping message, because it is already in blocks!
+[2024.09.25 11:01:44] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:01:58] RPC Error: request 2737 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:02:30] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:05:53] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:06:15] Skipping message, because it is already in blocks!
+[2024.09.25 11:06:43] Skipping message, because it is already in blocks!
+[2024.09.25 11:08:39] RPC Error: request 2944 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:08:39] RPC Error: request 2956 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:08:41] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:09:30] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:09:30] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:09:30] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:09:31] RPC Error: request 2988 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:09:42] Skipping message, because it is already in blocks!
+[2024.09.25 11:09:46] RPC Error: request 3002 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:09:49] Skipping message, because it is already in blocks!
+[2024.09.25 11:10:21] Skipping message, because it is already in blocks!
+[2024.09.25 11:10:50] Skipping message, because it is already in blocks!
+[2024.09.25 11:11:47] RPC Error: request 3087 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:11:53] Skipping message, because it is already in blocks!
+[2024.09.25 11:12:27] Skipping message, because it is already in blocks!
+[2024.09.25 11:13:23] Skipping message, because it is already in blocks!
+[2024.09.25 11:13:29] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:14:07] Skipping message, because it is already in blocks!
+[2024.09.25 11:14:55] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:14:55] API Warning: not loaded minimal channel applied.
+[2024.09.25 11:14:55] API Warning: not loaded minimal channel applied.
+[2024.09.25 11:14:57] RPC Error: request 3303 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:15:14] Skipping message, because it is already in blocks!
+[2024.09.25 11:15:15] RPC Error: request 3322 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:15:21] Skipping message, because it is already in blocks!
+[2024.09.25 11:17:10] Skipping message, because it is already in blocks!
+[2024.09.25 11:17:12] Skipping message, because it is already in blocks!
+[2024.09.25 11:17:13] RPC Error: request 3390 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:17:16] Skipping message, because it is already in blocks!
+[2024.09.25 11:17:20] Skipping message, because it is already in blocks!
+[2024.09.25 11:19:25] RPC Error: request 3442 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:19:48] Skipping message, because it is already in blocks!
+[2024.09.25 11:19:55] Skipping message, because it is already in blocks!
+[2024.09.25 11:20:06] RPC Error: request 3475 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:21:05] RPC Error: request 3503 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:21:09] Skipping message, because it is already in blocks!
+[2024.09.25 11:21:23] Skipping message, because it is already in blocks!
+[2024.09.25 11:22:21] Skipping message, because it is already in blocks!
+[2024.09.25 11:22:25] Skipping message, because it is already in blocks!
+[2024.09.25 11:22:36] RPC Error: request 3562 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:22:42] RPC Error: request 3592 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:22:45] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] App Error: Can't read history till unknown local message.
+[2024.09.25 11:22:50] Skipping message, because it is already in blocks!
+[2024.09.25 11:22:58] Skipping message, because it is already in blocks!
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:31] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] App Error: Can't read history till unknown local message.
+[2024.09.25 11:23:32] Skipping message, because it is already in blocks!
+[2024.09.25 11:23:54] Export Info: Destroy top bar by controller removal.
+[2024.09.25 11:24:02] RPC Error: request 3754 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:24:03] RPC Error: request 3760 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:33:15] RPC Error: request 3918 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:33:17] RPC Error: request 3925 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:33:23] Skipping message, because it is already in blocks!
+[2024.09.25 11:33:30] Skipping message, because it is already in blocks!
+[2024.09.25 11:34:08] Skipping message, because it is already in blocks!
+[2024.09.25 11:34:09] Skipping message, because it is already in blocks!
+[2024.09.25 11:34:27] Skipping message, because it is already in blocks!
+[2024.09.25 11:34:35] Skipping message, because it is already in blocks!
+[2024.09.25 11:36:48] Skipping message, because it is already in blocks!
+[2024.09.25 11:37:19] RPC Error: request 4074 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:37:23] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:37:23] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:37:23] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 11:40:29] RPC Error: request 4129 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:40:43] Skipping message, because it is already in blocks!
+[2024.09.25 11:44:41] Skipping message, because it is already in blocks!
+[2024.09.25 11:45:00] Skipping message, because it is already in blocks!
+[2024.09.25 11:45:34] Skipping message, because it is already in blocks!
+[2024.09.25 11:46:54] API Warning: not loaded minimal channel applied.
+[2024.09.25 11:50:01] Skipping message, because it is already in blocks!
+[2024.09.25 11:51:18] RPC Error: request 4335 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:51:32] RPC Error: request 4350 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:51:41] Skipping message, because it is already in blocks!
+[2024.09.25 11:52:06] Skipping message, because it is already in blocks!
+[2024.09.25 11:53:07] RPC Error: request 4417 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:53:14] Skipping message, because it is already in blocks!
+[2024.09.25 11:53:35] Skipping message, because it is already in blocks!
+[2024.09.25 11:53:45] Skipping message, because it is already in blocks!
+[2024.09.25 11:54:35] Skipping message, because it is already in blocks!
+[2024.09.25 11:55:27] RPC Error: request 4534 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:57:27] Skipping message, because it is already in blocks!
+[2024.09.25 11:57:30] RPC Error: request 4607 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:57:33] Skipping message, because it is already in blocks!
+[2024.09.25 11:57:41] Skipping message, because it is already in blocks!
+[2024.09.25 11:57:50] Skipping message, because it is already in blocks!
+[2024.09.25 11:58:00] Skipping message, because it is already in blocks!
+[2024.09.25 11:59:10] RPC Error: request 4675 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 11:59:22] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2024.09.25 11:59:23] Skipping message, because it is already in blocks!
+[2024.09.25 11:59:54] API Warning: not loaded minimal channel applied.
+[2024.09.25 11:59:57] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:00:01] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:00:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:00:06] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:00:35] Skipping message, because it is already in blocks!
+[2024.09.25 12:00:39] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:00:39] RPC Error: request 4738 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:00:42] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:00:43] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2024.09.25 12:00:44] Skipping message, because it is already in blocks!
+[2024.09.25 12:00:49] Skipping message, because it is already in blocks!
+[2024.09.25 12:00:54] Skipping message, because it is already in blocks!
+[2024.09.25 12:00:56] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:01:00] Skipping message, because it is already in blocks!
+[2024.09.25 12:01:03] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:01:04] Skipping message, because it is already in blocks!
+[2024.09.25 12:01:07] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:02:01] Skipping message, because it is already in blocks!
+[2024.09.25 12:02:01] Skipping message, because it is already in blocks!
+[2024.09.25 12:02:15] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:02:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:02:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:02:53] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:03:29] Skipping message, because it is already in blocks!
+[2024.09.25 12:04:18] RPC Error: request 4919 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:04:22] RPC Error: request 4926 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:04:36] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2024.09.25 12:04:37] Skipping message, because it is already in blocks!
+[2024.09.25 12:05:22] RPC Error: request 4982 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:05:30] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2024.09.25 12:05:31] Skipping message, because it is already in blocks!
+[2024.09.25 12:05:39] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2024.09.25 12:05:40] Skipping message, because it is already in blocks!
+[2024.09.25 12:05:52] Skipping message, because it is already in blocks!
+[2024.09.25 12:08:38] Skipping message, because it is already in blocks!
+[2024.09.25 12:08:41] RPC Error: request 5119 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:08:50] Skipping message, because it is already in blocks!
+[2024.09.25 12:09:12] Skipping message, because it is already in blocks!
+[2024.09.25 12:10:51] Skipping message, because it is already in blocks!
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:12:21] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:13:24] Skipping message, because it is already in blocks!
+[2024.09.25 12:14:03] Skipping message, because it is already in blocks!
+[2024.09.25 12:14:16] Skipping message, because it is already in blocks!
+[2024.09.25 12:14:57] App Info: writing encrypted user settings...
+[2024.09.25 12:14:57] RPC Error: request 5309 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:14:57] Skipping message, because it is already in blocks!
+[2024.09.25 12:15:24] Skipping message, because it is already in blocks!
+[2024.09.25 12:15:28] Skipping message, because it is already in blocks!
+[2024.09.25 12:15:31] Skipping message, because it is already in blocks!
+[2024.09.25 12:15:39] App Info: writing encrypted user settings...
+[2024.09.25 12:15:39] Skipping message, because it is already in blocks!
+[2024.09.25 12:15:47] RPC Error: request 5349 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:15:55] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 12:16:11] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 12:16:13] Skipping message, because it is already in blocks!
+[2024.09.25 12:16:47] Skipping message, because it is already in blocks!
+[2024.09.25 12:17:32] Skipping message, because it is already in blocks!
+[2024.09.25 12:18:27] Skipping message, because it is already in blocks!
+[2024.09.25 12:18:34] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 12:18:43] Skipping message, because it is already in blocks!
+[2024.09.25 12:19:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:19:29] Skipping message, because it is already in blocks!
+[2024.09.25 12:19:38] Skipping message, because it is already in blocks!
+[2024.09.25 12:19:48] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:19:50] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:20:18] Skipping message, because it is already in blocks!
+[2024.09.25 12:20:24] Skipping message, because it is already in blocks!
+[2024.09.25 12:21:35] Skipping message, because it is already in blocks!
+[2024.09.25 12:22:04] Skipping message, because it is already in blocks!
+[2024.09.25 12:22:11] Skipping message, because it is already in blocks!
+[2024.09.25 12:23:28] Skipping message, because it is already in blocks!
+[2024.09.25 12:24:12] RPC Error: request 5738 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:24:35] Skipping message, because it is already in blocks!
+[2024.09.25 12:25:57] Skipping message, because it is already in blocks!
+[2024.09.25 12:26:53] Skipping message, because it is already in blocks!
+[2024.09.25 12:26:56] Skipping message, because it is already in blocks!
+[2024.09.25 12:26:56] Skipping message, because it is already in blocks!
+[2024.09.25 12:27:09] Skipping message, because it is already in blocks!
+[2024.09.25 12:30:25] Skipping message, because it is already in blocks!
+[2024.09.25 12:30:37] Skipping message, because it is already in blocks!
+[2024.09.25 12:31:24] Skipping message, because it is already in blocks!
+[2024.09.25 12:32:04] Skipping message, because it is already in blocks!
+[2024.09.25 12:32:29] Skipping message, because it is already in blocks!
+[2024.09.25 12:32:36] Skipping message, because it is already in blocks!
+[2024.09.25 12:32:37] Skipping message, because it is already in blocks!
+[2024.09.25 12:32:39] Skipping message, because it is already in blocks!
+[2024.09.25 12:32:42] Skipping message, because it is already in blocks!
+[2024.09.25 12:37:11] Skipping message, because it is already in blocks!
+[2024.09.25 12:38:48] Skipping message, because it is already in blocks!
+[2024.09.25 12:38:57] Skipping message, because it is already in blocks!
+[2024.09.25 12:40:32] Skipping message, because it is already in blocks!
+[2024.09.25 12:41:22] MTP Info: -404 error received in 160004 with temporary key, assuming it was destroyed.
+[2024.09.25 12:42:03] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:42:32] API Warning: not loaded minimal channel applied.
+[2024.09.25 12:43:19] Skipping message, because it is already in blocks!
+[2024.09.25 12:44:25] Skipping message, because it is already in blocks!
+[2024.09.25 12:44:43] Skipping message, because it is already in blocks!
+[2024.09.25 12:45:49] Skipping message, because it is already in blocks!
+[2024.09.25 12:46:16] RPC Error: request 6385 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:46:21] Skipping message, because it is already in blocks!
+[2024.09.25 12:46:53] Skipping message, because it is already in blocks!
+[2024.09.25 12:47:15] Skipping message, because it is already in blocks!
+[2024.09.25 12:47:37] Skipping message, because it is already in blocks!
+[2024.09.25 12:47:43] RPC Error: request 6468 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:48:08] Skipping message, because it is already in blocks!
+[2024.09.25 12:48:32] Skipping message, because it is already in blocks!
+[2024.09.25 12:49:06] RPC Error: request 6564 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:49:14] Skipping message, because it is already in blocks!
+[2024.09.25 12:50:07] Skipping message, because it is already in blocks!
+[2024.09.25 12:50:56] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 12:50:58] Audio Info: Closing audio playback device.
+[2024.09.25 12:50:58] RPC Error: request 6678 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:51:11] RPC Error: request 6811 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:51:15] Skipping message, because it is already in blocks!
+[2024.09.25 12:51:32] Skipping message, because it is already in blocks!
+[2024.09.25 12:51:57] RPC Error: request 7026 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:52:04] RPC Error: request 7069 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:52:05] RPC Error: request 7076 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:52:05] RPC Error: request 7078 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:52:06] RPC Error: request 7083 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:52:08] RPC Error: request 7091 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:52:29] Skipping message, because it is already in blocks!
+[2024.09.25 12:54:38] RPC Error: request 7178 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:54:38] RPC Error: request 7195 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:54:38] RPC Error: request 7190 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7194 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7189 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7192 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7188 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7193 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7191 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:38] RPC Error: request 7187 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 12:54:42] Skipping message, because it is already in blocks!
+[2024.09.25 12:54:50] RPC Error: request 7269 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:54:58] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 12:55:04] Audio Info: Closing audio playback device.
+[2024.09.25 12:55:26] Skipping message, because it is already in blocks!
+[2024.09.25 12:55:30] RPC Error: request 7307 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 12:57:21] Skipping message, because it is already in blocks!
+[2024.09.25 12:58:02] Skipping message, because it is already in blocks!
+[2024.09.25 12:58:10] Skipping message, because it is already in blocks!
+[2024.09.25 12:58:51] Skipping message, because it is already in blocks!
+[2024.09.25 12:58:57] Skipping message, because it is already in blocks!
+[2024.09.25 12:59:29] Skipping message, because it is already in blocks!
+[2024.09.25 12:59:37] Skipping message, because it is already in blocks!
+[2024.09.25 12:59:43] Skipping message, because it is already in blocks!
+[2024.09.25 13:00:15] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:00:17] Skipping message, because it is already in blocks!
+[2024.09.25 13:00:19] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:00:22] Skipping message, because it is already in blocks!
+[2024.09.25 13:00:27] Skipping message, because it is already in blocks!
+[2024.09.25 13:01:03] Skipping message, because it is already in blocks!
+[2024.09.25 13:01:10] Skipping message, because it is already in blocks!
+[2024.09.25 13:02:41] Skipping message, because it is already in blocks!
+[2024.09.25 13:03:27] Skipping message, because it is already in blocks!
+[2024.09.25 13:03:58] Skipping message, because it is already in blocks!
+[2024.09.25 13:04:03] Skipping message, because it is already in blocks!
+[2024.09.25 13:04:40] Skipping message, because it is already in blocks!
+[2024.09.25 13:05:10] Skipping message, because it is already in blocks!
+[2024.09.25 13:05:20] RPC Error: request 7710 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:05:21] RPC Error: request 7719 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7726 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7733 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7716 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7729 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7736 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7723 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7724 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7717 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7731 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7737 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7718 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7725 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7732 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7738 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7727 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7720 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7734 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7722 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7715 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7735 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:21] RPC Error: request 7728 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7789 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7788 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7787 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7790 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7793 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7791 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] RPC Error: request 7786 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 13:05:33] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 13:07:03] App Info: writing encrypted user settings...
+[2024.09.25 13:07:03] Skipping message, because it is already in blocks!
+[2024.09.25 13:07:39] Skipping message, because it is already in blocks!
+[2024.09.25 13:07:55] Skipping message, because it is already in blocks!
+[2024.09.25 13:08:04] Skipping message, because it is already in blocks!
+[2024.09.25 13:08:51] Skipping message, because it is already in blocks!
+[2024.09.25 13:09:04] Skipping message, because it is already in blocks!
+[2024.09.25 13:09:19] Skipping message, because it is already in blocks!
+[2024.09.25 13:09:37] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:09:37] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:09:39] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:10:14] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:11:05] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:11:15] Skipping message, because it is already in blocks!
+[2024.09.25 13:11:20] Skipping message, because it is already in blocks!
+[2024.09.25 13:11:40] Skipping message, because it is already in blocks!
+[2024.09.25 13:12:15] Skipping message, because it is already in blocks!
+[2024.09.25 13:13:06] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:13:51] Skipping message, because it is already in blocks!
+[2024.09.25 13:14:19] Skipping message, because it is already in blocks!
+[2024.09.25 13:14:24] Skipping message, because it is already in blocks!
+[2024.09.25 13:14:32] Skipping message, because it is already in blocks!
+[2024.09.25 13:14:39] Skipping message, because it is already in blocks!
+[2024.09.25 13:14:50] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:14:51] RPC Error: request 8077 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:14:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:14:57] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:15:00] Skipping message, because it is already in blocks!
+[2024.09.25 13:15:10] Skipping message, because it is already in blocks!
+[2024.09.25 13:15:19] Skipping message, because it is already in blocks!
+[2024.09.25 13:15:56] Skipping message, because it is already in blocks!
+[2024.09.25 13:16:05] Skipping message, because it is already in blocks!
+[2024.09.25 13:16:08] Skipping message, because it is already in blocks!
+[2024.09.25 13:16:10] Skipping message, because it is already in blocks!
+[2024.09.25 13:16:47] Skipping message, because it is already in blocks!
+[2024.09.25 13:17:15] Skipping message, because it is already in blocks!
+[2024.09.25 13:17:42] RPC Error: request 8176 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:17:49] Skipping message, because it is already in blocks!
+[2024.09.25 13:17:56] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:09] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:11] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:15] App Info: writing encrypted user settings...
+[2024.09.25 13:18:15] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:19] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:24] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:28] App Info: writing encrypted user settings...
+[2024.09.25 13:18:28] Skipping message, because it is already in blocks!
+[2024.09.25 13:18:42] App Info: writing encrypted user settings...
+[2024.09.25 13:18:46] Skipping message, because it is already in blocks!
+[2024.09.25 13:19:30] Skipping message, because it is already in blocks!
+[2024.09.25 13:20:04] Skipping message, because it is already in blocks!
+[2024.09.25 13:21:45] Skipping message, because it is already in blocks!
+[2024.09.25 13:21:51] Skipping message, because it is already in blocks!
+[2024.09.25 13:21:53] Skipping message, because it is already in blocks!
+[2024.09.25 13:21:56] App Info: writing encrypted user settings...
+[2024.09.25 13:21:57] Skipping message, because it is already in blocks!
+[2024.09.25 13:22:01] Skipping message, because it is already in blocks!
+[2024.09.25 13:22:33] Skipping message, because it is already in blocks!
+[2024.09.25 13:22:40] Skipping message, because it is already in blocks!
+[2024.09.25 13:22:40] App Info: writing encrypted user settings...
+[2024.09.25 13:22:50] Skipping message, because it is already in blocks!
+[2024.09.25 13:23:22] Skipping message, because it is already in blocks!
+[2024.09.25 13:23:28] Skipping message, because it is already in blocks!
+[2024.09.25 13:23:30] Skipping message, because it is already in blocks!
+[2024.09.25 13:23:30] App Info: writing encrypted user settings...
+[2024.09.25 13:23:54] Skipping message, because it is already in blocks!
+[2024.09.25 13:25:11] Skipping message, because it is already in blocks!
+[2024.09.25 13:26:33] Skipping message, because it is already in blocks!
+[2024.09.25 13:27:35] Skipping message, because it is already in blocks!
+[2024.09.25 13:28:17] Skipping message, because it is already in blocks!
+[2024.09.25 13:28:57] Skipping message, because it is already in blocks!
+[2024.09.25 13:30:13] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:30:13] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:30:13] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:30:13] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:30:53] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:31:28] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:31:28] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:32:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:33:27] RPC Error: request 8776 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:33:39] Skipping message, because it is already in blocks!
+[2024.09.25 13:33:52] Skipping message, because it is already in blocks!
+[2024.09.25 13:34:29] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:36:44] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:38:50] Skipping message, because it is already in blocks!
+[2024.09.25 13:41:30] Skipping message, because it is already in blocks!
+[2024.09.25 13:41:33] Skipping message, because it is already in blocks!
+[2024.09.25 13:41:54] Skipping message, because it is already in blocks!
+[2024.09.25 13:41:54] Skipping message, because it is already in blocks!
+[2024.09.25 13:42:46] Skipping message, because it is already in blocks!
+[2024.09.25 13:42:55] Skipping message, because it is already in blocks!
+[2024.09.25 13:43:05] Skipping message, because it is already in blocks!
+[2024.09.25 13:43:10] Skipping message, because it is already in blocks!
+[2024.09.25 13:44:29] Skipping message, because it is already in blocks!
+[2024.09.25 13:45:01] API Warning: not loaded minimal channel applied.
+[2024.09.25 13:45:05] Skipping message, because it is already in blocks!
+[2024.09.25 13:45:27] Skipping message, because it is already in blocks!
+[2024.09.25 13:45:53] Skipping message, because it is already in blocks!
+[2024.09.25 13:46:50] Skipping message, because it is already in blocks!
+[2024.09.25 13:47:04] Skipping message, because it is already in blocks!
+[2024.09.25 13:47:18] Skipping message, because it is already in blocks!
+[2024.09.25 13:47:29] Skipping message, because it is already in blocks!
+[2024.09.25 13:47:55] Skipping message, because it is already in blocks!
+[2024.09.25 13:49:53] RPC Error: request 9269 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:49:59] Skipping message, because it is already in blocks!
+[2024.09.25 13:50:06] Skipping message, because it is already in blocks!
+[2024.09.25 13:50:33] Skipping message, because it is already in blocks!
+[2024.09.25 13:51:14] Skipping message, because it is already in blocks!
+[2024.09.25 13:51:27] Skipping message, because it is already in blocks!
+[2024.09.25 13:51:37] Skipping message, because it is already in blocks!
+[2024.09.25 13:53:13] Skipping message, because it is already in blocks!
+[2024.09.25 13:53:19] RPC Error: request 9416 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:53:28] App Info: writing encrypted user settings...
+[2024.09.25 13:53:29] Skipping message, because it is already in blocks!
+[2024.09.25 13:53:32] Skipping message, because it is already in blocks!
+[2024.09.25 13:53:43] Skipping message, because it is already in blocks!
+[2024.09.25 13:54:14] RPC Error: request 9475 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 13:54:35] Skipping message, because it is already in blocks!
+[2024.09.25 13:55:06] Skipping message, because it is already in blocks!
+[2024.09.25 13:55:35] Skipping message, because it is already in blocks!
+[2024.09.25 13:56:15] Skipping message, because it is already in blocks!
+[2024.09.25 13:57:13] Skipping message, because it is already in blocks!
+[2024.09.25 13:57:31] Skipping message, because it is already in blocks!
+[2024.09.25 13:58:11] Skipping message, because it is already in blocks!
+[2024.09.25 13:59:05] Skipping message, because it is already in blocks!
+[2024.09.25 13:59:24] Skipping message, because it is already in blocks!
+[2024.09.25 14:00:02] Skipping message, because it is already in blocks!
+[2024.09.25 14:00:39] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:00:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:00:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:00:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:00:54] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:00:54] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:01:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:01:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:01:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:01:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:01:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:01:21] Skipping message, because it is already in blocks!
+[2024.09.25 14:01:26] RPC Error: request 9783 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:01:36] Skipping message, because it is already in blocks!
+[2024.09.25 14:02:15] Skipping message, because it is already in blocks!
+[2024.09.25 14:02:23] Skipping message, because it is already in blocks!
+[2024.09.25 14:02:23] Skipping message, because it is already in blocks!
+[2024.09.25 14:02:56] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:03:03] Skipping message, because it is already in blocks!
+[2024.09.25 14:03:09] Skipping message, because it is already in blocks!
+[2024.09.25 14:03:22] Skipping message, because it is already in blocks!
+[2024.09.25 14:04:19] Skipping message, because it is already in blocks!
+[2024.09.25 14:04:53] Skipping message, because it is already in blocks!
+[2024.09.25 14:05:24] RPC Error: request 10037 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:05:29] Skipping message, because it is already in blocks!
+[2024.09.25 14:05:42] Skipping message, because it is already in blocks!
+[2024.09.25 14:05:43] Skipping message, because it is already in blocks!
+[2024.09.25 14:05:51] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:19] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:21] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:24] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:25] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:36] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:46] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:48] Skipping message, because it is already in blocks!
+[2024.09.25 14:06:51] RPC Error: request 10172 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:06:51] RPC Error: request 10174 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.25 14:06:52] Streaming Error: Error in avformat_open_input (code: -1094995529, text: Invalid data found when processing input).
+[2024.09.25 14:06:54] Skipping message, because it is already in blocks!
+[2024.09.25 14:07:07] RPC Error: request 10253 got fail with code 400, error BOT_RESPONSE_TIMEOUT
+[2024.09.25 14:07:09] Skipping message, because it is already in blocks!
+[2024.09.25 14:07:11] RPC Error: request 10272 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:07:11] RPC Error: request 10274 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.25 14:07:11] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:07:15] Skipping message, because it is already in blocks!
+[2024.09.25 14:07:22] RPC Error: request 10349 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] App Error: Can't read history till unknown local message.
+[2024.09.25 14:07:31] Skipping message, because it is already in blocks!
+[2024.09.25 14:07:42] Skipping message, because it is already in blocks!
+[2024.09.25 14:07:50] Skipping message, because it is already in blocks!
+[2024.09.25 14:08:09] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:09:19] Skipping message, because it is already in blocks!
+[2024.09.25 14:09:29] Skipping message, because it is already in blocks!
+[2024.09.25 14:13:26] Skipping message, because it is already in blocks!
+[2024.09.25 14:16:25] Skipping message, because it is already in blocks!
+[2024.09.25 14:19:30] Skipping message, because it is already in blocks!
+[2024.09.25 14:21:23] Skipping message, because it is already in blocks!
+[2024.09.25 14:23:23] Skipping message, because it is already in blocks!
+[2024.09.25 14:24:24] Skipping message, because it is already in blocks!
+[2024.09.25 14:24:45] Skipping message, because it is already in blocks!
+[2024.09.25 14:25:39] Skipping message, because it is already in blocks!
+[2024.09.25 14:25:48] RPC Error: request 10865 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:25:50] Skipping message, because it is already in blocks!
+[2024.09.25 14:25:58] Skipping message, because it is already in blocks!
+[2024.09.25 14:26:37] Skipping message, because it is already in blocks!
+[2024.09.25 14:26:39] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:29:08] Skipping message, because it is already in blocks!
+[2024.09.25 14:29:15] App Info: writing encrypted user settings...
+[2024.09.25 14:29:30] RPC Error: request 10952 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:29:34] RPC Error: request 10967 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10969 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10965 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10970 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10964 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10963 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10966 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:34] RPC Error: request 10968 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:29:53] Skipping message, because it is already in blocks!
+[2024.09.25 14:30:07] RPC Error: request 11006 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:30:13] RPC Error: request 11018 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11026 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11022 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11014 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11030 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11034 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11042 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11038 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11033 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11017 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11041 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11025 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11012 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11031 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11023 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11015 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11020 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11039 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11036 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11028 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11016 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11024 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11013 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11021 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11029 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11019 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11027 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11032 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11037 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11035 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11043 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11040 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11122 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11123 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11119 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11120 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:13] RPC Error: request 11121 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11151 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11146 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11145 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11154 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11153 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11152 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11144 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11147 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11148 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:18] RPC Error: request 11150 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:19] RPC Error: request 11149 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:30:42] Skipping message, because it is already in blocks!
+[2024.09.25 14:31:18] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 14:31:18] RPC Error: request 11216 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:31:32] RPC Error: request 11235 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11237 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11242 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11239 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11241 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11240 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11238 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:33] RPC Error: request 11236 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:31:36] Skipping message, because it is already in blocks!
+[2024.09.25 14:32:14] RPC Error: request 11326 got fail with code 400, error INLINE_RESULT_EXPIRED
+[2024.09.25 14:32:25] RPC Error: request 11331 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:32:28] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 14:32:37] Audio Info: Closing audio playback device.
+[2024.09.25 14:32:48] Skipping message, because it is already in blocks!
+[2024.09.25 14:34:48] RPC Error: request 11600 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:34:48] Skipping message, because it is already in blocks!
+[2024.09.25 14:35:08] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:35:32] API Warning: not loaded minimal channel applied.
+[2024.09.25 14:36:37] Skipping message, because it is already in blocks!
+[2024.09.25 14:36:58] Skipping message, because it is already in blocks!
+[2024.09.25 14:37:11] Skipping message, because it is already in blocks!
+[2024.09.25 14:37:57] Skipping message, because it is already in blocks!
+[2024.09.25 14:38:11] Skipping message, because it is already in blocks!
+[2024.09.25 14:38:21] Skipping message, because it is already in blocks!
+[2024.09.25 14:38:33] Skipping message, because it is already in blocks!
+[2024.09.25 14:38:57] Skipping message, because it is already in blocks!
+[2024.09.25 14:39:01] Skipping message, because it is already in blocks!
+[2024.09.25 14:43:59] Skipping message, because it is already in blocks!
+[2024.09.25 14:44:16] Skipping message, because it is already in blocks!
+[2024.09.25 14:44:29] Skipping message, because it is already in blocks!
+[2024.09.25 14:45:33] Skipping message, because it is already in blocks!
+[2024.09.25 14:46:33] Skipping message, because it is already in blocks!
+[2024.09.25 14:47:28] Skipping message, because it is already in blocks!
+[2024.09.25 14:47:41] Skipping message, because it is already in blocks!
+[2024.09.25 14:48:18] Skipping message, because it is already in blocks!
+[2024.09.25 14:48:25] RPC Error: request 12134 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:48:39] Skipping message, because it is already in blocks!
+[2024.09.25 14:48:39] RPC Error: request 12159 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12156 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12157 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12154 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12161 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12158 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12155 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:39] RPC Error: request 12160 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:48:48] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 14:48:55] Skipping message, because it is already in blocks!
+[2024.09.25 14:49:02] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 14:49:03] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 14:49:05] Audio Info: Closing audio playback device.
+[2024.09.25 14:49:07] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 14:49:22] Audio Info: Closing audio playback device.
+[2024.09.25 14:49:24] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 14:49:38] Audio Info: Closing audio playback device.
+[2024.09.25 14:49:50] RPC Error: request 12247 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:50:00] Skipping message, because it is already in blocks!
+[2024.09.25 14:50:00] RPC Error: request 12264 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12260 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12263 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12265 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12261 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12258 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12259 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:00] RPC Error: request 12262 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 14:50:02] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 14:50:05] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 14:50:24] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 14:50:26] RPC Error: request 12274 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:50:28] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 14:50:36] Audio Info: Closing audio playback device.
+[2024.09.25 14:50:51] Skipping message, because it is already in blocks!
+[2024.09.25 14:52:18] Skipping message, because it is already in blocks!
+[2024.09.25 14:52:39] Skipping message, because it is already in blocks!
+[2024.09.25 14:52:39] Skipping message, because it is already in blocks!
+[2024.09.25 14:52:39] Skipping message, because it is already in blocks!
+[2024.09.25 14:54:10] Skipping message, because it is already in blocks!
+[2024.09.25 14:55:19] Skipping message, because it is already in blocks!
+[2024.09.25 14:55:24] Skipping message, because it is already in blocks!
+[2024.09.25 14:55:31] Skipping message, because it is already in blocks!
+[2024.09.25 14:55:37] Skipping message, because it is already in blocks!
+[2024.09.25 14:58:25] Skipping message, because it is already in blocks!
+[2024.09.25 14:58:29] RPC Error: request 12550 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:58:40] Skipping message, because it is already in blocks!
+[2024.09.25 14:58:44] Skipping message, because it is already in blocks!
+[2024.09.25 14:58:49] RPC Error: request 12582 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 14:58:52] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 14:58:56] Skipping message, because it is already in blocks!
+[2024.09.25 14:59:01] Audio Info: Closing audio playback device.
+[2024.09.25 14:59:47] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:00:55] Skipping message, because it is already in blocks!
+[2024.09.25 15:00:56] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:00:57] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:00:57] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:00:57] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:01:05] Skipping message, because it is already in blocks!
+[2024.09.25 15:01:29] Skipping message, because it is already in blocks!
+[2024.09.25 15:03:19] Skipping message, because it is already in blocks!
+[2024.09.25 15:04:43] RPC Error: request 12871 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 15:04:54] RPC Error: request 12891 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 15:05:39] Skipping message, because it is already in blocks!
+[2024.09.25 15:06:39] Skipping message, because it is already in blocks!
+[2024.09.25 15:07:18] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:08:04] Skipping message, because it is already in blocks!
+[2024.09.25 15:09:09] Skipping message, because it is already in blocks!
+[2024.09.25 15:09:20] Skipping message, because it is already in blocks!
+[2024.09.25 15:09:23] Skipping message, because it is already in blocks!
+[2024.09.25 15:11:49] Skipping message, because it is already in blocks!
+[2024.09.25 15:11:51] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:11:53] Skipping message, because it is already in blocks!
+[2024.09.25 15:11:53] App Info: writing encrypted user settings...
+[2024.09.25 15:11:56] App Info: writing encrypted user settings...
+[2024.09.25 15:11:57] Skipping message, because it is already in blocks!
+[2024.09.25 15:12:07] Skipping message, because it is already in blocks!
+[2024.09.25 15:13:11] Skipping message, because it is already in blocks!
+[2024.09.25 15:14:40] Skipping message, because it is already in blocks!
+[2024.09.25 15:18:16] Skipping message, because it is already in blocks!
+[2024.09.25 15:19:48] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:20:58] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:20:58] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:20:58] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:20:58] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:22:35] Skipping message, because it is already in blocks!
+[2024.09.25 15:22:35] App Info: writing encrypted user settings...
+[2024.09.25 15:22:38] Skipping message, because it is already in blocks!
+[2024.09.25 15:22:38] App Info: writing encrypted user settings...
+[2024.09.25 15:22:46] Skipping message, because it is already in blocks!
+[2024.09.25 15:22:58] Skipping message, because it is already in blocks!
+[2024.09.25 15:23:23] Skipping message, because it is already in blocks!
+[2024.09.25 15:23:50] Skipping message, because it is already in blocks!
+[2024.09.25 15:26:31] RPC Error: request 13622 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 15:26:37] RPC Error: request 13676 got fail with code 400, error INVITE_REQUEST_SENT
+[2024.09.25 15:26:56] Skipping message, because it is already in blocks!
+[2024.09.25 15:27:39] Skipping message, because it is already in blocks!
+[2024.09.25 15:27:54] Skipping message, because it is already in blocks!
+[2024.09.25 15:29:11] Skipping message, because it is already in blocks!
+[2024.09.25 15:29:59] Skipping message, because it is already in blocks!
+[2024.09.25 15:30:08] Skipping message, because it is already in blocks!
+[2024.09.25 15:31:51] Skipping message, because it is already in blocks!
+[2024.09.25 15:32:12] Skipping message, because it is already in blocks!
+[2024.09.25 15:32:35] Skipping message, because it is already in blocks!
+[2024.09.25 15:33:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:33:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:34:02] Skipping message, because it is already in blocks!
+[2024.09.25 15:34:06] Skipping message, because it is already in blocks!
+[2024.09.25 15:34:37] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:36:09] RPC Error: request 13958 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 15:36:17] Skipping message, because it is already in blocks!
+[2024.09.25 15:37:00] Skipping message, because it is already in blocks!
+[2024.09.25 15:37:02] Skipping message, because it is already in blocks!
+[2024.09.25 15:37:10] App Info: writing encrypted user settings...
+[2024.09.25 15:37:11] Skipping message, because it is already in blocks!
+[2024.09.25 15:37:28] Skipping message, because it is already in blocks!
+[2024.09.25 15:37:36] Skipping message, because it is already in blocks!
+[2024.09.25 15:38:47] Skipping message, because it is already in blocks!
+[2024.09.25 15:38:57] Skipping message, because it is already in blocks!
+[2024.09.25 15:39:27] Skipping message, because it is already in blocks!
+[2024.09.25 15:39:49] Skipping message, because it is already in blocks!
+[2024.09.25 15:39:55] Skipping message, because it is already in blocks!
+[2024.09.25 15:40:04] Skipping message, because it is already in blocks!
+[2024.09.25 15:40:15] Skipping message, because it is already in blocks!
+[2024.09.25 15:40:25] Skipping message, because it is already in blocks!
+[2024.09.25 15:41:38] Skipping message, because it is already in blocks!
+[2024.09.25 15:43:17] Skipping message, because it is already in blocks!
+[2024.09.25 15:44:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:44:33] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:45:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 15:45:58] Skipping message, because it is already in blocks!
+[2024.09.25 15:46:24] Skipping message, because it is already in blocks!
+[2024.09.25 15:46:30] Skipping message, because it is already in blocks!
+[2024.09.25 15:46:33] Skipping message, because it is already in blocks!
+[2024.09.25 15:46:50] Skipping message, because it is already in blocks!
+[2024.09.25 15:47:01] Skipping message, because it is already in blocks!
+[2024.09.25 15:48:21] RPC Error: request 14374 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 15:48:26] Skipping message, because it is already in blocks!
+[2024.09.25 15:53:11] RPC Error: request 14473 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 15:53:14] RPC Error: request 14485 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 16:01:00] Skipping message, because it is already in blocks!
+[2024.09.25 16:01:48] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:01:48] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:02:10] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:02:10] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:07:30] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:44:32] Skipping message, because it is already in blocks!
+[2024.09.25 16:44:34] Skipping message, because it is already in blocks!
+[2024.09.25 16:45:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:45:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:45:21] RPC Error: request 15003 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 16:50:03] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:56:10] Streaming Error: Error in avformat_open_input (code: -542398533, text: Generic error in an external library).
+[2024.09.25 16:57:29] API Warning: not loaded minimal channel applied.
+[2024.09.25 16:57:42] RPC Error: request 15363 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 16:57:42] RPC Error: request 15373 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 16:57:42] RPC Error: request 15374 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 16:57:43] RPC Error: request 15388 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 16:58:00] RPC Error: request 15419 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 16:58:00] RPC Error: request 15420 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:00:53] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:02:52] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:03:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:05:54] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:07:04] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:07:04] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:07:04] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:07:56] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:15:27] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:15:49] RPC Error: request 15802 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:20:00] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:27:52] RPC Error: request 16045 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:27:55] Skipping message, because it is already in blocks!
+[2024.09.25 17:28:14] Skipping message, because it is already in blocks!
+[2024.09.25 17:28:25] Skipping message, because it is already in blocks!
+[2024.09.25 17:38:35] RPC Error: request 16267 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:38:40] Skipping message, because it is already in blocks!
+[2024.09.25 17:40:13] Skipping message, because it is already in blocks!
+[2024.09.25 17:40:22] RPC Error: request 16357 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:40:33] RPC Error: request 16393 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:40:40] RPC Error: request 16412 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.25 17:40:55] RPC Error: request 16482 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 17:40:55] RPC Error: request 16483 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 17:40:55] RPC Error: request 16484 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 17:40:56] RPC Error: request 16503 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 17:40:59] RPC Error: request 16516 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:40:59] RPC Error: request 16522 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 17:43:25] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:46:22] RPC Error: request 16648 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 17:53:26] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:53:31] API Warning: not loaded minimal channel applied.
+[2024.09.25 17:53:56] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:12:04] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:16:34] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:19:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:24:45] Skipping message, because it is already in blocks!
+[2024.09.25 18:24:46] RPC Error: request 17345 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:24:53] Skipping message, because it is already in blocks!
+[2024.09.25 18:25:29] RPC Error: request 17374 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:25:29] RPC Error: request 17383 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:25:35] RPC Error: request 17400 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 18:25:41] RPC Error: request 17409 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:25:46] RPC Error: request 17415 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:25:46] RPC Error: request 17418 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 18:25:46] RPC Error: request 17419 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 18:26:44] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:26:44] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:26:44] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:26:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:26:45] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:30:10] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:30:11] API Warning: not loaded minimal channel applied.
+[2024.09.25 18:41:32] RPC Error: request 17693 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:41:32] RPC Error: request 17695 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.25 18:41:37] RPC Error: request 17709 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:41:37] RPC Error: request 17711 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.25 18:41:45] RPC Error: request 17729 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:41:50] Skipping message, because it is already in blocks!
+[2024.09.25 18:41:52] RPC Error: request 17738 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:41:55] Skipping message, because it is already in blocks!
+[2024.09.25 18:43:05] RPC Error: request 17774 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:43:18] Skipping message, because it is already in blocks!
+[2024.09.25 18:49:33] Skipping message, because it is already in blocks!
+[2024.09.25 18:49:43] Skipping message, because it is already in blocks!
+[2024.09.25 18:51:43] RPC Error: request 17918 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 18:51:50] Skipping message, because it is already in blocks!
+[2024.09.25 19:03:39] RPC Error: request 18134 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:09:41] RPC Error: request 18236 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:09:46] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 19:09:58] Audio Info: Closing audio playback device.
+[2024.09.25 19:09:59] Skipping message, because it is already in blocks!
+[2024.09.25 19:12:14] RPC Error: request 18373 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:13:29] RPC Error: request 18411 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:13:31] RPC Error: request 18425 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:13:33] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 19:13:41] Audio Info: Closing audio playback device.
+[2024.09.25 19:15:50] RPC Error: request 18497 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:18:58] RPC Error: request 18567 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:18:58] RPC Error: request 18588 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18820 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18817 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18816 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18818 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18819 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18823 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18821 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:23] RPC Error: request 18822 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:19:27] RPC Error: request 18922 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:01] RPC Error: request 18943 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:01] RPC Error: request 18945 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:01] RPC Error: request 18944 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:01] RPC Error: request 18946 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:01] RPC Error: request 18948 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:01] RPC Error: request 18947 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18978 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18977 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18972 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18973 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18974 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18979 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18975 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:04] RPC Error: request 18976 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:08] RPC Error: request 19075 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:08] RPC Error: request 19074 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:11] RPC Error: request 19087 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19119 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19116 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19118 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19114 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19115 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19112 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19113 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:21] RPC Error: request 19111 got fail with code 400, error FILE_ID_INVALID
+[2024.09.25 19:20:21] RPC Error: request 19117 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:29] RPC Error: request 19182 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19191 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19192 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19198 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19194 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19196 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19197 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19195 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:34] RPC Error: request 19193 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:20:54] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 19:20:57] Audio Info: Closing audio playback device.
+[2024.09.25 19:20:57] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 19:21:07] Audio Info: Closing audio playback device.
+[2024.09.25 19:21:23] RPC Error: request 19695 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:21:23] Skipping message, because it is already in blocks!
+[2024.09.25 19:21:26] RPC Error: request 19706 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:21:26] Skipping message, because it is already in blocks!
+[2024.09.25 19:21:34] Skipping message, because it is already in blocks!
+[2024.09.25 19:23:41] RPC Error: request 19794 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:24:37] Skipping message, because it is already in blocks!
+[2024.09.25 19:24:43] Skipping message, because it is already in blocks!
+[2024.09.25 19:24:45] Skipping message, because it is already in blocks!
+[2024.09.25 19:25:20] Skipping message, because it is already in blocks!
+[2024.09.25 19:25:22] Skipping message, because it is already in blocks!
+[2024.09.25 19:25:27] Skipping message, because it is already in blocks!
+[2024.09.25 19:25:31] Skipping message, because it is already in blocks!
+[2024.09.25 19:25:56] Skipping message, because it is already in blocks!
+[2024.09.25 19:26:19] Skipping message, because it is already in blocks!
+[2024.09.25 19:27:22] Skipping message, because it is already in blocks!
+[2024.09.25 19:27:47] API Warning: not loaded minimal channel applied.
+[2024.09.25 19:29:06] Skipping message, because it is already in blocks!
+[2024.09.25 19:30:22] Skipping message, because it is already in blocks!
+[2024.09.25 19:32:09] API Warning: not loaded minimal channel applied.
+[2024.09.25 19:33:05] API Warning: not loaded minimal channel applied.
+[2024.09.25 19:45:13] Skipping message, because it is already in blocks!
+[2024.09.25 19:45:40] RPC Error: request 20367 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:45:50] Skipping message, because it is already in blocks!
+[2024.09.25 19:46:30] RPC Error: request 20401 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:46:32] RPC Error: request 20455 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:46:39] Skipping message, because it is already in blocks!
+[2024.09.25 19:46:44] Skipping message, because it is already in blocks!
+[2024.09.25 19:47:43] API Warning: not loaded minimal channel applied.
+[2024.09.25 19:48:39] RPC Error: request 20544 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:48:40] RPC Error: request 20576 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:40] RPC Error: request 20572 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:40] RPC Error: request 20568 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:40] RPC Error: request 20573 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:40] RPC Error: request 20574 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:40] RPC Error: request 20571 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:40] RPC Error: request 20575 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 19:48:49] RPC Error: request 20631 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:48:52] RPC Error: request 20668 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:48:57] RPC Error: request 20680 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:49:01] Skipping message, because it is already in blocks!
+[2024.09.25 19:49:34] Skipping message, because it is already in blocks!
+[2024.09.25 19:49:40] Skipping message, because it is already in blocks!
+[2024.09.25 19:49:44] Skipping message, because it is already in blocks!
+[2024.09.25 19:49:45] Skipping message, because it is already in blocks!
+[2024.09.25 19:52:26] RPC Error: request 20796 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:52:38] Skipping message, because it is already in blocks!
+[2024.09.25 19:52:54] Skipping message, because it is already in blocks!
+[2024.09.25 19:52:55] RPC Error: request 20828 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:52:58] Skipping message, because it is already in blocks!
+[2024.09.25 19:53:01] Skipping message, because it is already in blocks!
+[2024.09.25 19:53:07] Skipping message, because it is already in blocks!
+[2024.09.25 19:54:09] Skipping message, because it is already in blocks!
+[2024.09.25 19:55:23] Skipping message, because it is already in blocks!
+[2024.09.25 19:55:29] Skipping message, because it is already in blocks!
+[2024.09.25 19:55:36] Skipping message, because it is already in blocks!
+[2024.09.25 19:55:46] Skipping message, because it is already in blocks!
+[2024.09.25 19:55:58] Skipping message, because it is already in blocks!
+[2024.09.25 19:56:29] Skipping message, because it is already in blocks!
+[2024.09.25 19:56:34] Skipping message, because it is already in blocks!
+[2024.09.25 19:56:36] Skipping message, because it is already in blocks!
+[2024.09.25 19:56:46] Skipping message, because it is already in blocks!
+[2024.09.25 19:57:04] Skipping message, because it is already in blocks!
+[2024.09.25 19:57:53] API Warning: not loaded minimal channel applied.
+[2024.09.25 19:57:55] API Warning: not loaded minimal channel applied.
+[2024.09.25 19:58:08] RPC Error: request 21058 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 19:58:15] Skipping message, because it is already in blocks!
+[2024.09.25 19:58:20] Skipping message, because it is already in blocks!
+[2024.09.25 19:58:31] Skipping message, because it is already in blocks!
+[2024.09.25 19:58:57] Skipping message, because it is already in blocks!
+[2024.09.25 20:00:28] Skipping message, because it is already in blocks!
+[2024.09.25 20:01:24] RPC Error: request 21179 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:01:29] RPC Error: request 21190 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:03:16] RPC Error: request 21256 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:03:27] Skipping message, because it is already in blocks!
+[2024.09.25 20:06:19] Skipping message, because it is already in blocks!
+[2024.09.25 20:06:23] Skipping message, because it is already in blocks!
+[2024.09.25 20:06:27] Skipping message, because it is already in blocks!
+[2024.09.25 20:08:46] Skipping message, because it is already in blocks!
+[2024.09.25 20:08:51] Skipping message, because it is already in blocks!
+[2024.09.25 20:08:53] Skipping message, because it is already in blocks!
+[2024.09.25 20:09:16] Skipping message, because it is already in blocks!
+[2024.09.25 20:09:16] Skipping message, because it is already in blocks!
+[2024.09.25 20:09:40] Skipping message, because it is already in blocks!
+[2024.09.25 20:09:42] Skipping message, because it is already in blocks!
+[2024.09.25 20:10:04] RPC Error: request 21441 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:10:14] RPC Error: request 21455 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:12:26] RPC Error: request 21518 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:15:24] RPC Error: request 21616 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:15:54] RPC Error: request 21631 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:17:22] Skipping message, because it is already in blocks!
+[2024.09.25 20:24:34] Skipping message, because it is already in blocks!
+[2024.09.25 20:27:53] RPC Error: request 21828 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:28:03] Skipping message, because it is already in blocks!
+[2024.09.25 20:28:19] Skipping message, because it is already in blocks!
+[2024.09.25 20:28:26] Skipping message, because it is already in blocks!
+[2024.09.25 20:29:13] Skipping message, because it is already in blocks!
+[2024.09.25 20:30:06] API Warning: not loaded minimal channel applied.
+[2024.09.25 20:30:09] Skipping message, because it is already in blocks!
+[2024.09.25 20:32:16] Skipping message, because it is already in blocks!
+[2024.09.25 20:32:16] Skipping message, because it is already in blocks!
+[2024.09.25 20:33:42] Skipping message, because it is already in blocks!
+[2024.09.25 20:33:45] Skipping message, because it is already in blocks!
+[2024.09.25 20:33:58] Skipping message, because it is already in blocks!
+[2024.09.25 20:34:04] Skipping message, because it is already in blocks!
+[2024.09.25 20:34:05] Skipping message, because it is already in blocks!
+[2024.09.25 20:36:01] Skipping message, because it is already in blocks!
+[2024.09.25 20:37:56] RPC Error: request 22614 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:44:21] RPC Error: request 22714 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:44:27] Skipping message, because it is already in blocks!
+[2024.09.25 20:44:43] Skipping message, because it is already in blocks!
+[2024.09.25 20:44:46] RPC Error: request 22743 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:44:51] RPC Error: request 22753 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:45:30] Skipping message, because it is already in blocks!
+[2024.09.25 20:45:34] Skipping message, because it is already in blocks!
+[2024.09.25 20:46:08] Skipping message, because it is already in blocks!
+[2024.09.25 20:46:48] Skipping message, because it is already in blocks!
+[2024.09.25 20:46:51] Skipping message, because it is already in blocks!
+[2024.09.25 20:47:20] RPC Error: request 22882 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:51:18] RPC Error: request 22998 got fail with code 400, error REACTIONS_TOO_MANY
+[2024.09.25 20:51:19] RPC Error: request 22999 got fail with code 400, error REACTIONS_TOO_MANY
+[2024.09.25 20:51:22] RPC Error: request 23002 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 20:51:33] Skipping message, because it is already in blocks!
+[2024.09.25 20:51:41] Skipping message, because it is already in blocks!
+[2024.09.25 20:57:25] API Warning: not loaded minimal channel applied.
+[2024.09.25 20:58:37] Skipping message, because it is already in blocks!
+[2024.09.25 21:03:58] RPC Error: request 23286 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 21:08:59] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 21:08:59] OpenGL: [TRUE] (Window)
+[2024.09.25 21:09:06] Call Info: Creating instance with version '8.0.0', allowP2P: [TRUE]
+[2024.09.25 21:09:06] Call Error: Unexpected state in handleStateChange: 4
+[2024.09.25 21:09:07] Audio Info: Closing audio playback device.
+[2024.09.25 21:09:07] Call Error: Unexpected state in handleStateChange: 4
+[2024.09.25 21:09:07] Call Error: Unexpected state in handleStateChange: 4
+[2024.09.25 21:10:10] RPC Error: request 23442 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 21:15:27] RPC Error: request 23588 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 21:15:30] RPC Error: request 23598 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 21:26:30] RPC Error: request 23742 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 21:31:11] RPC Error: request 23806 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 21:31:14] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:17] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:21] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:22] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:24] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:25] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:25] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:26] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:26] Skipping message, because it is already in blocks!
+[2024.09.25 21:31:39] Skipping message, because it is already in blocks!
+[2024.09.25 21:34:50] Skipping message, because it is already in blocks!
+[2024.09.25 21:36:45] RPC Error: request 23949 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 21:40:37] Storage Error: Could not commit 'C:/Users/serge/Downloads/tdata/D877F783D5D3EF8C/1C7AD01EB7336905s'.
+[2024.09.25 21:40:37] Skipping message, because it is already in blocks!
+[2024.09.25 21:40:50] Skipping message, because it is already in blocks!
+[2024.09.25 21:40:53] Skipping message, because it is already in blocks!
+[2024.09.25 21:41:59] RPC Error: request 24081 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 21:50:53] Skipping message, because it is already in blocks!
+[2024.09.25 21:57:53] RPC Error: request 24368 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 21:58:51] Skipping message, because it is already in blocks!
+[2024.09.25 22:01:12] API Warning: not loaded minimal channel applied.
+[2024.09.25 22:01:22] API Warning: not loaded minimal channel applied.
+[2024.09.25 22:02:10] Skipping message, because it is already in blocks!
+[2024.09.25 22:02:15] Skipping message, because it is already in blocks!
+[2024.09.25 22:02:29] API Warning: not loaded minimal channel applied.
+[2024.09.25 22:07:01] API Warning: not loaded minimal channel applied.
+[2024.09.25 22:07:01] API Warning: not loaded minimal channel applied.
+[2024.09.25 22:12:06] Skipping message, because it is already in blocks!
+[2024.09.25 22:13:20] Call Info: Creating group instance
+[2024.09.25 22:13:20] Call Info: Requesting join payload.
+[2024.09.25 22:13:20] OpenGL: [TRUE] (Window)
+[2024.09.25 22:13:20] Call Info: Join payload received, joining with ssrc: 299633824.
+[2024.09.25 22:13:22] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 22:13:23] Audio Info: Closing audio playback device.
+[2024.09.25 22:14:35] Skipping message, because it is already in blocks!
+[2024.09.25 22:14:41] Skipping message, because it is already in blocks!
+[2024.09.25 22:15:45] Skipping message, because it is already in blocks!
+[2024.09.25 22:15:52] Skipping message, because it is already in blocks!
+[2024.09.25 22:16:06] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 22:16:06] Audio Info: Closing audio playback device.
+[2024.09.25 22:25:57] RPC Error: request 24915 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 22:26:00] RPC Error: request 24940 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 22:26:00] RPC Error: request 24939 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 22:26:00] RPC Error: request 24938 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 22:32:08] RPC Error: request 25038 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 22:32:12] RPC Error: request 25048 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 22:59:16] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:06:16] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:20:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:20:34] RPC Error: request 25825 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 23:21:47] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:31:10] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:31:10] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:34:06] RPC Error: request 26023 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 23:34:11] Skipping message, because it is already in blocks!
+[2024.09.25 23:34:40] RPC Error: request 26043 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 23:34:44] RPC Error: request 26048 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 23:34:45] Skipping message, because it is already in blocks!
+[2024.09.25 23:34:49] RPC Error: request 26056 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 23:34:50] Skipping message, because it is already in blocks!
+[2024.09.25 23:34:54] Skipping message, because it is already in blocks!
+[2024.09.25 23:35:01] RPC Error: request 26108 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 23:35:01] RPC Error: request 26111 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 23:35:02] RPC Error: request 26109 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.25 23:36:07] RPC Error: request 26148 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 23:36:18] Skipping message, because it is already in blocks!
+[2024.09.25 23:36:52] RPC Error: request 26172 got fail with code 400, error PEER_ID_INVALID
+[2024.09.25 23:36:56] Skipping message, because it is already in blocks!
+[2024.09.25 23:38:53] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.25 23:38:59] Skipping message, because it is already in blocks!
+[2024.09.25 23:39:08] Audio Info: Closing audio playback device.
+[2024.09.25 23:39:09] Skipping message, because it is already in blocks!
+[2024.09.25 23:39:12] Skipping message, because it is already in blocks!
+[2024.09.25 23:39:17] Skipping message, because it is already in blocks!
+[2024.09.25 23:40:46] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:43:02] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:44:13] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:46:19] API Warning: not loaded minimal channel applied.
+[2024.09.25 23:55:29] RPC Error: request 26472 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:00:32] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:00:32] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:00:33] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:03:15] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:03:22] RPC Error: request 26653 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:08:24] RPC Error: request 26721 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:14:27] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:15:02] Skipping message, because it is already in blocks!
+[2024.09.26 00:15:38] RPC Error: request 26853 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:15:41] RPC Error: request 26864 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:15:42] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.26 00:15:47] Skipping message, because it is already in blocks!
+[2024.09.26 00:16:09] Skipping message, because it is already in blocks!
+[2024.09.26 00:16:11] Audio Info: Closing audio playback device.
+[2024.09.26 00:17:38] RPC Error: request 26962 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:21:00] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:21:33] App Info: writing encrypted user settings...
+[2024.09.26 00:21:33] RPC Error: request 27022 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27039 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27040 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27031 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27032 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27049 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27021 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27048 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27020 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27029 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27037 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27030 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27038 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27047 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27028 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27045 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27036 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27044 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27024 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27035 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27027 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27043 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:33] RPC Error: request 27052 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27046 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27033 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27050 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27023 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27041 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27026 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27042 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27034 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:34] RPC Error: request 27051 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:35] RPC Error: request 27025 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:21:36] Skipping message, because it is already in blocks!
+[2024.09.26 00:23:51] RPC Error: request 27201 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:24:00] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:24:01] RPC Error: request 27213 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:24:06] Skipping message, because it is already in blocks!
+[2024.09.26 00:24:08] Skipping message, because it is already in blocks!
+[2024.09.26 00:24:15] Skipping message, because it is already in blocks!
+[2024.09.26 00:24:17] RPC Error: request 27236 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:24:18] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.26 00:24:25] Audio Info: Closing audio playback device.
+[2024.09.26 00:24:26] Skipping message, because it is already in blocks!
+[2024.09.26 00:24:27] Skipping message, because it is already in blocks!
+[2024.09.26 00:24:58] Skipping message, because it is already in blocks!
+[2024.09.26 00:25:05] Skipping message, because it is already in blocks!
+[2024.09.26 00:25:08] Skipping message, because it is already in blocks!
+[2024.09.26 00:26:55] RPC Error: request 27311 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:27:03] Skipping message, because it is already in blocks!
+[2024.09.26 00:27:08] Skipping message, because it is already in blocks!
+[2024.09.26 00:27:12] Skipping message, because it is already in blocks!
+[2024.09.26 00:31:10] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:31:21] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:32:26] RPC Error: request 27422 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:32:27] RPC Error: request 27426 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:32:51] RPC Error: request 27434 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 00:33:26] RPC Error: request 27450 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:36:56] RPC Error: request 27536 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 00:39:00] RPC Error: request 27571 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:43:49] RPC Error: request 27642 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 00:47:10] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:47:10] API Warning: not loaded minimal channel applied.
+[2024.09.26 00:50:42] RPC Error: request 27761 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:05:56] RPC Error: request 28061 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:06:05] Skipping message, because it is already in blocks!
+[2024.09.26 01:06:48] Skipping message, because it is already in blocks!
+[2024.09.26 01:06:51] RPC Error: request 28140 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:06:55] RPC Error: request 28152 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:08:46] RPC Error: request 28196 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:08:46] RPC Error: request 28200 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:09:22] Skipping message, because it is already in blocks!
+[2024.09.26 01:09:27] API Warning: not loaded minimal channel applied.
+[2024.09.26 01:34:53] RPC Error: request 28743 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:34:59] Skipping message, because it is already in blocks!
+[2024.09.26 01:38:49] API Warning: not loaded minimal channel applied.
+[2024.09.26 01:42:12] API Warning: not loaded minimal channel applied.
+[2024.09.26 01:42:15] RPC Error: request 28912 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:18] RPC Error: request 28918 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:42:33] RPC Error: request 28977 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:37] RPC Error: request 28996 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:37] RPC Error: request 28997 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:40] RPC Error: request 29010 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:40] RPC Error: request 29009 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:42] RPC Error: request 29024 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:42] RPC Error: request 29023 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 01:42:52] RPC Error: request 29081 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 01:44:43] API Warning: not loaded minimal channel applied.
+[2024.09.26 01:49:59] RPC Error: request 29257 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 01:51:10] Skipping message, because it is already in blocks!
+[2024.09.26 01:58:05] RPC Error: request 29433 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:00:22] API Warning: not loaded minimal channel applied.
+[2024.09.26 02:04:31] API Warning: not loaded minimal channel applied.
+[2024.09.26 02:14:34] RPC Error: request 29749 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:19:14] API Warning: not loaded minimal channel applied.
+[2024.09.26 02:21:36] API Warning: not loaded minimal channel applied.
+[2024.09.26 02:21:51] RPC Error: request 29890 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:26:10] RPC Error: request 29963 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:47:41] RPC Error: request 30363 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:51:55] RPC Error: request 30466 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:55:11] RPC Error: request 30542 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 02:58:45] RPC Error: request 30634 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:45] RPC Error: request 30635 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:49] RPC Error: request 30663 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 02:58:51] RPC Error: request 30668 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:51] RPC Error: request 30669 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:53] RPC Error: request 30681 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30695 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30697 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30692 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30698 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30694 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30691 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30693 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:58:56] RPC Error: request 30696 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:59:01] RPC Error: request 30731 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:59:01] RPC Error: request 30730 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:59:01] RPC Error: request 30739 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:59:23] RPC Error: request 30829 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 02:59:23] API Warning: not loaded minimal channel applied.
+[2024.09.26 02:59:28] RPC Error: request 30854 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 02:59:43] RPC Error: request 30996 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:59:44] RPC Error: request 31000 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 02:59:45] RPC Error: request 31010 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:13] RPC Error: request 31039 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.26 03:00:17] RPC Error: request 31074 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:00:19] RPC Error: request 31086 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:19] RPC Error: request 31085 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:30] RPC Error: request 31111 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:30] RPC Error: request 31109 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:30] RPC Error: request 31112 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:30] RPC Error: request 31108 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:30] RPC Error: request 31110 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:32] Audio Info: recreating audio device and reattaching the tracks
+[2024.09.26 03:00:40] Audio Info: Closing audio playback device.
+[2024.09.26 03:00:50] RPC Error: request 31140 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31141 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31145 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31142 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31147 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31144 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31143 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:50] RPC Error: request 31146 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31231 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31235 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31238 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31232 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31234 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31237 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31236 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:55] RPC Error: request 31233 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31345 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31377 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31376 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31372 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31373 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31374 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31371 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:00:59] RPC Error: request 31375 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31398 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31392 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31399 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31397 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31396 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31393 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31394 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:00] RPC Error: request 31395 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:43] RPC Error: request 31508 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:01:44] RPC Error: request 31518 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31516 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31519 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31522 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31515 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31520 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31523 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31517 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:44] RPC Error: request 31521 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:46] RPC Error: request 31576 got fail with code 400, error FILE_ID_INVALID
+[2024.09.26 03:01:57] RPC Error: request 31584 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:57] RPC Error: request 31585 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:01:57] RPC Error: request 31586 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:02:04] RPC Error: request 31604 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:02:59] RPC Error: request 31662 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:03:28] RPC Error: request 31690 got fail with code 400, error USER_NOT_PARTICIPANT
+[2024.09.26 03:04:08] RPC Error: request 31774 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:04:08] RPC Error: request 31779 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:04:12] RPC Error: request 31863 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:04:12] Skipping message, because it is already in blocks!
+[2024.09.26 03:04:13] Skipping message, because it is already in blocks!
+[2024.09.26 03:04:14] Skipping message, because it is already in blocks!
+[2024.09.26 03:04:32] RPC Error: request 31892 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:05:49] Skipping message, because it is already in blocks!
+[2024.09.26 03:05:50] RPC Error: request 32023 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:06:34] RPC Error: request 32062 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:07:28] RPC Error: request 32102 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:07:29] RPC Error: request 32108 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:07:52] RPC Error: request 32359 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:07:52] RPC Error: request 32360 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:07:52] RPC Error: request 32357 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:07:52] RPC Error: request 32358 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:07:52] RPC Error: request 32356 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:08:03] RPC Error: request 32396 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:08:16] RPC Error: request 32415 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:08:16] RPC Error: request 32416 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:09:10] RPC Error: request 32474 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:09:10] RPC Error: request 32475 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:09:17] RPC Error: request 32496 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:09:17] RPC Error: request 32497 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:09:32] RPC Error: request 32514 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:11:13] API Warning: not loaded minimal channel applied.
+[2024.09.26 03:13:49] RPC Error: request 32721 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:14:04] API Warning: not loaded minimal channel applied.
+[2024.09.26 03:17:45] RPC Error: request 32867 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:27:26] RPC Error: request 33162 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:30:10] RPC Error: request 33250 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 03:30:41] Export Info: Destroy top bar by controller removal.
+[2024.09.26 03:31:58] RPC Error: request 33326 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:36:15] RPC Error: request 33448 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:37:47] RPC Error: request 33516 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:37:48] Skipping message, because it is already in blocks!
+[2024.09.26 03:46:00] RPC Error: request 33822 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:47:08] RPC Error: request 33854 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 03:51:08] RPC Error: request 33972 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 03:58:52] RPC Error: request 34185 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:00:11] RPC Error: request 34211 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 04:01:24] RPC Error: request 34296 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 04:05:53] API Warning: not loaded minimal channel applied.
+[2024.09.26 04:08:04] RPC Error: request 34502 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:10:04] API Warning: not loaded minimal channel applied.
+[2024.09.26 04:11:15] RPC Error: request 34576 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:21:43] RPC Error: request 34819 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:24:08] Export Info: Destroy top bar by controller removal.
+[2024.09.26 04:24:12] Export Info: Destroy top bar by controller removal.
+[2024.09.26 04:27:44] Skipping message, because it is already in blocks!
+[2024.09.26 04:28:20] Skipping message, because it is already in blocks!
+[2024.09.26 04:28:24] Skipping message, because it is already in blocks!
+[2024.09.26 04:28:32] Skipping message, because it is already in blocks!
+[2024.09.26 04:28:43] Skipping message, because it is already in blocks!
+[2024.09.26 04:29:07] Skipping message, because it is already in blocks!
+[2024.09.26 04:31:09] RPC Error: request 35132 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:38:41] RPC Error: request 35323 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:41:50] RPC Error: request 35405 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:42:11] Skipping message, because it is already in blocks!
+[2024.09.26 04:42:11] Skipping message, because it is already in blocks!
+[2024.09.26 04:44:37] Skipping message, because it is already in blocks!
+[2024.09.26 04:45:44] RPC Error: request 35541 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 04:45:52] RPC Error: request 35561 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2024.09.26 04:45:52] Skipping message, because it is already in blocks!
+[2024.09.26 04:45:57] Skipping message, because it is already in blocks!
+[2024.09.26 04:47:38] RPC Error: request 35616 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:48:17] Skipping message, because it is already in blocks!
+[2024.09.26 04:48:20] RPC Error: request 35644 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 04:48:58] Skipping message, because it is already in blocks!
+[2024.09.26 04:50:20] Skipping message, because it is already in blocks!
+[2024.09.26 04:51:35] Skipping message, because it is already in blocks!
+[2024.09.26 04:51:37] Skipping message, because it is already in blocks!
+[2024.09.26 04:52:03] Skipping message, because it is already in blocks!
+[2024.09.26 04:52:20] Skipping message, because it is already in blocks!
+[2024.09.26 04:52:21] Skipping message, because it is already in blocks!
+[2024.09.26 04:52:22] Skipping message, because it is already in blocks!
+[2024.09.26 04:52:54] Skipping message, because it is already in blocks!
+[2024.09.26 04:53:58] Skipping message, because it is already in blocks!
+[2024.09.26 04:54:36] Skipping message, because it is already in blocks!
+[2024.09.26 04:55:26] Skipping message, because it is already in blocks!
+[2024.09.26 04:56:05] Skipping message, because it is already in blocks!
+[2024.09.26 04:56:26] RPC Error: request 35933 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 04:57:33] Skipping message, because it is already in blocks!
+[2024.09.26 04:58:10] Skipping message, because it is already in blocks!
+[2024.09.26 04:58:32] Skipping message, because it is already in blocks!
+[2024.09.26 04:58:42] Skipping message, because it is already in blocks!
+[2024.09.26 04:59:19] Skipping message, because it is already in blocks!
+[2024.09.26 05:01:19] Skipping message, because it is already in blocks!
+[2024.09.26 05:01:34] RPC Error: request 36085 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:02:04] RPC Error: request 36099 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 05:02:06] Skipping message, because it is already in blocks!
+[2024.09.26 05:03:11] Skipping message, because it is already in blocks!
+[2024.09.26 05:03:18] Skipping message, because it is already in blocks!
+[2024.09.26 05:04:26] Skipping message, because it is already in blocks!
+[2024.09.26 05:05:35] RPC Error: request 36239 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:06:30] Skipping message, because it is already in blocks!
+[2024.09.26 05:06:38] Skipping message, because it is already in blocks!
+[2024.09.26 05:07:07] Skipping message, because it is already in blocks!
+[2024.09.26 05:07:14] RPC Error: request 36287 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 05:07:15] Skipping message, because it is already in blocks!
+[2024.09.26 05:07:17] Skipping message, because it is already in blocks!
+[2024.09.26 05:08:21] RPC Error: request 36307 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:09:12] Skipping message, because it is already in blocks!
+[2024.09.26 05:09:55] Skipping message, because it is already in blocks!
+[2024.09.26 05:09:58] RPC Error: request 36369 got fail with code 400, error PEER_ID_INVALID
+[2024.09.26 05:09:59] Skipping message, because it is already in blocks!
+[2024.09.26 05:10:10] Skipping message, because it is already in blocks!
+[2024.09.26 05:12:02] RPC Error: request 36432 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:13:43] RPC Error: request 36456 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:15:34] RPC Error: request 36487 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:16:56] Skipping message, because it is already in blocks!
+[2024.09.26 05:16:58] Skipping message, because it is already in blocks!
+[2024.09.26 05:17:04] Skipping message, because it is already in blocks!
+[2024.09.26 05:17:07] Skipping message, because it is already in blocks!
+[2024.09.26 05:20:05] Skipping message, because it is already in blocks!
+[2024.09.26 05:20:07] Skipping message, because it is already in blocks!
+[2024.09.26 05:20:43] Skipping message, because it is already in blocks!
+[2024.09.26 05:20:44] RPC Error: request 36617 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:20:46] Skipping message, because it is already in blocks!
+[2024.09.26 05:20:48] Skipping message, because it is already in blocks!
+[2024.09.26 05:20:50] Skipping message, because it is already in blocks!
+[2024.09.26 05:26:43] RPC Error: request 36717 got fail with code 400, error WEBFILE_NOT_AVAILABLE
+[2024.09.26 05:29:50] Skipping message, because it is already in blocks!
+[2024.09.26 05:30:12] Skipping message, because it is already in blocks!
+[2024.09.26 05:30:34] Skipping message, because it is already in blocks!
+[2024.09.26 05:31:20] Skipping message, because it is already in blocks!
+[2024.09.26 05:31:23] Skipping message, because it is already in blocks!
+[2024.09.26 05:31:27] Skipping message, because it is already in blocks!
+[2024.09.26 05:41:33] Skipping message, because it is already in blocks!
+[2024.09.26 05:42:04] Skipping message, because it is already in blocks!
+[2024.09.26 05:42:14] Skipping message, because it is already in blocks!
+[2024.09.26 05:42:25] Skipping message, because it is already in blocks!
+[2024.09.26 05:44:08] Skipping message, because it is already in blocks!
+[2024.09.26 05:44:11] Skipping message, because it is already in blocks!
+[2024.09.26 05:44:17] Skipping message, because it is already in blocks!
+[2024.09.26 05:44:19] Skipping message, because it is already in blocks!
+[2024.09.26 05:45:07] Skipping message, because it is already in blocks!
+[2024.09.26 05:45:43] Skipping message, because it is already in blocks!
+[2024.09.26 05:48:59] Skipping message, because it is already in blocks!
+[2024.09.26 05:49:24] Skipping message, because it is already in blocks!
+[2024.09.26 05:50:14] Skipping message, because it is already in blocks!
+[2024.09.26 05:50:24] Skipping message, because it is already in blocks!
+[2024.09.26 05:51:05] Skipping message, because it is already in blocks!
+[2024.09.26 05:52:05] Skipping message, because it is already in blocks!
+[2024.09.26 05:52:10] Skipping message, because it is already in blocks!

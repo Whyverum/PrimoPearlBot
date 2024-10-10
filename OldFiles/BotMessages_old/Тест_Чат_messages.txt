@@ -1,0 +1,9 @@
+
+2024-09-24 22:40:18.632068 - verdise (6751720805): /chid - Type: Command  |  ChatID: -1002123850090
+
+
+2024-09-25 11:22:50.736486 - GroupAnonymousBot (1087968824): Привет - Type: Text  |  ChatID: -1002123850090
+
+
+2024-09-25 11:22:58.875950 - GroupAnonymousBot (1087968824): /start@PrimoTesterBot - Type: Command  |  ChatID: -1002123850090
+

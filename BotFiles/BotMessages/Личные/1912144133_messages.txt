@@ -1,0 +1,12 @@
+
+2024-10-10 05:56:24.846850 - slayxqq (1912144133): /start - Type: Command  |  ChatID: 1912144133
+
+
+2024-10-10 05:56:30.429892 - slayxqq (1912144133): /start - Type: Command  |  ChatID: 1912144133
+
+
+2024-10-10 05:56:32.411230 - slayxqq (1912144133): /help - Type: Command  |  ChatID: 1912144133
+
+
+2024-10-10 05:56:41.058895 - slayxqq (1912144133): /start - Type: Command  |  ChatID: 1912144133
+

@@ -1,0 +1,356 @@
+
+2024-10-10 18:31:51.874822 - verdise (6751720805): тц - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:31:53.803608 - verdise (6751720805): ириска - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:32:39.129780 - verdise (6751720805): ладно - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:32:49.095222 - verdise (6751720805): разбан @exetreon - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:33:19.199423 - exetreon (7051557370): None - Type: ERROR! UNKNOWN TYPE!  |  ChatID: -1002123850090
+
+
+2024-10-10 18:37:09.779753 - verdise (6751720805): /ban 7051557370 - Type: Command  |  ChatID: -1002123850090
+
+
+2024-10-10 18:38:23.504215 - exetreon (7051557370): /ban 7051557370 - Type: Command  |  ChatID: -1002123850090
+
+
+2024-10-10 18:38:36.146489 - PrimoTesterBot (7193685715): None - Type: ERROR! UNKNOWN TYPE!  |  ChatID: -1002123850090
+
+
+2024-10-10 18:38:47.584880 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 18:38:58.122903 - verdise (6751720805): Ну не баг а фича
+теперь у нас есть команда выход - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:46:45.686839 - tatoshka_myauu (1124140293): спасибо - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:46:56.661484 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 18:46:58.155942 - verdise (6751720805): Не беспокойся - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:47:03.836794 - verdise (6751720805): Практические тесты - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:47:13.040948 - verdise (6751720805): боту нужно же учиться банить злых букашек - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:47:20.781695 - tatoshka_myauu (1124140293): слава богу - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:47:28.017769 - verdise (6751720805): а ты кстати кто - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:47:45.384106 - tatoshka_myauu (1124140293): в смысле - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:47:56.490817 - verdise (6751720805): ну ты кто - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:48:10.639239 - tatoshka_myauu (1124140293): ну вы меня еще летом сюда добавили... - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:48:16.833725 - tatoshka_myauu (1124140293): когда я был влд флуда - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:49:29.008636 - verdise (6751720805): расскажи поподробнее - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:52:42.486996 - verdise (6751720805): /ban1 @tatoshka_myauu - Type: Command  |  ChatID: -1002123850090
+
+
+2024-10-10 18:52:46.548405 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 18:52:51.954513 - verdise (6751720805): Молодец, ошибки нет - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:52:55.403843 - verdise (6751720805): почему не заблокировал? - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:53:19.262881 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 18:56:06.602388 - PrimoTesterBot (7193685715): None - Type: ERROR! UNKNOWN TYPE!  |  ChatID: -1002123850090
+
+
+2024-10-10 18:56:16.276166 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 18:59:11.287964 - tatoshka_myauu (1124140293): ну вы зашли в мой флуд дали какой-то код я его активировал и потом оказался здесь - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:59:26.183847 - verdise (6751720805): аааааа - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:59:30.614954 - verdise (6751720805): и что там у нас было? - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 18:59:59.097690 - tatoshka_myauu (1124140293): если вы про фд то геншин 😇 - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:12.898947 - verdise (6751720805): а какие то памятные события может? - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:20.056266 - verdise (6751720805): по которым можно восстановить цепочку памяти - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:44.154925 - tatoshka_myauu (1124140293): я сам ничего толком не помню если честно... - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:50.946992 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:51.654626 - tatoshka_myauu (1124140293): просто обрывки небольшие - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:54.497934 - verdise (6751720805): понятно понятно - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:00:55.530136 - verdise (6751720805): Жаль - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:01:03.717240 - verdise (6751720805): Ну буду знать что вроде были - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:02:00.123743 - tatoshka_myauu (1124140293): а теперь я смотреть новую серию св удачи - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:02:00.319300 - verdise (6751720805): а так продолжим эксперименты - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:02:12.911173 - verdise (6751720805): заспойлерить? - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:04:49.972061 - verdise (6751720805): работай - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:06:07.737551 - PrimoTesterBot (7193685715): None - Type: ERROR! UNKNOWN TYPE!  |  ChatID: -1002123850090
+
+
+2024-10-10 19:06:12.138775 - verdise (6751720805): угу - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:06:16.178331 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:06:20.958183 - verdise (6751720805): понятненько - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:06:25.702790 - verdise (6751720805): Будешь работать только по - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:07:49.311119 - verdise (6751720805): ага - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:07:52.493317 - Huuuvs (1851081467): Да етижи пассатижи. - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:07:54.751999 - verdise (6751720805): он получает юзернем - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:00.386633 - verdise (6751720805): но не получает id' - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:03.354285 - verdise (6751720805): ага - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:07.306837 - verdise (6751720805): а вот и вся ошибка! - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:09.157241 - verdise (6751720805): я гений! - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:11.755078 - Huuuvs (1851081467): None - Type: Sticker  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:15.725522 - verdise (6751720805): да тебя не забанят - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:08:21.679513 - Huuuvs (1851081467): А жаль. - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:16:34.730986 - Huuuvs (1851081467): Да мы поняли уже. - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:26.726443 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:33.056926 - verdise (6751720805): СПАСИБО - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:36.459350 - verdise (6751720805): Я ТЕБЯ ЛЮБЛЮ - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:37.762521 - verdise (6751720805): ТВАРЬ - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:44.039689 - Huuuvs (1851081467): None - Type: Sticker  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:48.484668 - verdise (6751720805): СДОХНИ ГНИДА PYDANTICOVSKA - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:17:59.124194 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:18:00.978077 - Huuuvs (1851081467): Символично. - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:20:30.468467 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:22:50.360935 - PrimoTesterBot (7193685715): None - Type: ERROR! UNKNOWN TYPE!  |  ChatID: -1002123850090
+
+
+2024-10-10 19:22:50.715038 - merkx_q (6578206217): None - Type: ERROR! UNKNOWN TYPE!  |  ChatID: -1002123850090
+
+
+2024-10-10 19:23:17.883241 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:24:06.230264 - verdise (6751720805): отлично - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:24:08.486763 - verdise (6751720805): он видит - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:27:55.800822 - verdise (6751720805): None - Type: GIF  |  ChatID: -1002123850090
+
+
+2024-10-10 19:27:57.314857 - verdise (6751720805): ага - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:29:01.767105 - verdise (6751720805): getChat
+
+Returns: ChatFullInfo
+
+class aiogram.methods.get_chat.GetChat(*, chat_id: int | str, **extra_data: Any)[source]
+
+Use this method to get up-to-date information about the chat. Returns a aiogram.types.chat_full_info.ChatFullInfo object on success.
+
+Source: https://core.telegram.org/bots/api#getchat
+
+chat_id: int | str
+
+    Unique identifier for the target chat or username of the target supergroup or channel (in the format @channelusername)
+
+model_computed_fields: ClassVar[Dict[str, ComputedFieldInfo]] = {}
+
+    A dictionary of computed field names and their corresponding ComputedFieldInfo objects.
+
+model_post_init(context: Any, /) → None
+
+        We need to both initialize private attributes and call the user-defined model_post_init method.
+
+Usage
+As bot method
+
+result: ChatFullInfo = await bot.get_chat(...)
+
+Method as object
+
+Imports:
+
+    from aiogram.methods.get_chat import GetChat
+
+    alias: from aiogram.methods import GetChat
+
+With specific bot
+
+result: ChatFullInfo = await bot(GetChat(...)) - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:40:56.721986 - tatoshka_myauu (1124140293): None - Type: Photo  |  ChatID: -1002123850090
+
+
+2024-10-10 19:41:35.126136 - tatoshka_myauu (1124140293): ❤️❤️❤️ - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 19:46:06.156129 - verdise (6751720805): учиться - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:09.753261 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:11.228508 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:12.037137 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:12.855054 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:13.318097 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:16.698536 - verdise (6751720805): э - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:18.562864 - verdise (6751720805): сучка - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:21.276403 - verdise (6751720805): ты аухела? - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:22.098669 - verdise (6751720805): пывап - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:22.347970 - verdise (6751720805): пыва - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:22.715934 - verdise (6751720805): ппаывп - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:23.359226 - verdise (6751720805): пв - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:23.637940 - verdise (6751720805): арывар - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:24.133437 - verdise (6751720805): варыр - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:24.365982 - verdise (6751720805): ар - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:24.537721 - verdise (6751720805): ывр - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:24.727561 - verdise (6751720805): ар - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:24.928928 - verdise (6751720805): ва - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:25.120015 - verdise (6751720805): рв - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:27.283672 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:27.719208 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:27.934546 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:28.268161 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:28.465461 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
+
+2024-10-10 20:02:28.856398 - verdise (6751720805): f - Type: Text  |  ChatID: -1002123850090
+
