@@ -2,7 +2,6 @@
 /.venv/
 /.idea/
 
-/settings/MediaPersonal/
 /settings/configs/bot_secrets.py
 
 /BotLogs/
