@@ -1,0 +1,32 @@
+[tool.poetry]
+package-mode = false
+name = "primopearlbot"
+version = "0.1.0"
+description = ""
+authors = ["Whyverum <sergeyzavalin@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.13.1"
+loguru = "^0.7.2"
+requests = "^2.32.3"
+sympy = "^1.13.3"
+colorama = "^0.4.6"
+art = "^6.3"
+aiomysql = "^0.2.0"
+python-dotenv = "^1.0.1"
+charset-normalizer = "^3.4.0"
+frozenlist = "^1.5.0"
+yarl = "^1.18.0"
+termcolor = "^2.5.0"
+async-timeout = "^5.0.1"
+pydantic-settings = "^2.6.1"
+apscheduler = "^3.11.0"
+python-decouple = "^3.8"
+asyncpg = "^0.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
