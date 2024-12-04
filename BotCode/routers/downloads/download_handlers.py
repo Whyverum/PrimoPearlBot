@@ -5,8 +5,8 @@ import requests
 from aiogram import Router, types
 
 from settings import *
+from .download_chat_avatar import download_chat_avatar
 from .download_user_avatar import download_user_photos
-# from settings.library.bots import F_Media
 
 # Создание роутера "download_media_router"
 router = Router(name="download_media_router")
@@ -21,6 +21,11 @@ async def handle_media(message: types.Message):
         name = find_chat_id(message)
         await logginger(message)
 
+        # Инициализация переменной file_id по умолчанию
+        file_id = None
+        file_name = ""
+        save_dir = ""
+
         # Определяем тип контента и соответствующие параметры
         if message.content_type in (types.ContentType.VIDEO, types.ContentType.ANIMATION):
             media = message.video if message.content_type == types.ContentType.VIDEO else message.animation
@@ -31,7 +36,7 @@ async def handle_media(message: types.Message):
 
         elif message.content_type == types.ContentType.PHOTO:
             media = message.photo
-            # Получение информации о файле
+            # Получение file_id для самого качественного фото
             file_id = max(message.photo, key=lambda x: x.width * x.height).file_id
             file_info = await bot.get_file(file_id)
             # Имя файла будет взято из file_path, который содержит оригинальное имя файла
@@ -54,8 +59,12 @@ async def handle_media(message: types.Message):
         # Убедимся, что директория существует
         os.makedirs(save_dir, exist_ok=True)
 
-        # Скачиваем файл
-        file_info = await bot.get_file(media.file_id if message.content_type != types.ContentType.PHOTO else file_id)
+        # Если это фото, file_id был определен внутри блока обработки фото
+        if file_id is not None:
+            file_info = await bot.get_file(file_id)
+        else:
+            file_info = await bot.get_file(media.file_id)
+
         save_path = os.path.join(save_dir, file_name)
 
         # Загружаем медиафайл
@@ -85,3 +94,10 @@ async def handle_media(message: types.Message):
         (logger.bind(custom_variable=type_messages, user_var=str(message.from_user.username))
          .info(f"{TextDecorator.RED}МЕДИЯ ОШИБКА{TextDecorator.RESET_DECORATOR}!"))
         print(f"Ошибка скачивания медиа: {e}")
+
+
+# Функция объединения закачки аватарок
+async def download_avatar(message):
+    await download_chat_avatar(message.chat)
+    await download_user_photos(message)
+    return f"Успешная закачка аватаров!"
