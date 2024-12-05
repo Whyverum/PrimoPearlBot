@@ -1,14 +1,17 @@
-# BotCode/MySQL/__init__.py
+# MySQL/__init__.py
+# Инициализация пакета MySQL, для работы с базой данных    (в разработке)
 
-# Указываем, какие модули будут доступны через `import keyboards`
+# Настройка экспорта модулей
 __all__ = ("router", "db")
 
 # Импортируем библиотеки для экспорта
 from aiogram import Router
 from .db import *
 
-# Создание роутера sql_router
+
+# Создание роутера "sql_router"
 router = Router(name="sql_router")
+
 
 # Список подключаемых роутеров сверху-вниз
 router.include_routers()

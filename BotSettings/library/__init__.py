@@ -1,4 +1,5 @@
-# BotCode/settings/library/__init__.py
+# BotSettings/library/__init__.py
+# Инициализация пакета library, для работы с собственными библиотеками
 
 # Импортируем библиотеки для экспорта
 from .bots import *

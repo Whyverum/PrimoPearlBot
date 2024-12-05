@@ -1,12 +1,14 @@
-# __init__.py
+# BotCode/routers/common/__init__.py
+# Инициализация пакета common, для работы со всеми сообщениями
 
-# Импортирование модуля роутера при *
+# Настройка экспорта модулей
 __all__ = ("router",)
 
 from aiogram import Router
 from .messages import router as common_message_router
 
-# Объявление роутера users_router
+
+# Объявление роутера "users_head_router"
 router = Router(name="users_head_router")
 
 

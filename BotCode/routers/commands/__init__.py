@@ -1,20 +1,20 @@
-# __init__.py
+# BotCode/routers/commands/__init__.py
+# Инициализация пакета commands, для работы с командами бота
 
-# Импортирование модуля роутера при *
+# Настройка экспорта модулей
 __all__ = ("router",)
 
 from aiogram import Router
 from .bot_command import router as bot_command_router
-from .admin_cmd import router as admin_cmd_router
 from .user_cmd import router as user_cmd_router
 
-# Объявление роутера commands_router
+
+# Создание роутера "commands_head_router"
 router = Router(name="commands_head_router")
 
 
 # Список подключаемых роутеров сверху-вниз
 router.include_routers(
     bot_command_router,
-    admin_cmd_router,
     user_cmd_router,
 )

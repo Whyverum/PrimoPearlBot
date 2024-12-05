@@ -1,4 +1,5 @@
-# BotCode/settings/__init__.py
+# BotSettings/__init__.py
+# Инициализация пакета BotSettings, для работы с базовыми функциями
 
 # Импортируем библиотеки для экспорта
 from .configs import *
