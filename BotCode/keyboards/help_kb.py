@@ -1,10 +1,13 @@
 # BotCode/keyboards/help_kb.py
+# Создание клавиатуры для сообщения: "Помогите!"
 
 from aiogram import Router, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
-# Создание роутера "help_kb_router"
+# Создание роутера и настройка экспорта
+__all__ = ("router", "get_help_kb", "kb_text",)
+kb_text = "HelpKb"
 router = Router(name="help_kb_router")
 
 

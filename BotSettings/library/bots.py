@@ -1,12 +1,13 @@
-# BotCode/settings/library/bots.py
+# BotSettings/library/bots.py
+# Создание и настройка бота в одном файле
 
-from aiogram import Bot, Dispatcher, F
+from aiogram import Bot, F
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from ..configs.bot_secrets import bot_token
 
-# То что будет импортироваться при from bots import *
+# Настройка экспорта модулей
 __all__ = ("bot_token", "bot", "scheduler", "F_Media", "BotInfo", "bot_get_info")
 
 
@@ -51,6 +52,7 @@ class BotInfo:
 
 # Функция получения данных о боте
 async def bot_get_info():
+    # Получение информации о боте
     bot_info_data = await bot.get_me()
 
     # Обновляем данные о боте в BotInfo

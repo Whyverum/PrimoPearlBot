@@ -1,4 +1,5 @@
-# BotCode/settings/library/decorator.py
+# BotSettings/library/decorator.py
+# Небольшая библиотека для декорирования текста в консоли
 
 from art import *
 from colorama import *

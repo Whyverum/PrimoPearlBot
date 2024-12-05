@@ -1,12 +1,14 @@
 # BotCode/main.py
+# Основной код проекта, который и соединяет в себе все его возможности
 
 import asyncio
+
 from aiogram import Dispatcher
 from datetime import datetime
 
-from settings import *
+from BotSettings import *
 from BotCode.routers import router as main_router
-from BotCode.routers.commands.bot_command import set_commands
+from BotCode.routers import set_commands
 
 
 # Запуск основного кода
@@ -14,23 +16,22 @@ async def main():
     # Подключение ANSI в стандартное Windows_cmd
     just_fix_windows_console()
 
-    # Объявление диспатчера, установка настроек и команд, получение информации о боте
+    # Подключение маршрутизатора и получение важных переменных
     dp = Dispatcher()
-    await set_all()
-    await set_commands()
-    await bot_get_info()
-
-    # Подключение маршрутизатора и получение времени старта
     dp.include_router(main_router)
-    dp["started_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+    dp["started_at"] = datetime.now().strftime("\n%Y-%m-%d %H:%M:%S")
+    dp["is_active"] = True  # Флаг активности бота
+
+    await set_all()     # Установка настроек бота
+    await set_commands()    # Установка команд бота
+    await bot_get_info()    # Получение информации о боте
 
     # Создание логгера и оповещение о запуске
     setup_logger()
     logger.bind(custom_variable="AEP", user_var="Console").info(f"Начало запуска бота @{BotInfo.username}...")
-    logger.bind(custom_variable="AEP", user_var="Console").error(f"Начало запуска бота @{BotInfo.username} не зашло")
 
     # Включение опроса бота
-    await bot_info_out()
+    bot_info_out()
     await dp.start_polling(bot)
 
 

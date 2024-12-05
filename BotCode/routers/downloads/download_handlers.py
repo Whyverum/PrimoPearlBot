@@ -1,11 +1,11 @@
-# BotCode/settings/analitics/type_messages.py
+# BotCode/BotSettings/analitics/type_messages.py
+# Закачка всех полученных медиа в бота (в разработке + сделать логирование!!!)
 
 import os
 import requests
 from aiogram import Router, types
 
-from settings import *
-from .download_chat_avatar import download_chat_avatar
+from BotSettings import *
 from .download_user_avatar import download_user_photos
 
 # Создание роутера "download_media_router"
@@ -53,6 +53,11 @@ async def handle_media(message: types.Message):
             file_name = f"{media.file_id}.mp4"  # Для видеосообщений используем file_id и расширение .mp4
             save_dir = ImportantPath.videonote_directory
 
+        elif message.content_type == types.ContentType.DOCUMENT:
+            media = message.document
+            file_name = media.file_name  # Для видеосообщений используем file_id и расширение .mp4
+            save_dir = ImportantPath.document_directory
+
         else:
             raise ValueError(f"Неизвестный тип контента: {message.content_type}")
 
@@ -94,10 +99,3 @@ async def handle_media(message: types.Message):
         (logger.bind(custom_variable=type_messages, user_var=str(message.from_user.username))
          .info(f"{TextDecorator.RED}МЕДИЯ ОШИБКА{TextDecorator.RESET_DECORATOR}!"))
         print(f"Ошибка скачивания медиа: {e}")
-
-
-# Функция объединения закачки аватарок
-async def download_avatar(message):
-    await download_chat_avatar(message.chat)
-    await download_user_photos(message)
-    return f"Успешная закачка аватаров!"

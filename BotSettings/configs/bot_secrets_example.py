@@ -1,4 +1,5 @@
-# BotCode/settings/configs/bot_secrets.py
+# BotSettings/configs/bot_secrets.py
+# Хранилище всех самых важных скрытых переменных проекта
 
 
 # Ключи и токены от API

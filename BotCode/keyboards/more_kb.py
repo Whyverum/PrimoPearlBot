@@ -1,10 +1,13 @@
 # BotCode/keyboards/more_kb.py
+# Создания клавиатуры на команду: /more
 
 from aiogram import Router
 from aiogram.types import KeyboardButtonPollType
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
-# Создание роутера "more_kb_router"
+# Создание роутера и настройка экспорта
+__all__ = ("router", "get_more_kb", "kb_text",)
+kb_text = "HelpKb"
 router = Router(name="more_kb_router")
 
 
@@ -15,7 +18,7 @@ class ButtonText:
     Contact = "Отправить контакт"
     Chat = "Отправить чат???"
     Poll = "Отправить опрос"
-    Users = "Что то с users"
+    Users = "Что то с common"
 
 
 # Функция создания клавиатуры на команду: /more

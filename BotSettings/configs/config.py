@@ -1,10 +1,10 @@
-# BotCode/settings/configs/config.py
+# BotSettings/configs/config.py
+# Список практически всех переменных проекта
 
 from ..configs.bot_secrets import (important_groups_ids,
                                    important_adm_ids,
                                    ban_list_ids,
-                                   important_users_list_ids,)
-
+                                   important_users_list_ids, )
 
 # Шаблон логов для обычного логгера
 logs_text = ("<green>{time:YYYY-MM-DD HH:mm:ss}</green> <red> | </red> "
@@ -22,9 +22,10 @@ error_logs_text = ("<red>{time:YYYY-MM-DD HH:mm:ss}  |  "
 
 # Класс с параметрами бота
 class BotEdit:
-    name = "Имя бота"   # Описание имени бота
-    description = "Привет, мое имя Бот Лейна! Рад с вами пообщаться!!!"  # Описание бота
-    short_description = "ООп"   # Описание виджета бота
+    name = "Первородная Жемчужина"  # Описание имени бота
+    description = ("Привет, мое имя - Эми! Я буду рада, вам помочь "
+                   "посетить другие миры! Вместе!")  # Описание бота
+    short_description = "Привет, это описание! Как дела?"  # Описание виджета бота
     prefixs = ('$', '!', '.', '%', '&', ':', '|', '+', '-', '/', '~', '?')  # Доступные префиксы бота
 
 
@@ -45,18 +46,24 @@ class ListId:
 
 # Класс с важными переменными-пути
 class ImportantPath:
-    # Путь к аватару пользователя
-    image_avatar_path = f"BotFiles/MediaPersonal/avatar.jpg"
-
-    # Пути к важным файлам бота
-    user_info_file_path = f"BotLogs/user_data.db"
-    log_file_path = f"BotLogs/bot.log"
-    log_start_file_path = f"BotLogs/bot_start.log"
-    info_file_path = f"BotLogs/bot.info"
+    # Путь к файлу с важной информацией (токенами)
     secret_file_path = f"settings/configs/bot_secrets.py"
 
+    # Пути к файлам логирования
+    log_start_path = f"BotLogs/bot_start.log"
+    log_file_path = f"BotLogs/bot.log"
+    log_error_file_path = f"BotLogs/bot_error.log"
+    log_info_path = f"BotLogs/bot_info.log"
+
+    # Пути к хранению сообщений
+    private_message = f"BotLogs/BotMessages/Личные"
+    group_message = f"BotLogs/BotMessages/Группы"
+
+    # Путь к хранилищу базы данных
+    user_info_file_path = f"BotLogs/user_data.db"
+
     # Пути к хранению медиа
-    bot_personal_media = f"settings/MediaPersonal"
+    bot_personal_media = f"BotSettings/MediaPersonal"
     bot_received_media = f"BotFiles/MediaReceived"
     user_avatar_path = f"BotFiles/UserAvatar"
     chat_avatar_path = f"BotFiles/ChatAvatar"
@@ -74,7 +81,7 @@ class ImportantPath:
     photo_directory = f"{bot_received_media}/{photo}/"
     video_directory = f"{bot_received_media}/{video}/"
     videonote_directory = f"{bot_received_media}/{videonote}/"
-    gif_directory = f"{bot_received_media}{gif}/"
+    gif_directory = f"{bot_received_media}/{gif}/"
     document_directory = f"{bot_received_media}/{document}/"
     voice_directory = f"{bot_received_media}/{voice}/"
     youtube_directory = f"{bot_received_media}/{youtube}/"

@@ -1,13 +1,16 @@
-# BotCode/routers/users/messages.py   (Разберись с предупреждениями и логгированием!!!!!)
+# BotCode/routers/common/messages.py   (Разберись с логгированием!!!!!)
+# Нижний обработчик всех текстовых сообщений
+# А также нескольких определенных сообщений (Перенести в иной файл!!!)
 
-from settings import *
+from BotSettings import *
 from aiogram import Router, types, F
 from aiogram.types import ReplyKeyboardRemove
 
 from BotCode.keyboards.start_kb import ButtonText
 from ..downloads.download_user_avatar import download_user_photos
 
-# Создание роутера "common_message_router"
+# Настройка экспорта модулей и роутера
+__all__ = ("router",)
 router = Router(name="common_message_router")
 type_messages = "Messages"
 
@@ -67,10 +70,10 @@ async def handle_all_messages(message: types.Message):
 
     # Проверка на наличие текста и его типа
     if message.text is None:
-        logger.bind(custom_variable=type_messages, user_var=str(message.from_user.username)).info(
+        logger.bind(custom_variable=type_messages, user_var="@"+str(message.from_user.username)).info(
             f"Получено сообщение из ({name}) : {message_type}")
     else:
-        logger.bind(custom_variable=type_messages, user_var=str(message.from_user.username)).info(
+        logger.bind(custom_variable=type_messages, user_var="@"+str(message.from_user.username)).info(
             f"Получено сообщение из ({name}) : {message.text}")
 
     return f"Получено новое сообщение!"

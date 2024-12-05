@@ -1,8 +1,12 @@
-# BotCode/settings/system/edit_bot.py
+# BotSettings/system/edit_bot.py
+# Библиотека установки настроек бота через проект и конфиги (Подключить проверку ошибок??)
 
 from aiogram.types import ChatAdministratorRights
-from settings.configs.config import BotEdit
-from settings.library.bots import bot
+from BotSettings.configs.config import BotEdit
+from BotSettings.library.bots import bot
+
+# Настройка экспорта модулей
+__all__ = ("set_all",)
 
 
 # Функция для выполнения всех настроек, если они не совпадают
@@ -77,7 +81,10 @@ async def set_bot_short_description():
 
     # Проверяем, совпадает ли текущее короткое описание с тем, которое мы хотим установить
     if current_short_description != BotEdit.short_description:
-        await bot.set_my_short_description(short_description=BotEdit.short_description)
-        return f"Короткое описание бота изменено!"
+        if len(BotEdit.short_description) > 512:
+            raise ValueError("Описание слишком длинное")
+        else:
+            await bot.set_my_short_description(short_description=BotEdit.short_description)
+            return f"Короткое описание бота изменено!"
     else:
         return f"Короткое описание бота уже установлено и не требует изменений."

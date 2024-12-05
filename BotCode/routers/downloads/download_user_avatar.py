@@ -1,9 +1,10 @@
 # BotCode/routers/downloads/download_user_avatar.py
+# Закачка всех аватаров пользователей
 
 import os
 from aiogram import Router, types
 from aiogram.types import UserProfilePhotos
-from settings import *
+from BotSettings import *
 
 
 # Создание роутера "avatar_router"
@@ -41,6 +42,6 @@ async def download_user_photos(message: types.Message):
         return f"Аватарки пользователя {user_id} успешно закачаны!"
 
     except Exception as e:
-        text = f"Ошибка при закачке аватарок пользователя: {str(e)}"
-        logger.bind(custom_variable=type_messages, user_var=f"@{message.from_user.username}").error(text)
-        return text
+        text_error = f"Ошибка при закачке аватарок пользователя: {str(e)}"
+        logger.bind(custom_variable=type_messages, user_var=f"@{message.from_user.username}").error(text_error)
+        return text_error

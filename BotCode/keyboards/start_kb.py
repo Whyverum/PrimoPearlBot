@@ -1,10 +1,13 @@
-# start_kb.py
+# BotCode/keyboards/start_kb.py
+# Создания клавиатуры на команду: /start
 
 from aiogram import Router
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
-# Создание роутера "start_kb_router"
+# Создание роутера и настройка экспорта
+__all__ = ("router", "get_start_kb", "kb_text", "ButtonText",)
+kb_text = "StartKb"
 router = Router(name="start_kb_router")
 
 

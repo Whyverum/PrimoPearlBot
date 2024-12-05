@@ -1,14 +1,18 @@
-# bot_command.py
+# BotCode/routers/commands/bot_command.py
+# Работа с админ-командой /setcommands, для назначения команд
+# Функция установки списка команд бота
 
 from aiogram import Router, types
 from aiogram.filters import Command
+from BotSettings import BotEdit, find_adm_id, bot
 
-from settings import *
+from .user_cmd.start_cmd import command_text as start_cmd_text
+from .user_cmd.help_cmd import command_text as help_cmd_text
+from .user_cmd.exit_cmd import command_text as exit_cmd_text
 
-from .user_cmd.start_cmd import type_messages as start_cmd_text
-from .user_cmd.help_cmd import type_messages as help_cmd_text
-from .user_cmd.exit_cmd import type_messages as exit_cmd_text
-
+# Создание роутера и настройка экспорта
+__all__ = ("router", "set_cmd_user", "set_commands", "command_text",)
+command_text = "SetCmd"
 router = Router(name="bot_command_router")
 
 
@@ -17,10 +21,13 @@ router = Router(name="bot_command_router")
                         "setcmd", "setcmds", "ыуесьв", prefix=BotEdit.prefixs, ignore_case=True))
 async def set_cmd_user(message: types.Message):
     # Проверка на admin ID
-    if message.from_user.id not in ListId.adm_list_id:
-        return f"Пользователей не в списке администраторов"
-    await set_commands()
-    return f"Команды успешно установлены!"
+    text = find_adm_id(message)
+    if text:
+        await set_commands()
+        return f"Команды успешно установлены!"
+    else:
+        await message.reply(text)
+        return text
 
 
 # Создаем команды в список бота
