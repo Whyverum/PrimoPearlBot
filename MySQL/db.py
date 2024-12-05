@@ -1,4 +1,5 @@
-# BotCode/MySQL/db.py     (в разработке)
+# MySQL/db.py
+# Подключение базы данных   (в разработке)
 
 import aiomysql
 

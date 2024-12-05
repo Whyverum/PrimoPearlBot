@@ -1,9 +1,10 @@
 # BotCode/routers/downloads/download_chat_avatar.py
+# Закачка аватарок чата (в разработке + сделать логирование!!!)
 
 import os
 import requests
 from aiogram.types import Chat
-from settings import *
+from BotSettings import *
 
 
 # Функция закачки аватарок чатов
