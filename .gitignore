@@ -1,8 +1,31 @@
+# Игнорируем локальное окружение и его файлы
 .env
-/.venv/
-/.idea/
+.venv/
 
-/settings/configs/bot_secrets.py
 
-/BotLogs/
-/BotFiles/
+# Игнорируем пользовательские конфигурации IDE
+.idea/
+*.iml
+
+
+# Игнорируем временные файлы операционной системы
+.DS_Store
+Thumbs.db
+
+
+# Игнорируем директории сборки
+/build/
+/dist/
+
+
+# Игнорируем файл с токенами бота и api
+/BotSettings/configs/bot_secrets.py
+
+
+# Игнорируем все скачанные данные логирования
+BotFiles/
+
+
+# Игнорируем файлы логов
+BotLogs/
+*.log
