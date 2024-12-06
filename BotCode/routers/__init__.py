@@ -2,9 +2,6 @@
 # Инициализация пакета routers, для работы с асинхронными обработчиками
 # Пакет старых файлов отключен!!
 
-# Настройка экспорта модулей
-__all__ = ("router", "set_commands",)
-
 # Импортируем библиотеки для экспорта
 from aiogram import Router
 from BotCode.routers.commands.bot_command import set_commands
@@ -15,7 +12,8 @@ from .common import router as users_head_router
 # from .old_files import router as old_files_router
 
 
-# Объявление главного роутера
+# Объявление главного роутера и настройка экспорта
+__all__ = ("router", "set_commands",)
 router = Router(name="main_router")
 
 
