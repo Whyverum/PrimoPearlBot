@@ -11,6 +11,10 @@ chcp 65001 > nul
 cls
 
 
+REM Удаление установщика проекта
+del project_clone.bat
+
+
 REM Изменяем заголовок окна консоли
 title Запуск Бота-aiogram
 
