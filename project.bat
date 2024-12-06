@@ -1,14 +1,18 @@
 @echo off
+REM project.bat
 REM Этот файл нужно запускать перед стартом проекта
 REM Он создает локальное окружение, скачивает все зависимости
 REM Чтобы запустить файл используйте: start project или ./project
+
 
 REM Включение кодировки для Windows
 chcp 65001 > nul
 cls
 
+
 REM Изменяем заголовок окна консоли
 title Запуск Бота-aiogram
+
 
 REM Убедитесь, что Python установлен и доступен
 echo Проверка наличия Python...
@@ -22,6 +26,7 @@ python --version || (
 )
 echo.
 
+
 REM Проверка наличия Git
 echo Проверка наличия Git...
 git --version > nul 2>&1 || (
@@ -34,6 +39,7 @@ git --version > nul 2>&1 || (
 )
 echo.
 
+
 REM Проверка наличия Git репозитория
 if not exist .git (
     echo Создание Git репозитория...
@@ -45,6 +51,7 @@ if not exist .git (
 )
 echo.
 
+
 REM Обновление проекта из репозитория
 echo Обновление проекта из GitHub...
 git fetch origin || (
@@ -53,6 +60,7 @@ git fetch origin || (
     pause
     exit /b
 )
+
 
 git reset --hard origin/master || (
     color C
@@ -63,6 +71,7 @@ git reset --hard origin/master || (
 echo Проект успешно обновлён.
 echo.
 
+
 REM Создание виртуального окружения, если его еще нет
 if not exist .venv (
     echo Создание виртуального окружения...
@@ -70,10 +79,12 @@ if not exist .venv (
     echo.
 )
 
+
 REM Активируем виртуальное окружение
 echo Активация виртуального окружения...
 call .venv\Scripts\activate
 echo.
+
 
 REM Установка Poetry, если не установлен
 echo Проверка наличия Poetry...
@@ -83,14 +94,17 @@ poetry --version || (
 )
 echo.
 
+
 REM Установка зависимостей из poetry.lock и pyproject.toml
 echo Установка зависимостей...
 poetry install
 echo.
 
+
 REM Очистка консоли перед запуском main.py
 cls
 echo Запуск main.py...
 python main.py
+
 
 pause
