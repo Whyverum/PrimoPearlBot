@@ -1,5 +1,6 @@
 # BotSettings/analitics/start_info_out.py
 # Вывод данных бота в консоль для начальной проверки
+# Логирование стартов бота в bot_start.log
 
 from datetime import datetime
 from time import sleep
@@ -16,7 +17,7 @@ type_messages = "Start_INFO"
 
 # Функция для получения информации о боте и выводе ее в консоль и файл
 def bot_info_out():
-    bot_time = f"Бот запущен в {datetime.now().strftime("%S:%M:%H %d-%m-%Y")}\n"
+    bot_time = f"Бот @{BotInfo.username} запущен в {datetime.now().strftime("%S:%M:%H %d-%m-%Y")}\n"
     bot_name = f"Основное имя: {BotInfo.first_name}\n"
     bot_postname = f" Доп. имя: {BotInfo.last_name}\n"
     bot_username = f" Юзернейм: @{BotInfo.username}\n"
@@ -44,6 +45,10 @@ def bot_info_out():
     try:
         with open(ImportantPath.log_info_path, 'w', encoding='utf-8') as log_file:
             log_file.write(f"{bot_time}{bot_all_info}")
+
+        # Создание файла bot_start.log
+        with open(ImportantPath.log_start_path, 'a', encoding='utf-8') as log_start_file:
+            log_start_file.write(f"{bot_time}\n")
         return bot_all_info
 
     # Проверка на ошибку и ее логирование
@@ -51,5 +56,3 @@ def bot_info_out():
         text_error = f"Ошибка при получении ID пользователя: {e}"
         logger.bind(custom_variable="INFO", user_var=type_messages).error(text_error)
         return text_error
-
-
