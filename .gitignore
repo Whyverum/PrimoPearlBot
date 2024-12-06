@@ -30,5 +30,10 @@ BotFiles/
 BotLogs/
 *.log
 
+
 # Игнорирование установщика проекта
 /project_clone.bat
+
+
+# Игнорирование базы данных пользователя
+MySQL/user_data.db
