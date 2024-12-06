@@ -2,7 +2,7 @@
 # Проверка пользователя на нахождение в списках бота
 
 from aiogram import types
-from ..configs.config import ListId
+from BotSettings.library.config import ListId
 
 # Настройка экспорта
 __all__ = ("find_people_id", "find_chat_id", "find_adm_id",)

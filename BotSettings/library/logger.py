@@ -6,10 +6,10 @@ from loguru import logger
 
 from ..analitics.message_to_file import write_message_to_file
 from ..analitics.user_data_to_file import write_user_info_to_file
-from ..configs.config import (ImportantPath,
-                              logs_text,
-                              error_logs_text,
-                              max_size_log_file,)
+from BotSettings.library.config import (ImportantPath,
+                                        logs_text,
+                                        error_logs_text,
+                                        max_size_log_file, )
 
 # То что будет импортироваться при from logger import *
 __all__ = ("sys", "logger", "setup_logger", "logginger", "cmd_logginger", "error_cmd_logginger",)

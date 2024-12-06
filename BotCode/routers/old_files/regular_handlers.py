@@ -5,7 +5,7 @@ from aiogram import F, types, Router
 from magic_filter import RegexpMode
 from re import Match
 
-from BotSettings.configs import config
+from BotSettings.library import config
 from BotSettings import logginger
 
 # Настройка экспорта модулей и роутера

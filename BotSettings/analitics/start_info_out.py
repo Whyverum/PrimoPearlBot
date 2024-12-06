@@ -5,7 +5,7 @@ from datetime import datetime
 from time import sleep
 from loguru import logger
 
-from .. import ImportantPath
+from ..library.config import ImportantPath
 from ..library.bots import BotInfo
 from ..library.decorator import TextDecorator
 

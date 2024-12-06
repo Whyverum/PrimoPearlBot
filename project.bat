@@ -52,7 +52,20 @@ if not exist .git (
 echo.
 
 
-REM Обновление проекта из репозитория
+REM Создание .env для хранения токенов
+echo Создаётся файл .env...
+(
+    echo main_bot_token=Вставьте_Бот_Токен
+    echo APIKey=Вставьте_Иной_ключ_api
+    echo WebAPIKey=Вставьте_Иной_ключ_webapi
+) > .env
+echo Файл .env - успешно создан!
+echo Пожалуйста, перейдите в файл и вставьте свои ключи.
+echo Вы готовы продолжить? Нажмите любую клавишу!
+pause
+
+
+REM Обновление проекта с GitHub
 echo Обновление проекта из GitHub...
 git fetch origin || (
     color C
@@ -60,8 +73,6 @@ git fetch origin || (
     pause
     exit /b
 )
-
-
 git reset --hard origin/master || (
     color C
     echo Не удалось обновить проект. Проверьте наличие подключения к интернету или правильность настроек Git.
@@ -69,7 +80,8 @@ git reset --hard origin/master || (
     exit /b
 )
 echo Проект успешно обновлён.
-echo.
+pause
+
 
 
 REM Создание виртуального окружения, если его еще нет

@@ -1,7 +1,7 @@
 # BotSettings/analitics/type_messages.py
 # Определение типа сообщения
 
-from ..configs.config import BotEdit
+from BotSettings.library.config import BotEdit
 
 # Настройка экспорта модулей
 __all__ = ("types_message",)

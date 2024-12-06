@@ -1,10 +1,20 @@
 # BotSettings/configs/config.py
 # Список практически всех переменных проекта
 
-from ..configs.bot_secrets import (important_groups_ids,
-                                   important_adm_ids,
-                                   ban_list_ids,
-                                   important_users_list_ids, )
+import os
+from dotenv import load_dotenv
+from MySQL.list_ids import *
+
+
+# Загружаем переменные из файла .env
+load_dotenv()
+
+
+# Доступ к переменным окружения
+bot_token = os.getenv("main_bot_token")
+api_key = os.getenv("APIKey")
+web_api_key = os.getenv("WebAPIKey")
+
 
 # Шаблон логов для обычного логгера
 logs_text = ("<green>{time:YYYY-MM-DD HH:mm:ss}</green> <red> | </red> "
@@ -60,7 +70,7 @@ class ImportantPath:
     group_message = f"BotLogs/BotMessages/Группы"
 
     # Путь к хранилищу базы данных
-    user_info_file_path = f"BotLogs/user_data.db"
+    user_info_file_path = f"MySQL/user_data.db"
 
     # Пути к хранению медиа
     bot_personal_media = f"BotSettings/MediaPersonal"

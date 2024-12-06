@@ -5,7 +5,7 @@ from aiogram import Bot, F
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from ..configs.bot_secrets import bot_token
+from .config import  bot_token
 
 # Настройка экспорта модулей
 __all__ = ("bot_token", "bot", "scheduler", "F_Media", "BotInfo", "bot_get_info")

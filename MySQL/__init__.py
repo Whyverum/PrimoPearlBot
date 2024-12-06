@@ -11,7 +11,3 @@ from .db import *
 
 # Создание роутера "sql_router"
 router = Router(name="sql_router")
-
-
-# Список подключаемых роутеров сверху-вниз
-router.include_routers()

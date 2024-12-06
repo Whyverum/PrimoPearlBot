@@ -2,7 +2,7 @@
 # Библиотека установки настроек бота через проект и конфиги (Подключить проверку ошибок??)
 
 from aiogram.types import ChatAdministratorRights
-from BotSettings.configs.config import BotEdit
+from BotSettings.library.config import BotEdit
 from BotSettings.library.bots import bot
 
 # Настройка экспорта модулей

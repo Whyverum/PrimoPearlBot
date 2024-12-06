@@ -7,7 +7,7 @@ from loguru import logger
 
 from .find_ids import find_chat_id
 from .type_messages import types_message
-from .. import ImportantPath
+from ..library.config import ImportantPath
 
 # Настройка экспорта
 __all__ = ("write_message_to_file",)

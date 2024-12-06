@@ -3,7 +3,7 @@
 
 import os
 import datetime
-from ..configs.config import ImportantPath
+from BotSettings.library.config import ImportantPath
 
 # Настройка экспорта модулей
 __all__ = ("write_user_info_to_file",)

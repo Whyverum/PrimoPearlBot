@@ -3,6 +3,7 @@
 
 import aiomysql
 
+__all__ = ("connect_db", "execute_query")
 
 # Функция подключение к базе данных     (в разработке)
 async def connect_db():
