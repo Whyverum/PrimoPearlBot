@@ -18,7 +18,7 @@ async def start_time(message: types.Message, started_at: str):
     try:
         # Вывод сообщения пользователю
         text = f"использовал(а) команду /{command_text.lower()}"
-        await message.answer(f"Бот @{BotInfo.username} запущен: <b>{started_at}</b>")
+        await message.answer(f"Бот @{BotInfo.username} запущен: <b>{started_at} (<i>UTC+7</i>)</b>")
 
         # Активация логгера
         await cmd_logginger(message, command_text, text)

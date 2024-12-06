@@ -21,30 +21,30 @@ def setup_logger():
     logger.remove()  # Удаляем все логгеры
 
     # Пустой логгер для записи отступов в файл
-    logger.add(ImportantPath.log_file_path,
+    logger.add(ImportantPath.log_file,
                rotation=max_size_log_file,
                format="\n\n\n",
                backtrace=True,
-               diagnose=True,)
+               diagnose=True, )
     logger.remove()
 
     # Логгер для записи в файл с ротацией и диагностической информацией
-    logger.add(ImportantPath.log_file_path,
+    logger.add(ImportantPath.log_file,
                rotation=max_size_log_file,
                format=logs_text,
                backtrace=True,
                diagnose=True,
                level="INFO",
-               filter=lambda record: record["level"].name == "INFO",)
+               filter=lambda record: record["level"].name == "INFO", )
 
     # Логгер для записи в файл ошибок
-    logger.add(ImportantPath.log_error_file_path,
+    logger.add(ImportantPath.log_error_file,
                rotation=max_size_log_file,
                format=logs_text,
                backtrace=True,
                diagnose=True,
                level="ERROR",
-               filter=lambda record: record["level"].name == "ERROR",)
+               filter=lambda record: record["level"].name == "ERROR", )
 
     # Логгер для вывода в консоль
     logger.add(sys.stderr,

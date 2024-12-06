@@ -7,9 +7,10 @@ from aiogram.types import UserProfilePhotos
 from BotSettings import *
 
 
-# Создание роутера "avatar_router"
+# Создание роутера и настройка экспорта
+__all__ = ("router", "download_user_photos",)
 router = Router(name="avatar_router")
-type_messages = "Avatar"
+type_messages = "AvatarUser"
 
 
 # Функция закачки аватарок пользователя
@@ -29,7 +30,7 @@ async def download_user_photos(message: types.Message):
             return f"У пользователя {user_id} нет аватарок."
 
         # Объявление пути и создание директории
-        user_directory = f'{ImportantPath.user_avatar_path}/{user_id}'
+        user_directory = f'{ImportantPath.user_avatar}/{user_id}'
         os.makedirs(user_directory, exist_ok=True)
 
         # Закачка аватарок пользователя

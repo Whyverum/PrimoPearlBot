@@ -38,3 +38,9 @@ important_users_list_ids = {
     556943853: "Ваня",  # @skodaracing24
     1295708467: "Степан",  # @No_step_toback
 }
+
+
+# Айди важных каналов
+important_channel_ids = {
+   # 7145369362: "Артур",  # @i_toksichen
+}

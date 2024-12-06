@@ -43,11 +43,11 @@ def bot_info_out():
 
     # Записываем информацию в файл
     try:
-        with open(ImportantPath.log_info_path, 'w', encoding='utf-8') as log_file:
+        with open(ImportantPath.log_info, 'w', encoding='utf-8') as log_file:
             log_file.write(f"{bot_time}{bot_all_info}")
 
         # Создание файла bot_start.log
-        with open(ImportantPath.log_start_path, 'a', encoding='utf-8') as log_start_file:
+        with open(ImportantPath.log_start, 'a', encoding='utf-8') as log_start_file:
             log_start_file.write(f"{bot_time}\n")
         return bot_all_info
 

@@ -13,14 +13,14 @@ type_messages = "User_data_file"
 # Функция записи информации о пользователи в файл
 def write_user_info_to_file(user):
     # Проверка, существует ли директория, если нет, создать её
-    directory = os.path.dirname(ImportantPath.user_info_file_path)
+    directory = os.path.dirname(ImportantPath.user_info_file)
     if not os.path.exists(directory):
         os.makedirs(directory)
 
     # Считываем все существующие записи
     existing_records = {}
-    if os.path.exists(ImportantPath.user_info_file_path):
-        with open(ImportantPath.user_info_file_path, "r", encoding="utf-8") as file:
+    if os.path.exists(ImportantPath.user_info_file):
+        with open(ImportantPath.user_info_file, "r", encoding="utf-8") as file:
             record = []
             current_id = None
             for line in file:
@@ -44,7 +44,7 @@ def write_user_info_to_file(user):
     existing_records[user_id] = formatted_record
 
     # Перезаписываем файл с обновлёнными записями
-    with open(ImportantPath.user_info_file_path, "w", encoding="utf-8") as file:
+    with open(ImportantPath.user_info_file, "w", encoding="utf-8") as file:
         for record in existing_records.values():
             file.writelines(record)
 

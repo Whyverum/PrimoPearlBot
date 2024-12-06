@@ -7,7 +7,7 @@ from aiogram import Router, types, F
 from aiogram.types import ReplyKeyboardRemove
 
 from BotCode.keyboards.start_kb import ButtonText
-from ..downloads.download_user_avatar import download_user_photos
+from ..downloads.download_avatar_all import download_avatar
 
 # Настройка экспорта модулей и роутера
 __all__ = ("router",)
@@ -65,15 +65,15 @@ async def scary_message(message: types.Message):
 async def handle_all_messages(message: types.Message):
     name = find_chat_id(message)
     await logginger(message)
-    await download_user_photos(message)
+    await download_avatar(message)
     message_type = types_message(message)
 
     # Проверка на наличие текста и его типа
     if message.text is None:
-        logger.bind(custom_variable=type_messages, user_var="@"+str(message.from_user.username)).info(
+        logger.bind(custom_variable=type_messages, user_var=f"@{message.from_user.username}").info(
             f"Получено сообщение из ({name}) : {message_type}")
     else:
-        logger.bind(custom_variable=type_messages, user_var="@"+str(message.from_user.username)).info(
+        logger.bind(custom_variable=type_messages, user_var=f"@{message.from_user.username}").info(
             f"Получено сообщение из ({name}) : {message.text}")
 
     return f"Получено новое сообщение!"

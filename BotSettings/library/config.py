@@ -43,40 +43,43 @@ class BotEdit:
 class ListId:
     # Получение списков из py
     ban_list_id = ban_list_ids
-    adm_list_id = important_adm_ids
 
+    adm_list_id = important_adm_ids
     important_users_list_id = important_users_list_ids
     groups_list_id = important_groups_ids
+    channel_list_id = important_channel_ids
 
     # Создание единого словаря важных ID
     important_ids = important_users_list_ids.copy()
     important_ids.update(adm_list_id)
     important_ids.update(groups_list_id)
+    important_ids.update(channel_list_id)
 
 
 # Класс с важными переменными-пути
 class ImportantPath:
     # Путь к файлу с важной информацией (токенами)
-    secret_file_path = f"settings/configs/bot_secrets.py"
+    secret_file = f"settings/configs/bot_secrets.py"
 
     # Пути к файлам логирования
-    log_start_path = f"BotLogs/bot_start.log"
-    log_file_path = f"BotLogs/bot.log"
-    log_error_file_path = f"BotLogs/bot_error.log"
-    log_info_path = f"BotLogs/bot_info.log"
+    log_start = f"BotLogs/bot_start.log"
+    log_file = f"BotLogs/bot.log"
+    log_error_file = f"BotLogs/bot_error.log"
+    log_info = f"BotLogs/bot_info.log"
 
     # Пути к хранению сообщений
     private_message = f"BotLogs/BotMessages/Личные"
     group_message = f"BotLogs/BotMessages/Группы"
 
     # Путь к хранилищу базы данных
-    user_info_file_path = f"MySQL/user_data.db"
+    user_info_file = f"MySQL/user_data.db"
 
     # Пути к хранению медиа
     bot_personal_media = f"BotSettings/MediaPersonal"
     bot_received_media = f"BotFiles/MediaReceived"
-    user_avatar_path = f"BotFiles/UserAvatar"
-    chat_avatar_path = f"BotFiles/ChatAvatar"
+    user_avatar = f"BotFiles/UserAvatar"
+    chat_avatar = f"BotFiles/ChatAvatar"
+    channel_avatar = f"BotFiles/ChannelAvatar"
 
     # Названия директорий-хранилищ
     photo = "Photo"
