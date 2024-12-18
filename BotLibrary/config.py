@@ -27,12 +27,12 @@ class LogsSet:
     max_size = "500 MB"
 
     # Шаблон логов для обычного логгера
-    info_text = ("<green>{time:YYYY-MM-DD HH:mm:ss}</green> <red> | </red> "
+    info_text = ("<green>{timer:YYYY-MM-DD HH:mm:ss}</green> <red> | </red> "
                 "<blue>PRIMO-{extra[log_type]}</blue> <red> | </red> "
                 "<red>{extra[user]}  | </red> <level>{message}</level>")
 
     # Шаблон логов для логгера-ошибок
-    error_text = ("<level>{time:YYYY-MM-DD HH:mm:ss}  |  ERROR-{extra[log_type]}  | "
+    error_text = ("<level>{timer:YYYY-MM-DD HH:mm:ss}  |  ERROR-{extra[log_type]}  | "
                   "{extra[user]} | {message}</level>")
 
 

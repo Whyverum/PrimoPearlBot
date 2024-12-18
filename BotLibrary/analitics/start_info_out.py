@@ -3,7 +3,7 @@
 # Логирование стартов бота в bot_start.log
 
 from datetime import datetime
-from time import sleep
+from timer import sleep
 from loguru import logger
 
 from config import ImportantPath, BotVariables

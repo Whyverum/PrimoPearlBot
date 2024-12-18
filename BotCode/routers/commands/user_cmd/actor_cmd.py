@@ -1,30 +1,35 @@
-# BotCode/routers/commands/user_cmd/help_cmd.py
-# Работа с командой /help, для вывода помощи пользователю
+# BotCode/routers/commands/user_cmd/actor_cmd.py
+# разработка
 
 from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
-from keyboards.reply_kb.help_kb import get_help_kb
+from keyboards.inline_kb.actor_kb import get_actor_kb
 
-# Создание роутера и экспорта модулей
-__all__ = ("router", "cmd_help", "log_type",)
-router = Router(name="help_router")
-log_type = "Help"
+# Создание роутера и настройка экспорта модулей
+__all__ = ("router", "cmd_actor", "log_type",)
+router = Router(name="actor_router")
+log_type = "Actor"
+
 
 # Список ключевых слов для команды
-keywords = ["help", "info", "помощь", "инфо", "?", "информация", "рудз", "штащ", "byaj",
-            "gjvjom", "byajhvfwbz",]
+keywords = ["actor", "фсещк",]
 
 
-# Хэндлер на команду /info или /help
+# Обработчик команды /actor
 @router.message(Command(*keywords, prefix=BotEdit.prefixs, ignore_case=True))
 @router.message(F.text.lower().in_(keywords))
-async def cmd_help(message: types.Message):
+async def cmd_actor(message: types.Message):
     try:
         # Вывод сообщения пользователю
         text = f"использовал(а) команду /{log_type.lower()}"
+        markup = get_actor_kb()
+
         await message.reply(
-            text=f"Ну это типо привет. Ладно, это помощь.", reply_markup=get_help_kb())
+            text="Всякое разное для тебя",
+            reply_markup=markup,
+        )
+
 
         # Активация логгера
         await cmd_logginger(message, log_type, text)

@@ -4,7 +4,6 @@
 from art import *
 from colorama import *
 from termcolor import *
-import cowsay
 
 # Подключение ANSI в стандартное Windows_cmd
 just_fix_windows_console()
