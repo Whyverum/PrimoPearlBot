@@ -2,9 +2,9 @@
 # Работа с командой /start, для запуска бота
 
 from aiogram import Router, types, F
-from aiogram.filters import Command
+from aiogram.filters import Command, CommandStart
 from BotLibrary import *
-from BotCode.keyboards.start_kb import get_start_kb
+from keyboards.reply_kb.start_kb import get_start_kb
 
 # Создание роутера и настройка экспорта модулей
 __all__ = ("router", "cmd_start", "log_type",)
@@ -19,11 +19,14 @@ keywords = ["start", "старт", "запуск", "пуск", "on", "вкл", "
 # Обработчик команды /start
 @router.message(Command(*keywords, prefix=BotEdit.prefixs, ignore_case=True))
 @router.message(F.text.lower().in_(keywords))
+@router.message(CommandStart())
 async def cmd_start(message: types.Message):
     try:
         # Вывод сообщения пользователю
         text = f"использовал(а) команду /{log_type.lower()}"
         await message.reply(text=f"Стартовый бот!", reply_markup=get_start_kb())
+
+        print(f"Текст запроса: {repr(message.text)}")
 
         # Активация логгера
         await cmd_logginger(message, log_type, text)
