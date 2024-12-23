@@ -6,10 +6,10 @@ from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
 
-from .user_cmd.start_cmd import log_type as start_cmd_text
-from .user_cmd.help_cmd import log_type as help_cmd_text
-from .user_cmd.exit_cmd import log_type as exit_cmd_text
-from .user_cmd.start_time_cmd import log_type as start_time_cmd_text
+from .user_cmd.start_cmd import description as start_description, log_type as start_cmd
+from .user_cmd.help_cmd import description as help_description, log_type as help_cmd
+from .user_cmd.exit_cmd import description as exit_description, log_type as exit_cmd
+from .user_cmd.start_time_cmd import description as start_time_description,log_type as start_time_cmd
 
 
 # Создание роутера и настройка экспорта модулей
@@ -23,16 +23,15 @@ secret_keywords = ["setcommands", "setcommand", "ыуесщььфтвы", "ыу�
 
 
 # Хэндлер на команду /setcommands для использования в чате
-@router.message(F.from_user.id.in_(ListId.important_ids),
-                Command(*secret_keywords, prefix=BotEdit.prefixs, ignore_case=True))
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                Command(*secret_keywords, prefix=BotVariables.prefixs, ignore_case=True))
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower().in_(secret_keywords))
 async def set_commands():
     bot_commands = [
-        types.BotCommand(command=start_cmd_text.lower(), description="Запустить бота"),
-        types.BotCommand(command=help_cmd_text.lower(), description="Получить помощь"),
-        types.BotCommand(command=help_cmd_text.lower(), description="Получить помощь"),
-        types.BotCommand(command=start_time_cmd_text.lower(), description="Время запуска"),
-        types.BotCommand(command=exit_cmd_text.lower(), description="Выйти из чата (в разработке)"),
-        types.BotCommand(command="command", description="Пустая команда"),
+        types.BotCommand(command=start_cmd.lower(), description=start_description),
+        types.BotCommand(command=help_cmd.lower(), description=help_description),
+        types.BotCommand(command=start_time_cmd.lower(), description=start_time_description),
+        types.BotCommand(command=exit_cmd.lower(), description=exit_description),
     ]
     await bot.set_my_commands(bot_commands)
-    return bot_commands
