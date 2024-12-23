@@ -4,18 +4,20 @@
 from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
+from routers.msg_default import msg_default
 
-# Создание роутера и экспорта модулей
-__all__ = ("router", "exit_cmd", "log_type",)
+# Создание роутера, переменных и экспорта модулей
+__all__ = ("router", "exit_cmd", "log_type", "description")
 router = Router(name="exit_router")
 log_type = "Exit"
+description = "Выйти из чата (в разработке)"
 
 # Список ключевых слов для команды
 keywords = ["выход", "ds[j;", "exit", "учше",]
 
 
 # Обработчик команды /exit
-@router.message(Command(*keywords, prefix=BotEdit.prefixs, ignore_case=True))
+@router.message(Command(*keywords, prefix=BotVariables.prefixs, ignore_case=True))
 @router.message(F.text.lower().in_(keywords))
 async def exit_cmd(message: types.Message):
     try:
@@ -26,7 +28,7 @@ async def exit_cmd(message: types.Message):
 
         # Активация логгера
         await cmd_logginger(message, log_type, text)
-        return text
+        await msg_default(message)
 
     # Проверка на ошибку и ее логирование
     except Exception as e:
