@@ -3,12 +3,12 @@
 
 
 # Игнорирование локального окружения и его файлов
+.venv
 .env
-.venv/
 
 
 # Игнорирование пользовательских конфигураций IDE
-/.idea
+.idea
 *.iml
 
 
@@ -18,8 +18,8 @@ Thumbs.db
 
 
 # Игнорирование директории сборки
-/build/
-/dist/
+build/
+dist/
 
 
 # Игнорирование всех скачанных данных логирования
@@ -32,9 +32,9 @@ BotLogs/
 
 
 # Игнорирование установщика проекта
-/Test/project_clone.bat
+Test/project_clone.bat
 
 
 # Игнорирование базы данных пользователя
-/MySQL/user_data.db
-/MySQL/user_data.json
+MySQL/user_data.db
+MySQL/user_data.json
