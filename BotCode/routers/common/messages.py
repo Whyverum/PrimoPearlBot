@@ -4,22 +4,19 @@
 
 from BotLibrary import *
 from aiogram import Router, types
-
-from ..downloads.download_avatar_all import download_avatar
+from routers.msg_default import *
 
 # Настройка экспорта модулей и роутера
 __all__ = ("router",)
 router = Router(name="common_message_router")
+log_type = "Messages"
+
 
 # Хэндлер на все сообщения и записывает данные
 @router.message()
 async def handle_all_messages(message: types.Message):
-    log_type = "Messages"
-    name = find_chat_id(message)
+    user_name = find_imp_id(message.from_user.id)
     message_type = types_message(message)
 
-    await logginger(message)
-    await download_avatar(message)
-
-    await common_msg_logginger(message, name, message_type, log_type)
-    return f"Получено новое сообщение!"
+    await common_msg_logginger(message, user_name, message_type, log_type)
+    await msg_default(message)
