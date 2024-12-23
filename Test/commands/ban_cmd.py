@@ -15,7 +15,7 @@ command_text = "BAN"
 
 # Функция проверки блокировки пользователя в боте
 @router.message(lambda message: message.from_user.id in ListId.ban_list_id)
-async def banned_user(message: types.Message):
+async def banned_user(message: types_msg.Message):
     try:
         # Вывод сообщения пользователю
         chat_id = await find_chat_id(message)
@@ -36,7 +36,7 @@ async def banned_user(message: types.Message):
 
 # Обработчик команды /ban
 @router.message(Command("ban", "ифт", "бан", ",fy", prefix=BotEdit.prefixs, ignore_case=True))
-async def ban_user_by_username(message: types.Message):
+async def ban_user_by_username(message: types_msg.Message):
     try:
         text = f"использовал(а) команду /{command_text.lower()}"
 
