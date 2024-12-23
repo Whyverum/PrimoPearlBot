@@ -4,11 +4,13 @@
 from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
+from routers.msg_default import msg_default
 
-# Создание роутера и настройка экспорта модулей
-__all__ = ("router", "start_time", "log_type",)
+# Создание роутера, переменных и настройка экспорта модулей
+__all__ = ("router", "start_time", "log_type", "description")
 router = Router(name="start_time_router")
 log_type = "Start_Time"
+description = "Время запуска"
 
 # Список ключевых слов для команды
 start_time_keywords = ["start_time", "stime", "старт_время", "время_старта", "с_время",
@@ -17,7 +19,7 @@ start_time_keywords = ["start_time", "stime", "старт_время", "врем
 
 
 # Хэндлер на команду /start_time
-@router.message(Command(*start_time_keywords, prefix=BotEdit.prefixs, ignore_case=True))
+@router.message(Command(*start_time_keywords, prefix=BotVariables.prefixs, ignore_case=True))
 @router.message(F.text.lower().in_(start_time_keywords))
 async def start_time(message: types.Message, started_at: str, started_at_msk: str):
     try:
@@ -29,7 +31,7 @@ async def start_time(message: types.Message, started_at: str, started_at_msk: st
 
         # Активация логгера
         await cmd_logginger(message, log_type, text)
-        return text
+        await msg_default(message)
 
     # Проверка на ошибку и ее логирование
     except Exception as e:
