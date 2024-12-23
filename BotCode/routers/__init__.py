@@ -1,6 +1,5 @@
 # BotCode/routers/__init__.py
 # Инициализация пакета routers, для работы с асинхронными обработчиками
-# Пакет старых файлов отключен!!
 
 from aiogram import Router
 from .callback_handlers import router as callback_handlers_router

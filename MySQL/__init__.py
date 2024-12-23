@@ -6,7 +6,6 @@ __all__ = ("router", "db")
 
 # Импортируем библиотеки для экспорта
 from aiogram import Router
-from .db import *
 
 
 # Создание роутера "sql_router"

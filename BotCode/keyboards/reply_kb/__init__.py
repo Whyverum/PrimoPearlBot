@@ -1,5 +1,5 @@
-# BotCode/keyboards/__init__.py
-# Инициализация пакета keyboards, для работы с клавиатурами
+# BotCode/keyboards/reply_kb/__init__.py
+# Инициализация пакета reply_kb, для работы с клавиатурами
 
 from aiogram import Router
 from .start_kb import router as start_kb_router
