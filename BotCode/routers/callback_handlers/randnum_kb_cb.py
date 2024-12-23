@@ -1,11 +1,17 @@
-from random import randint
+# BotCode/routers/callback_handlers/randnum_kb_cb.py
+# Обработчик запросов в команде /randnum
 
+from random import randint
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
 from keyboards.inline_kb.randnum_kb import ButtonInl, get_randnum_kb
 
+# Создание роутера и настройка экспорта модулей
+__all__ = ("router",)
 router = Router(name="randnum_kb_cb_router")
 
+
+# Тестирование редактирования сообщения
 @router.callback_query(F.data == ButtonInl.mark_cbd)
 async def random_site_cb(callback_query: CallbackQuery):
     await callback_query.answer()
