@@ -6,7 +6,7 @@ from magic_filter import RegexpMode
 from re import Match
 
 from BotLibrary import logginger
-import config
+import configs
 
 # Настройка экспорта модулей и роутера
 __all__ = ("router",)
@@ -15,7 +15,7 @@ router = Router(name="regular_handlers")
 
 # Хэндлер на циферный код (регулярная функция)
 @router.message(
-    F.from_user.id.in_(config.ListId.adm_list_id),
+    F.from_user.id.in_(configs.ListId.adm_list_id),
     F.text.regexp(r"(\d+)", mode=RegexpMode.MATCH).as_("code"),
 )
 async def handle_code(message: types.Message, code: Match[str]):
