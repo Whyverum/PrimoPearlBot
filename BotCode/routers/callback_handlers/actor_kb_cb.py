@@ -1,11 +1,17 @@
-from random import randint
+# BotCode/routers/callback_handlers/actor_kb_cb.py
+# Обработчик запросов в команде /actor
 
+from random import randint
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
 from keyboards.inline_kb.actor_kb import ButtonInl
 
+# Создание роутера и настройка экспорта модулей
+__all__ = ("router",)
 router = Router(name="actor_kb_cb_router")
 
+
+# Тестирование реферальных ссылок
 @router.callback_query(F.data == ButtonInl.random_site_cbd)
 async def random_site_cb(callback_query: CallbackQuery):
     bot_me = await callback_query.bot.me()
@@ -14,6 +20,7 @@ async def random_site_cb(callback_query: CallbackQuery):
     )
 
 
+# Тестирование уведомления для пользователя
 @router.callback_query(F.data == ButtonInl.random_num_dice_cbd)
 async def random_num_dice_cb(callback_query: CallbackQuery):
     await callback_query.answer(
@@ -22,6 +29,7 @@ async def random_num_dice_cb(callback_query: CallbackQuery):
     )
 
 
+# Тестирование модального окна для пользователя
 @router.callback_query(F.data == ButtonInl.random_num_modal_cdb)
 async def random_num_dice_modal_cb(callback_query: CallbackQuery):
     await callback_query.answer(

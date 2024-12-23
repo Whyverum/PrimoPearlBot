@@ -2,35 +2,31 @@
 # Закачка всех аватаров пользователей
 
 import os
-from aiogram import Router, types
+from aiogram import types
 from aiogram.types import UserProfilePhotos
 from BotLibrary import *
 
 
 # Создание роутера и настройка экспорта модулей
-__all__ = ("router", "download_user_photos",)
-router = Router(name="avatar_router")
+__all__ = ("download_user_photos",)
 log_type = "AvatarUser"
 
 
 # Функция закачки аватарок пользователя
 async def download_user_photos(message: types.Message):
     try:
-        # Получение ID пользователя
-        user_id = message.from_user.id
+        # Проверка на наличие в списке "важных" пользователей
+        user_id = find_imp_id(message.from_user.id)
 
         # Получение аватарок пользователя
-        user_profile_photos: UserProfilePhotos = await bot.get_user_profile_photos(user_id)
-
-        # Проверка на наличие в списке "важных" пользователей
-        user_id = find_people_id(user_id)
+        user_profile_photos: UserProfilePhotos = await bot.get_user_profile_photos(message.from_user.id)
 
         # Проверка наличия фотографий
         if user_profile_photos.total_count == 0:
             return f"У пользователя {user_id} нет аватарок."
 
         # Объявление пути и создание директории
-        user_directory = f'{ImportantPath.user_avatar}/{user_id}'
+        user_directory = f'{ProjectPath.user_avatar}/{user_id}'
         os.makedirs(user_directory, exist_ok=True)
 
         # Закачка аватарок пользователя

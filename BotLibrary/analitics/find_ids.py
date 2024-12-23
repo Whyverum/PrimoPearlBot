@@ -1,42 +1,35 @@
 # BotLibrary/analitics/find_ids.py
 # Проверка пользователя на нахождение в списках бота
 
-from aiogram import types
-from config import ListId
+from ..configs.list_ids import DataID
 
 # Настройка экспорта модулей и логирования
-__all__ = ("find_people_id", "find_chat_id", "find_adm_id", "find_ban_id")
+__all__ = ("find_imp_id", "find_adm_id", "find_ban_id")
 log_type = "ID"
 
 
 # Функция поиска человека в списке администраторов
-def find_adm_id(message):
-    if message.from_user.id in ListId.adm_list_id:
+def find_adm_id(admin_id):
+    admin_id = str(admin_id)
+    if admin_id in DataID.admins:
         return True
     else:
-        return f"Пользователь не является администратором!"
+        return f"Пользователь {admin_id} не является администратором!"
 
 
-# Функция поиска человека в списке администраторов
-def find_ban_id(message):
-    if message.from_user.id in ListId.ban_list_id:
+# Функция поиска человека в списке забаненных пользователей
+def find_ban_id(ban_id):
+    ban_id = str(ban_id)
+    if ban_id in DataID.ban_list:
         return True
     else:
-        return f"Пользователь не забанен!"
+        return f"Пользователь {ban_id} не забанен!"
 
 
-# Функция поиска человека в списке "важных" пользователей
-def find_people_id(user_id):
-    # Проверка на наличие пользователя в списке "важных" пользователей
-    if user_id in ListId.important_ids:
-        user_id = ListId.important_ids[user_id]
-    return user_id
-
-
-# Проверка на наличие чата в списке "важных" чатов
-def find_chat_id(message: types.Message):
-    chat_id = message.chat.id
-    # Проверка на наличие чата в списке "важных" чатов
-    if chat_id in ListId.important_ids:
-        chat_id = ListId.important_ids[chat_id]
-    return chat_id
+# Функция поиска человека в списке "важных" чатов
+def find_imp_id(user_id):
+    user_id = str(user_id)
+    if user_id in DataID.important:
+        return DataID.important[user_id]  # Возвращаем имя пользователя
+    else:
+        return user_id

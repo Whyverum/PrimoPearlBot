@@ -1,4 +1,4 @@
-# BotCode/keyboards/help_kb.py
+# BotCode/keyboards/reply_kb/help_kb.py
 # Создание клавиатуры для сообщения: "Помогите!"
 
 from aiogram import Router, F
@@ -22,15 +22,6 @@ def get_help_kb() -> ReplyKeyboardMarkup:
     ]
 
     buttons_row = [KeyboardButton(text=num) for num in numbers]
-    # Один из способов создания клавиатур
-
-    #
-    # markup = ReplyKeyboardMarkup(
-    #     keyboard=[buttons_row],
-    #     resize_keyboard=True,
-    # )
-    # return markup
-
     builder = ReplyKeyboardBuilder()
     for num in numbers:
         builder.button(text=num)

@@ -1,4 +1,4 @@
-# BotCode/keyboards/start_kb.py
+# BotCode/keyboards/reply_kb/start_kb.py
 # Создания клавиатуры на команду: /start
 
 from aiogram import Router

@@ -5,4 +5,4 @@
 from .analitics import *
 from .library import *
 from .media import *
-from .config import *
+from .configs import *

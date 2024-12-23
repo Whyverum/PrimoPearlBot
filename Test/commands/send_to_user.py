@@ -12,10 +12,10 @@ command_text = "Send"
 
 
 # Обработчик команды /send для отправки сообщения определенному пользователю    (в разработке)
-@router.message(F.from_user.id.in_(ListId.important_ids),
+@router.message(F.from_user.id.in_(ListId.important),
                 Command("send", "отправить", "отправ", "s", "ыутв", "jnghfdbnm", "jnghfd",
                         prefix=BotEdit.prefixs, ignore_case=True))
-async def send_message(message: types.Message):
+async def send_message(message: types_msg.Message):
     try:
         if message.chat.id in ListId.adm_list_id:
             text = f"использовал(а) команду /{command_text.lower()}"
@@ -37,7 +37,7 @@ async def send_message(message: types.Message):
             await bot.send_message(chat_id=user_id, text=text_send)
 
             # Логирование
-            user_id = find_people_id(user_id)
+            user_id = find_imp_id(user_id)
             await cmd_logginger(message, command_text, text)
 
             # Логирование и отчет об отправке

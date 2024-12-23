@@ -2,7 +2,7 @@
 # Небольшая библиотека для создания директорий
 
 import os
-from config import ImportantPath, BotVariables
+from BotLibrary.configs import ProjectPath, TypeDirectory
 
 # Настройка экспорта модулей и логирования
 __all__ = ("create_directories", "setup_directories", )
@@ -22,8 +22,7 @@ def create_directories(base_directory, subdirectories):
 
 # Начальная установка пустых директорий
 def setup_directories():
-    create_directories(ImportantPath.bot_personal_media, BotVariables.bot_media_directories)
-    create_directories(ImportantPath.bot_received_media, BotVariables.bot_media_directories)
-    create_directories(ImportantPath.msg, BotVariables.bot_msg_directories)
-    create_directories(ImportantPath.bot_files, BotVariables.bot_avatar_directories)
-    return f"Пустые директории - успешно созданы!"
+    create_directories(ProjectPath.personal_media, TypeDirectory.media_directories)
+    create_directories(ProjectPath.received_media, TypeDirectory.media_directories)
+    create_directories(ProjectPath.bot_files, TypeDirectory.avatar_directories)
+    create_directories(ProjectPath.msg, TypeDirectory.msg_directories)

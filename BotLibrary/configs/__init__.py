@@ -2,12 +2,7 @@
 # Инициализация пакета library, для работы с собственными библиотеками
 
 # Импортируем библиотеки для экспорта
-from .bots import *
-from .logger import *
-from .edit_bot import *
-from .directory import *
-from .time import *
-
-from art import *
-from colorama import *
-from termcolor import *
+from .config import *
+from .settings import *
+from .list_ids import *
+from .important_path import *

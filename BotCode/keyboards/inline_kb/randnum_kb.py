@@ -1,8 +1,8 @@
-# BotCode/keyboards/start_kb.py
-# Создания клавиатуры на команду: /start
+# BotCode/keyboards/inline_kb/randnum_kb.py
+# Создания инлайн-клавиатуры на команду: /randnum
 
 from aiogram import Router
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # Создание роутера и настройка экспорта

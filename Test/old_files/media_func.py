@@ -12,7 +12,7 @@ router = Router(name="media_func")
 
 
 # @router.message(F.photo, ~F.caption)
-async def handle_photo_wo_caption(message: types.Message):
+async def handle_photo_wo_caption(message: types_msg.Message):
     caption = f"Простите, я не могу это увидеть. Вы можете описать что это?"
     await message.reply_photo(
         photo=message.photo[-1].file_id,
@@ -22,14 +22,14 @@ async def handle_photo_wo_caption(message: types.Message):
 
 
 # @router.message(F.photo, F.caption.contains("please"))
-async def handle_photo_with_please_caption(message: types.Message):
+async def handle_photo_with_please_caption(message: types_msg.Message):
     text = f"Простите, я не могу это увидеть."
     await message.reply(text)
     return text
 
 
 # @router.message(any_media_filter, ~F.caption)
-async def handle_any_media_wo_caption(message: types.Message):
+async def handle_any_media_wo_caption(message: types_msg.Message):
     if message.document:
         await message.reply_document(
             document=message.document.file_id,
@@ -49,7 +49,7 @@ async def handle_any_media_wo_caption(message: types.Message):
 
 
 # @router.message(any_media_filter, F.caption)
-async def handle_any_media_w_caption(message: types.Message):
+async def handle_any_media_w_caption(message: types_msg.Message):
     text = f"Что-то на медиа. Твой текст: {message.caption!r}"
     await message.reply(text)
     return text

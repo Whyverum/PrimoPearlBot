@@ -1,4 +1,4 @@
-# BotCode/keyboards/more_kb.py
+# BotCode/keyboards/reply_kb/more_kb.py
 # Создания клавиатуры на команду: /more
 
 from aiogram import Router

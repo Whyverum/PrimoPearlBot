@@ -4,7 +4,7 @@
 from aiogram.types import ChatAdministratorRights
 from loguru import logger
 
-from config import BotEdit
+from BotLibrary.configs import BotEdit
 from BotLibrary.library.bots import bot
 
 # Настройка экспорта модулей и логирования

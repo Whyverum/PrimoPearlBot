@@ -19,7 +19,7 @@ log_type = "Media"
 async def handle_media(message: types.Message):
     try:
         await download_avatar(message)
-        name = find_chat_id(message)
+        name = find_imp_id(message.from_user.id)
         await logginger(message)
         file_id = None
 
@@ -28,8 +28,8 @@ async def handle_media(message: types.Message):
             media = message.video if message.content_type == types.ContentType.VIDEO else message.animation
             file_extension = media.mime_type.split('/')[-1]  # Получаем расширение файла (например, "mp4" или "gif")
             file_name = f"{media.file_id}.{file_extension}"  # Используем file_id и расширение для имени
-            save_dir = ImportantPath.video_directory if message.content_type == types.ContentType.VIDEO \
-                else ImportantPath.gif_directory
+            save_dir = ProjectPath.received_video if message.content_type == types.ContentType.VIDEO \
+                else ProjectPath.received_gif
 
         elif message.content_type == types.ContentType.PHOTO:
             media = message.photo
@@ -38,22 +38,22 @@ async def handle_media(message: types.Message):
             file_info = await bot.get_file(file_id)
             # Имя файла будет взято из file_path, который содержит оригинальное имя файла
             file_name = file_info.file_path.split('/')[-1]  # Используем имя файла из пути
-            save_dir = ImportantPath.photo_directory
+            save_dir = ProjectPath.received_photo
 
         elif message.content_type == types.ContentType.VOICE:
             media = message.voice
             file_name = f"{media.file_id}.ogg"  # Для голосовых сообщений используем file_id и расширение .ogg
-            save_dir = ImportantPath.voice_directory
+            save_dir = ProjectPath.received_voice
 
         elif message.content_type == types.ContentType.VIDEO_NOTE:
             media = message.video_note
             file_name = f"{media.file_id}.mp4"  # Для видеосообщений используем file_id и расширение .mp4
-            save_dir = ImportantPath.videonote_directory
+            save_dir = ProjectPath.received_videonote
 
         elif message.content_type == types.ContentType.DOCUMENT:
             media = message.document
             file_name = media.file_name  # Для видеосообщений используем file_id и расширение .mp4
-            save_dir = ImportantPath.document_directory
+            save_dir = ProjectPath.received_document
 
         else:
             (logger.bind(log_type=log_type, user=message.from_user.username)

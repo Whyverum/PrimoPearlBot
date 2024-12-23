@@ -1,9 +1,14 @@
+# project_count_line.py
+# Файл для подсчета количества строк и файлов
+
 import os
 
 # Настройка экспорта модулей
 __all__ = ("count_lines_in_python_files",)
 type_messages = "count_lines_project"
 
+
+# Функция подсчета строк и кода python3
 def count_lines_in_python_files(directory):
     total_lines = 0
     total_files = 0
@@ -32,8 +37,8 @@ def count_lines_in_python_files(directory):
     return total_lines, total_files
 
 # Задайте путь к вашей директории
-directory_path = r'/'
+directory_path = r'./'
 lines_count, files_count = count_lines_in_python_files(directory_path)
 
-print(f'Общее количество строк в файлах .py: {lines_count}')
-print(f'Общее количество файлов .py: {files_count}')
+print(f"Общее количество строк в файлах .py: {lines_count}")
+print(f"Общее количество файлов .py: {files_count}")

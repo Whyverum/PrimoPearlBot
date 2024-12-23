@@ -1,7 +1,6 @@
 # BotCode/routers/inline/posts_inline.py
 # Создание красивых постов по вкусу (в разработке)
 
-import hashlib
 import uuid
 from aiogram import Router, types
 
