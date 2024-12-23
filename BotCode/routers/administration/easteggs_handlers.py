@@ -1,14 +1,13 @@
 # BotCode/routers/administration/easteggs_handlers.py
-# Функции с шуточными пасхалками  (разобраться с логированием и ошибками)
+# Небольшие шуточные пасхалки
 
 from aiogram import Router, types, F
 from aiogram.enums import ChatAction
 from BotLibrary import *
-
+from routers.msg_default import msg_default
 
 # Создание роутера и настройка экспорта
-__all__ = ("router", "secret_admin_message_finaki", "secret_admin_message_lostik",
-           "secret_admin_message_rishkus", "secret_admin_message_finik", "secret_admin_message_skodavano",)
+__all__ = ("router",)
 router = Router(name="easteggs_router")
 log_type = "EastEggs"
 
@@ -27,7 +26,7 @@ async def secret_admin_message_finaki(message: types.Message):
     # Отправка фотографии
     try:
         await message.reply_photo(
-            photo=types.FSInputFile(path=f"{ImportantPath.bot_personal_media}/{ImportantPath.photo}/Undertale.jpg"),
+            photo=types.FSInputFile(path=f"{ProjectPath.personal_media}/{ProjectPath.personal_photo}/Undertale.jpg"),
             caption="ОНА МЕНЯ ЗАСТАВИЛА ПОМОГИТЕ😭... (Кст @fin_aki любит анал, тс..)",
         )
 
@@ -38,11 +37,12 @@ async def secret_admin_message_finaki(message: types.Message):
 
     # Дополнительное логирование
     await cmd_logginger(message, log_type, text)
-    return text
+    await msg_default(message)
 
 
 # Хэндлер на текст финикх
-@router.message(F.from_user.id.in_(ListId.important_ids), F.text.lower() == "финикх")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == "финикх")
 async def secret_admin_message_finik(message: types.Message):
     text = f"Пасхалка 2 финикx найдена!"
     await message.bot.send_chat_action(
@@ -53,7 +53,7 @@ async def secret_admin_message_finik(message: types.Message):
         photo="https://vos-mo.ru/upload/iblock/329/g0s939ge8o1n8xp7rcqnw9kkz9mcfrg2/risunok.jpg",
         caption="Привет, это польза Фиников!")
     await cmd_logginger(message, log_type, text)
-    return text
+    await msg_default(message)
 
 
 # Хэндлер на текст андертейлкино
@@ -68,7 +68,7 @@ async def secret_admin_message_finik(message: types.Message):
         photo="https://i.ytimg.com/vi/c-o4_p4YKIc/mqdefault.jpg",
         caption="Меня заставила Финаки, честно!")
     await cmd_logginger(message, log_type, text)
-    return text
+    await msg_default(message)
 
 
 # Хэндлер на текст ришкус + отправка с локального хранилища
@@ -80,11 +80,11 @@ async def secret_admin_message_rishkus(message: types.Message):
         action=ChatAction.UPLOAD_PHOTO,
     )
     await message.reply_photo(
-        photo=types.FSInputFile(path=f"{ImportantPath.bot_personal_media}/{ImportantPath.photo}/Кусь.jpg"),
+        photo=types.FSInputFile(path=f"{ProjectPath.personal_media}/{ProjectPath.personal_photo}/Кусь.jpg"),
         caption="Россия для грустных",
     )
     await cmd_logginger(message, log_type, text)
-    return text
+    await msg_default(message)
 
 
 # Хэндлер на текст skodavano + отправка с локального хранилища
@@ -96,11 +96,11 @@ async def secret_admin_message_skodavano(message: types.Message):
         action=ChatAction.UPLOAD_PHOTO,
     )
     await message.reply_photo(
-        photo=types.FSInputFile(path=f"{ImportantPath.bot_personal_media}/{ImportantPath.photo}/Vano.jpg"),
+        photo=types.FSInputFile(path=f"{ProjectPath.personal_media}/{ProjectPath.personal_photo}/Vano.jpg"),
         caption="SkodaRacingVano24 -> Синяя изолента",
     )
     await cmd_logginger(message, log_type, text)
-    return text
+    await msg_default(message)
 
 
 # Хэндлер на текст лостикслешик + отправка с локального хранилища
@@ -117,12 +117,13 @@ async def secret_admin_message_lostik(message: types.Message):
 
         # Вывод сообщения-гифки пользователю
         await message.reply_animation(
-            animation=types.FSInputFile(path=f"{ImportantPath.bot_personal_media}/{ImportantPath.gif}/ЛжеРайяПрайм.mp4")
+            animation=types.FSInputFile(path=f"{ProjectPath.personal_media}"
+                                             f"/{ProjectPath.personal_gif}/ЛжеРайяПрайм.mp4")
         )
 
         # Активация логгера
         await cmd_logginger(message, types_message, text)
-        return text
+        await msg_default(message)
 
     # Проверка на ошибку и ее логирование
     except Exception as e:
@@ -159,7 +160,7 @@ async def secret_admin_message_finaki(message: types.Message):
 
     # Дополнительное логирование
     await cmd_logginger(message, log_type, text)
-    return text
+    await msg_default(message)
 
 
 # Хэндлер на текст маз
@@ -189,5 +190,4 @@ async def secret_admin_message_finaki(message: types.Message):
 
     # Дополнительное логирование
     await cmd_logginger(message, log_type, text)
-    return text
-
+    await msg_default(message)
