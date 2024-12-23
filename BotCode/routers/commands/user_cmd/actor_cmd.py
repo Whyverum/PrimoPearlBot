@@ -5,11 +5,13 @@ from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
 from keyboards.inline_kb.actor_kb import get_actor_kb
+from routers.msg_default import *
 
-# Создание роутера и настройка экспорта модулей
+# Создание роутера, переменных и настройка экспорта модулей
 __all__ = ("router", "cmd_actor", "log_type",)
 router = Router(name="actor_router")
 log_type = "Actor"
+description = "Описание"
 
 
 # Список ключевых слов для команды
@@ -17,7 +19,7 @@ keywords = ["actor", "фсещк",]
 
 
 # Обработчик команды /actor
-@router.message(Command(*keywords, prefix=BotEdit.prefixs, ignore_case=True))
+@router.message(Command(*keywords, prefix=BotVariables.prefixs, ignore_case=True))
 @router.message(F.text.lower().in_(keywords))
 async def cmd_actor(message: types.Message):
     try:
@@ -33,7 +35,7 @@ async def cmd_actor(message: types.Message):
 
         # Активация логгера
         await cmd_logginger(message, log_type, text)
-        return text
+        await msg_default(message)
 
     # Проверка на ошибку и ее логирование
     except Exception as e:
