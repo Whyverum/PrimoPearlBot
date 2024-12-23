@@ -12,9 +12,10 @@ log_type = "Type_message"
 
 # Проверка на тип чата
 def types_chat(message):
-    chat_id = find_imp_id(message.from_user.id)
+    user_id = find_imp_id(message.from_user.id)
+    chat_id = find_imp_id(message.chat.id)
     if message.chat.type == "private":
-        file_path = f"{ProjectPath.private_message}/{chat_id}.txt"
+        file_path = f"{ProjectPath.private_message}/{user_id}.txt"
     else:
         file_path = f"{ProjectPath.group_message}/{chat_id}.txt"
     return file_path
