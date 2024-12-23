@@ -9,6 +9,9 @@ from BotCode.routers import set_commands
 
 # Запуск основного кода
 async def main():
+    # Создание логгера
+    await setup_logger()
+
     # Подключение ANSI в стандартное Windows_cmd
     just_fix_windows_console()
 
@@ -22,12 +25,12 @@ async def main():
     await set_commands()    # Установка команд бота
     await bot_get_info()    # Получение информации о боте
 
-    # Создание логгера и оповещение о запуске
-    await setup_logger()
+    # Оповещение о запуске с информацией бота
     logger.bind(log_type="AEP", user="Console").info(f"Начало запуска бота @{BotInfo.username}...")
     bot_info_out()
 
     # Включение опроса бота
+    await bot.delete_webhook()
     await dp.start_polling(bot)
 
 
