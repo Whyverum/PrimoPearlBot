@@ -2,7 +2,7 @@
 # Определение типа сообщения
 
 from aiogram.types import ContentType
-from configs import *
+from ..configs import *
 from .find_ids import find_imp_id
 
 # Настройка экспорта модулей и логирования

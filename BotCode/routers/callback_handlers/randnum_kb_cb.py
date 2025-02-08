@@ -4,7 +4,7 @@
 from random import randint
 from aiogram import Router, F
 from aiogram.types import CallbackQuery
-from keyboards.inline_kb.randnum_kb import ButtonInl, get_randnum_kb
+from BotCode.keyboards.inline_kb.randnum_kb import ButtonInl, get_randnum_kb
 
 # Создание роутера и настройка экспорта модулей
 __all__ = ("router",)

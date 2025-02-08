@@ -4,12 +4,10 @@
 from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
+from BotCode.routers.msg_default import msg_default
 
 # Создание роутера и настройка экспорта модулей
 __all__ = ("router",)
-
-from routers.msg_default import msg_default
-
 router = Router(name="secret_message_router")
 log_type = "Admin"
 

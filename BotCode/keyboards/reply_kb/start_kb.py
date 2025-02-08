@@ -1,17 +1,15 @@
 # BotCode/keyboards/reply_kb/start_kb.py
 # Создания клавиатуры на команду: /start
+# Для создания базовой клавиатуры с некими элементами
 
-from aiogram import Router
-from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-from aiogram.utils.keyboard import ReplyKeyboardBuilder
+from aiogram.types import ReplyKeyboardMarkup
+from BotLibrary import rkb
 
-# Создание роутера и настройка экспорта
-__all__ = ("router", "get_start_kb", "kb_text", "ButtonText",)
-kb_text = "StartKb"
-router = Router(name="start_kb_router")
+# Настройка экспорта из этого модуля
+__all__ = ("get_start_kb", "ButtonText")
 
 
-# Класс с названиями кнопок
+# Создание класса со значениями кнопок
 class ButtonText:
     Hello = "Привет!"
     Help = "Помогите!"
@@ -19,16 +17,9 @@ class ButtonText:
 
 
 # Функция создания клавиатуры на команду: /start
-def get_start_kb() -> ReplyKeyboardBuilder:
-    button_hello = KeyboardButton(text=ButtonText.Hello)
-    button_help = KeyboardButton(text=ButtonText.Help)
-    button_bye = KeyboardButton(text=ButtonText.Bye)
-
-    buttons_first_row = [button_hello, button_help]
-    buttons_second_row = [button_bye]
-    markup = ReplyKeyboardMarkup(
-        keyboard=[buttons_first_row, buttons_second_row],
-        resize_keyboard=True,
-        one_time_keyboard=True,
-    )
-    return markup
+def get_start_kb() -> ReplyKeyboardMarkup:
+    rkb.button(text=ButtonText.Hello)
+    rkb.button(text=ButtonText.Help)
+    rkb.button(text=ButtonText.Bye)
+    rkb.adjust(2)
+    return rkb.as_markup(resize_keyboard=True, one_time_keyboard=True)

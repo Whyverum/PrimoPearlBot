@@ -1,39 +1,25 @@
 # BotCode/keyboards/reply_kb/more_kb.py
 # Создания клавиатуры на команду: /more
+# Для проверки отправки информации о пользователе
 
-from aiogram import Router
-from aiogram.types import KeyboardButtonPollType
-from aiogram.utils.keyboard import ReplyKeyboardBuilder
+from aiogram.types import KeyboardButtonPollType, ReplyKeyboardMarkup
+from BotLibrary import rkb
 
-# Создание роутера и настройка экспорта модулей
-__all__ = ("router", "get_more_kb", "kb_text",)
-kb_text = "HelpKb"
-router = Router(name="more_kb_router")
+# Настройка экспорта из этого модуля
+__all__ = ("get_more_kb", "ButtonText")
 
 
-# Класс с названиями кнопок
+# Создание класса со значениями кнопок
 class ButtonText:
-    More = "More"
     Location = "Отправить локацию"
     Contact = "Отправить контакт"
-    Chat = "Отправить чат???"
     Poll = "Отправить опрос"
-    Users = "Что то с common"
 
 
 # Функция создания клавиатуры на команду: /more
-def get_more_kb() -> ReplyKeyboardBuilder:
-    builder = ReplyKeyboardBuilder()
-    # builder.add(KeyboardButton(text=ButtonText.Location, request_location=True))
-    builder.button(text=ButtonText.Location, request_location=True)
-    builder.button(text=ButtonText.Contact, request_contact=True)
-    builder.button(text=ButtonText.Poll, request_poll=KeyboardButtonPollType())
-
-    builder.adjust(1)
-    return builder.as_markup(resize_keyboard=True)
-
-    # Один из вариантов создание клавиатуры
-    # markup = ReplyKeyboardMarkup(
-    #     keyboard=[]
-    # )
-    # return markup
+def get_more_kb() -> ReplyKeyboardMarkup:
+    rkb.button(text=ButtonText.Location, request_location=True)
+    rkb.button(text=ButtonText.Contact, request_contact=True)
+    rkb.button(text=ButtonText.Poll, request_poll=KeyboardButtonPollType())
+    rkb.adjust(1)
+    return rkb.as_markup(resize_keyboard=True, one_time_keyboard=True)

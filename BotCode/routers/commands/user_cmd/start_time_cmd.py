@@ -4,7 +4,7 @@
 from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
-from routers.msg_default import msg_default
+from BotCode.routers.msg_default import msg_default
 
 # Создание роутера, переменных и настройка экспорта модулей
 __all__ = ("router", "start_time", "log_type", "description")

@@ -68,4 +68,4 @@ class DataID:
     groups = data_list_id.get("important_groups_ids", {})
     users = data_list_id.get("important_users_list_ids", {})
     channels = data_list_id.get("important_channel_ids", {})
-    important = {**admins, **groups, **users, **channels}
+    important = {**groups, **admins, **users, **channels}

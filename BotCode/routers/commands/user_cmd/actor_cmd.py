@@ -4,8 +4,8 @@
 from aiogram import Router, types, F
 from aiogram.filters import Command
 from BotLibrary import *
-from keyboards.inline_kb.actor_kb import get_actor_kb
-from routers.msg_default import *
+from BotCode.keyboards.inline_kb.actor_kb import get_actor_kb
+from BotCode.routers.msg_default import *
 
 # Создание роутера, переменных и настройка экспорта модулей
 __all__ = ("router", "cmd_actor", "log_type",)

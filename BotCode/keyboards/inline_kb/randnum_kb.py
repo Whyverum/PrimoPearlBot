@@ -1,27 +1,21 @@
 # BotCode/keyboards/inline_kb/randnum_kb.py
 # Создания инлайн-клавиатуры на команду: /randnum
 
-from aiogram import Router
 from aiogram.types import InlineKeyboardMarkup
-from aiogram.utils.keyboard import InlineKeyboardBuilder
+from BotLibrary import ikb
 
 # Создание роутера и настройка экспорта
-__all__ = ("router", "get_randnum_kb", "kb_text", "ButtonInl",)
-kb_text = "RandNumKb"
-router = Router(name="actor_kb_router")
+__all__ = ("get_randnum_kb", "ButtonInl")
 
 
 # Класс с параметрами кнопок
 class ButtonInl:
+    text = "Получить ответ"
     mark_cbd = "mark_cbd"
 
 
 # Функция создания клавиатуры на команду: /actor
-def get_randnum_kb(text_msg="Получить ответ") -> InlineKeyboardMarkup:
-    # Создаем билдер клавиатуры
-    builder = InlineKeyboardBuilder()
-
-    # Добавляем кнопки, группируя их по строкам
-    builder.button(text=text_msg, callback_data=ButtonInl.mark_cbd)
-
-    return builder.as_markup()
+def get_randnum_kb() -> InlineKeyboardMarkup:
+    ikb.button(text=ButtonInl.text, callback_data=ButtonInl.mark_cbd)
+    ikb.add_row(1)
+    return ikb.as_markup()

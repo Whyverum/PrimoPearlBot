@@ -4,9 +4,9 @@
 from aiogram import Router, types, F
 from aiogram.types import ReplyKeyboardRemove
 
-from routers.msg_default import *
+from BotCode.routers.msg_default import *
 from BotLibrary import find_imp_id, types_message, common_msg_logginger
-from keyboards.reply_kb.start_kb import ButtonText
+from BotCode.keyboards.reply_kb.start_kb import ButtonText
 
 # Настройка экспорта модулей и роутера
 __all__ = ("router",)

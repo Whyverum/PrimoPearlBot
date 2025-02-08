@@ -2,20 +2,25 @@
 # Создание и настройка бота в одном файле
 
 from aiogram import Dispatcher, Bot, F
-from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-
+from aiogram.client.default import DefaultBotProperties
+from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
+
 from .time import *
-from configs import bot_token, BotVariables
+from ..configs import bot_token, BotVariables
 
-# Настройка экспорта модулей и логирования
-__all__ = ("dp", "bot", "scheduler", "F_Media", "BotInfo", "bot_get_info")
-log_type = "Bot"
+# Настройка экспорта из этого модуля
+__all__ = ("dp", "rkb", "ikb", "bot", "scheduler",
+           "F_Media", "F_All", "BotInfo", "bot_get_info")
 
 
-# Создание экземпляра диспатчера и его параметров
+# Создание экземпляра диспатчера, строителей кнопок
 dp = Dispatcher()
+rkb = ReplyKeyboardBuilder()
+ikb = InlineKeyboardBuilder()
+
+# Настройка параметров диспатчера
 dp["started_at"] = host_time
 dp["started_at_msk"] = get_choice_time(TimeVariable.choice_utc_msk)
 dp["is_active"] = True  # Флаг активности бота
@@ -46,6 +51,7 @@ bot_properties = DefaultBotProperties(
 bot = Bot(token=bot_token, default=bot_properties)     # Объявление бота
 scheduler = AsyncIOScheduler(timezone=get_time_zone())   # Создание планировщика
 F_Media = F.photo | F.files | F.video | F.animation | F.voice | F.video_note  # Фильтр-медиа
+F_All = F.text | F.photo | F.files | F.video | F.animation | F.voice | F.video_note # Фильтр на все
 
 
 # Класс для хранения данных о боте (некоторые переменные даны как шаблон)

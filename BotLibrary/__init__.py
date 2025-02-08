@@ -6,3 +6,4 @@ from .analitics import *
 from .library import *
 from .media import *
 from .configs import *
+from .validators import *

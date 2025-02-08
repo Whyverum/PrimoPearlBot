@@ -6,7 +6,7 @@ import json
 import datetime
 
 from aiogram.types import User, Birthdate
-from configs import *
+from ..configs import *
 from ..library.time import TimeVariable
 
 # Настройка экспорта модулей и логирования

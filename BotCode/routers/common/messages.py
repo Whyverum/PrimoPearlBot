@@ -4,7 +4,7 @@
 
 from BotLibrary import *
 from aiogram import Router, types
-from routers.msg_default import *
+from BotCode.routers.msg_default import *
 
 # Настройка экспорта модулей и роутера
 __all__ = ("router",)
@@ -15,7 +15,7 @@ log_type = "Messages"
 # Хэндлер на все сообщения и записывает данные
 @router.message()
 async def handle_all_messages(message: types.Message):
-    user_name = find_imp_id(message.from_user.id)
+    user_name = find_imp_id(message.chat.id)
     message_type = types_message(message)
 
     await common_msg_logginger(message, user_name, message_type, log_type)
