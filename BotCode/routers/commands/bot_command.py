@@ -14,7 +14,7 @@ from .user_cmd.start_time_cmd import description as start_time_description,log_t
 
 # Создание роутера и настройка экспорта модулей
 __all__ = ("router", "set_commands",)
-router = Router(name="bot_command_router")
+router = Router(name=__name__)
 log_type = "SetCmd"
 
 # Список ключевых слов для команды "setcommands"
