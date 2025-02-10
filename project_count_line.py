@@ -16,7 +16,7 @@ def count_lines_in_python_files(directory):
     # Проходим по всем директориям и файлам в заданной директории
     for root, dirs, files in os.walk(directory):
         # Исключаем определенные директории
-        if any(excluded in root for excluded in ['.venv', '.git', '.idea', '__pycache__']):
+        if any(excluded in root for excluded in ['.venv', '.env', '.git', '.idea', '__pycache__']):
             continue
 
         for file in files:
