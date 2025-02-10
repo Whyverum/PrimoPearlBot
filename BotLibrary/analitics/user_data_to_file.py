@@ -7,7 +7,7 @@ import datetime
 
 from aiogram.types import User, Birthdate
 from ..configs import *
-from BotLibrary.timers.time import TimeVariable
+from BotLibrary.configs import TimeVariable
 
 # Настройка экспорта модулей и логирования
 __all__ = ("write_user_info_to_file", "format_user_record",)
