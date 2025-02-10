@@ -14,8 +14,9 @@ class ButtonInl:
     mark_cbd = "mark_cbd"
 
 
-# Функция создания клавиатуры на команду: /actor
-def get_randnum_kb() -> InlineKeyboardMarkup:
-    ikb.button(text=ButtonInl.text, callback_data=ButtonInl.mark_cbd)
-    ikb.add_row(1)
-    return ikb.as_markup()
+# Функция создания клавиатуры на команду: /randnum
+def get_randnum_kb(text=ButtonInl.text) -> InlineKeyboardMarkup:
+    ikb.button(text=text, callback_data=ButtonInl.mark_cbd)
+    ikb.adjust(1)
+    return ikb.as_markup()  # Возвращаем клавиатуру
+

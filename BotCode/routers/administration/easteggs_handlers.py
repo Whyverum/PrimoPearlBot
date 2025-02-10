@@ -8,7 +8,7 @@ from BotCode.routers.msg_default import msg_default
 
 # Создание роутера и настройка экспорта
 __all__ = ("router",)
-router = Router(name=__name__)
+router = Router(name="easteggs")
 log_type = "EastEggs"
 
 

@@ -16,7 +16,6 @@ description = "Описание"
 # Список ключевых слов для команды
 keywords = ["кфтвтгь", "randnum",]
 
-
 # Хэндлер на команду /randnum
 @router.message(Command(*keywords, prefix=BotVariables.prefixs, ignore_case=True))
 @router.message(F.text.lower().in_(keywords))
@@ -24,7 +23,7 @@ async def cmd_randnum(message: types.Message):
         text = "Работа с рандомом оценок!"
         await message.reply(
             text="Вы хотите узнать вашу оценку на сегодня?!",
-            reply_markup=get_randnum_kb("Хочу: ТЫК"),
+            reply_markup=get_randnum_kb(),
         )
 
         # Активация логгера

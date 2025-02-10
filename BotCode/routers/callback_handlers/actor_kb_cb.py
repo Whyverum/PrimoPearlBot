@@ -8,7 +8,7 @@ from BotCode.keyboards.inline_kb.actor_kb import ButtonInl
 
 # Создание роутера и настройка экспорта модулей
 __all__ = ("router",)
-router = Router(name="actor_kb_cb_router")
+router = Router(name="actor_kb_cb")
 
 
 # Тестирование реферальных ссылок
