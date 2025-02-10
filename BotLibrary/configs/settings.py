@@ -8,6 +8,9 @@ from dotenv import load_dotenv
 __all__ = ("BotEdit", "BotVariables", "bot_token", "api_key",
            "web_api_key", "important_id", "secret")
 
+# Базовая кодировка файлов
+default_encod = "utf-8"
+
 
 # Класс с параметрами бота
 class BotEdit:
@@ -25,8 +28,20 @@ class BotVariables:
 
 # Загружаем переменные из файла .env
 load_dotenv(".env")
-bot_token = getenv("main_bot_token")
-api_key = getenv("APIKey")
-web_api_key = getenv("WebAPIKey")
-important_id = getenv("important_id")
-secret = getenv("secret")
+
+bot_token = getenv("BOT_TOKEN")
+bot1_token = getenv("BOT1_TOKEN")
+bot2_token = getenv("BOT2_TOKEN")
+
+api_key = getenv("API_KEY")
+web_api_key = getenv("WEB_API_KEY")
+
+tg_api_uid = getenv("TG_API_UID")
+tg_api_hash = getenv("TG_API_HASH")
+
+admin_id = getenv("ADMIN_ID")
+important_id = getenv("IMPORTANT_ID")
+important_group_id = getenv("IMPORTANT_GROUP_ID")
+important_channel_id = getenv("IMPORTANT_CHANNEL_ID")
+
+secret = getenv("SECRET")
