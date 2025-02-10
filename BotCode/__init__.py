@@ -3,5 +3,4 @@
 
 from .keyboards import *
 from .routers import *
-from .timer import *
 from .inline import *
