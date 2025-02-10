@@ -7,7 +7,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from .time import *
+from BotLibrary.timers.time import *
 from ..configs import bot_token, BotVariables
 
 # Настройка экспорта из этого модуля
@@ -38,16 +38,19 @@ dp["storage"] = {}
 dp["database"] = None
 
 
-# Объявление экземпляров и переменных
+# Объявление экземпляров и переменных для настроек бота
 bot_properties = DefaultBotProperties(
-    parse_mode=ParseMode.HTML,  # Устанавливаем формат HTML для всех сообщений
-    disable_notification=True,  # Отключаем уведомления при отправке сообщений
-    protect_content=True,  # Защищаем содержимое сообщений от копирования
-    allow_sending_without_reply=True,  # Разрешаем отправлять сообщения без ответа на другое сообщение
-    # link_preview=LinkPreviewOptions(),  # Настройка для предварительного просмотра ссылок
-    link_preview_is_disabled=True,  # Отключаем предварительный просмотр ссылок
-    show_caption_above_media=False,  # Показываем подпись выше медиа
+    parse_mode=ParseMode.HTML,  # Устанавливаем формат HTML для всех сообщений, чтобы поддерживать форматирование
+    disable_notification=False,  # Отключаем уведомления при отправке сообщений (не будет звука или всплывающих уведомлений)
+    protect_content=False,  # Защищаем содержимое сообщений, чтобы предотвратить его копирование
+    allow_sending_without_reply=True,  # Разрешаем отправлять сообщения без ответа на предыдущее сообщение (например, в одиночных чатах)
+    link_preview_is_disabled=False,  # Отключаем предварительный просмотр ссылок (не показывать превью при вставке URL)
+    link_preview_prefer_small_media=False,  # Предпочитаем показывать маленькие медиа в превью ссылок
+    link_preview_prefer_large_media=True,  # Не показываем большие медиа в превью ссылок (если это в конфликте с предыдущей настройкой)
+    link_preview_show_above_text=True,  # Показываем предварительный просмотр ссылки после текстом сообщения
+    show_caption_above_media=False,  # Показываем подпись (caption) ниже медиа, а не выше
 )
+
 bot = Bot(token=bot_token, default=bot_properties)     # Объявление бота
 scheduler = AsyncIOScheduler(timezone=get_time_zone())   # Создание планировщика
 F_Media = F.photo | F.files | F.video | F.animation | F.voice | F.video_note  # Фильтр-медиа
@@ -80,7 +83,7 @@ class BotInfo:
         cls.first_name = bot_info.first_name
         cls.last_name = bot_info.last_name
         cls.username = bot_info.username
-        cls.description = getattr(bot_info, 'description', '')  # Default to empty string if no description
+        cls.description = getattr(bot_info, 'description', '')
         cls.short_description = getattr(bot_info, 'description', '')
         cls.language_code = bot_info.language_code
         cls.is_premium = bot_info.is_premium
@@ -88,8 +91,8 @@ class BotInfo:
         cls.supports_inline_queries = bot_info.supports_inline_queries
         cls.can_connect_to_business = bot_info.can_connect_to_business
         cls.has_main_web_app = bot_info.has_main_web_app
-        cls.can_join_groups = getattr(bot_info, 'can_join_groups', None)  # Default to None if no attribute
-        cls.can_read_all_group_messages = getattr(bot_info, 'can_read_all_group_messages', None)  # Default to None
+        cls.can_join_groups = getattr(bot_info, 'can_join_groups', None)
+        cls.can_read_all_group_messages = getattr(bot_info, 'can_read_all_group_messages', None)
 
 
 # Функция получения данных о боте
