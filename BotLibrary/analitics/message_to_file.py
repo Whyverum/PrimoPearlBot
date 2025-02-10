@@ -6,7 +6,7 @@ from loguru import logger
 from datetime import datetime
 
 from ..configs import *
-from ..library.time import TimeVariable
+from BotLibrary.timers.time import TimeVariable
 from .types_msg import types_message, types_chat
 from .find_ids import find_imp_id
 
