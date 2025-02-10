@@ -9,4 +9,4 @@ from .directory import *
 
 from art import *
 from colorama import *
-from termcolor import *От
+from termcolor import *
