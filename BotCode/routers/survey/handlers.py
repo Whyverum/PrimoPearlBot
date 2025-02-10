@@ -3,11 +3,11 @@ from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.utils import markdown
 
-from BotLibrary import BotVariables
-from email_validators import valid_email
-from keyboards.reply_kb.survey_yesno_kb import get_survey_email_kb
 from .states import Survey
+from BotLibrary import BotVariables, valid_email
+from BotCode.keyboards.reply_kb.survey_yesno_kb import get_survey_email_kb
 
+# Создание роутера
 router = Router(name=__name__)
 
 @router.message(Command("survey", prefix=BotVariables.prefixs))
