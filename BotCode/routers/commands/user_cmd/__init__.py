@@ -9,6 +9,7 @@ from .exit_cmd import router as exit_router
 from .start_time_cmd import router as start_time_router
 from .actor_cmd import router as actor_router
 from .randnum_cmd import router as randnum_router
+from .time_cmd import router as time_router
 
 
 # Объявление роутера и настройка экспорта модулей
@@ -24,6 +25,7 @@ router.include_routers(
     exit_router,
     actor_router,
     randnum_router,
+    time_router,
 )
 
 
