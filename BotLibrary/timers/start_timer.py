@@ -1,25 +1,18 @@
-# BotLibrary/library/timers/time.py
-# Библиотека поиски времени
+# BotLibrary/timers/start_timer.py
+# Функция получения времени старта
 
 import pytz
 from tzlocal import get_localzone
 from datetime import datetime
+from ..configs import TimeVariable
 
 # Настройка экспорта модулей и логирования
-__all__ = ("TimeVariable", "host_time", "get_choice_time", "get_time_zone")
+__all__ = ("host_time", "get_choice_time", "get_time_zone")
 log_type = "Time"
 
 
-"""Создание класса с временными параметрами"""
-class TimeVariable:
-    format = "%Y-%m-%d %H:%M:%S"
-    another_format = "%S:%M:%H %d-%m-%Y"
-    choice_main_utc = "Asia/Novosibirsk"
-    choice_utc_msk = "Europe/Moscow"
-
-
 """Получение времени хоста и иного места"""
-timezone = pytz.timezone(TimeVariable.choice_utc_msk)
+timezone = pytz.timezone(TimeVariable.choice_utc_krsk)  # Используем Красноярск вместо Москвы
 host_time = datetime.now(timezone)
 
 
@@ -37,13 +30,13 @@ def get_choice_time(choice_utc):
     # Московский часовой пояс
     choice_tz = pytz.timezone(choice_utc)
 
-    # Перевод времени в московский часовой пояс
+    # Перевод времени в выбранный часовой пояс
     choice_now = utc_now.astimezone(choice_tz)
 
-    # Смещение UTC для Москвы
+    # Смещение UTC для выбранного региона
     utc_offset_choice = choice_now.utcoffset().total_seconds() / 3600  # Смещение в часах
 
-    # Форматирование времени
+    # Форматирование времени в стиле, как у Москвы (YYYY-MM-DD HH:MM:SS (UTC±X))
     choice_time = choice_now.strftime(TimeVariable.format) + f" (UTC{int(utc_offset_choice):+})"
 
     return choice_time
