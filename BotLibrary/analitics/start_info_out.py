@@ -8,7 +8,7 @@ from loguru import logger
 from time import sleep
 
 from ..configs import ProjectPath, default_encod
-from ..library.time import TimeVariable
+from BotLibrary.timers.time import TimeVariable
 from ..library.bots import BotInfo
 
 # Настройка экспорта модулей и логирования
