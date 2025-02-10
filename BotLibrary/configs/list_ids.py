@@ -5,7 +5,7 @@ import os
 import json
 from loguru import logger
 
-from .config import *
+from .settings import default_encod
 from .important_path import ProjectPath
 
 # Настройка экспорта модулей и логирования
