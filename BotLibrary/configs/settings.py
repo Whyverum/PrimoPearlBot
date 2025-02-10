@@ -4,9 +4,6 @@
 from os import getenv
 from dotenv import load_dotenv
 
-# Настройка экспорта модулей
-__all__ = ("BotEdit", "BotVariables", "bot_token", "api_key",
-           "web_api_key", "important_id", "secret")
 
 # Базовая кодировка файлов
 default_encod = "utf-8"
