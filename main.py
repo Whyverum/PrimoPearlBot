@@ -2,6 +2,8 @@
 # Основной код проекта, который и соединяет в себе все его возможности
 
 import asyncio
+from colorama import just_fix_windows_console
+
 from BotLibrary import *
 from BotCode.routers import router as main_router
 from BotCode.routers import set_commands
