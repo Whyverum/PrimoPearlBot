@@ -31,8 +31,8 @@ class BotVariables:
     prefixs = ('$', '!', '.', '%', '&', ':', '|', '+', '-', '/', '~', '?')
 
 
-# Загружаем переменные из файла .env
-load_dotenv(".env")
+# Загружаем переменные из файла ProjectsFile/.env
+load_dotenv("ProjectsFile/.env")
 
 bot_token = getenv("BOT_TOKEN")
 bot1_token = getenv("BOT1_TOKEN")

@@ -37,7 +37,7 @@ def count_lines_in_python_files(directory):
     return total_lines, total_files
 
 # Задайте путь к вашей директории
-directory_path = r'./'
+directory_path = r'../'
 lines_count, files_count = count_lines_in_python_files(directory_path)
 
 print(f"Общее количество строк в файлах .py: {lines_count}")
