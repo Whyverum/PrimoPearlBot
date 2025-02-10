@@ -8,12 +8,25 @@ from BotCode.routers.msg_default import msg_default
 
 # Создание роутера и настройка экспорта
 __all__ = ("router",)
-router = Router(name="easteggs_router")
+router = Router(name=__name__)
 log_type = "EastEggs"
 
 
+# Класс с текстовыми пасхалками бота
+class EastEggsName:
+    Num1 = "финаки228"
+    Num2 = "финикх"
+    Num3 = "андертейлкино"
+    Num4 = "ришкус"
+    Num5 = "skodavano"
+    Num6 = "лостикслешик"
+    Num7 = "ещкере"
+    Num8 = "маз"
+
+
 # Хэндлер на текст финаки228
-@router.message(F.text.lower() == "финаки228")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num1)
 async def secret_admin_message_finaki(message: types.Message):
     text = "Пасхалка 1 Финаки228 найдена!"
 
@@ -26,7 +39,7 @@ async def secret_admin_message_finaki(message: types.Message):
     # Отправка фотографии
     try:
         await message.reply_photo(
-            photo=types.FSInputFile(path=f"{ProjectPath.personal_media}/{ProjectPath.personal_photo}/Undertale.jpg"),
+            photo=types.FSInputFile(path=f"{ProjectPath.personal_photo}/Undertale.jpg"),
             caption="ОНА МЕНЯ ЗАСТАВИЛА ПОМОГИТЕ😭... (Кст @fin_aki любит анал, тс..)",
         )
 
@@ -42,7 +55,7 @@ async def secret_admin_message_finaki(message: types.Message):
 
 # Хэндлер на текст финикх
 @router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
-                F.text.lower() == "финикх")
+                F.text.lower() == EastEggsName.Num2)
 async def secret_admin_message_finik(message: types.Message):
     text = f"Пасхалка 2 финикx найдена!"
     await message.bot.send_chat_action(
@@ -57,7 +70,8 @@ async def secret_admin_message_finik(message: types.Message):
 
 
 # Хэндлер на текст андертейлкино
-@router.message(F.text.lower() == "андертейлкино")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num3)
 async def secret_admin_message_finik(message: types.Message):
     text = f"Пасхалка 3 андертейлкино найдена!"
     await message.bot.send_chat_action(
@@ -72,7 +86,8 @@ async def secret_admin_message_finik(message: types.Message):
 
 
 # Хэндлер на текст ришкус + отправка с локального хранилища
-@router.message(F.text.lower() == "ришкус")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num4)
 async def secret_admin_message_rishkus(message: types.Message):
     text = f"Пасхалка 4 ришкус найдена!"
     await message.bot.send_chat_action(
@@ -80,7 +95,7 @@ async def secret_admin_message_rishkus(message: types.Message):
         action=ChatAction.UPLOAD_PHOTO,
     )
     await message.reply_photo(
-        photo=types.FSInputFile(path=f"{ProjectPath.personal_media}/{ProjectPath.personal_photo}/Кусь.jpg"),
+        photo=types.FSInputFile(path=f"{ProjectPath.personal_photo}/Кусь.jpg"),
         caption="Россия для грустных",
     )
     await cmd_logginger(message, log_type, text)
@@ -88,7 +103,8 @@ async def secret_admin_message_rishkus(message: types.Message):
 
 
 # Хэндлер на текст skodavano + отправка с локального хранилища
-@router.message(F.text.lower() == "skodavano")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num5)
 async def secret_admin_message_skodavano(message: types.Message):
     text = f"Пасхалка 5 skodavano найдена!"
     await message.bot.send_chat_action(
@@ -96,15 +112,16 @@ async def secret_admin_message_skodavano(message: types.Message):
         action=ChatAction.UPLOAD_PHOTO,
     )
     await message.reply_photo(
-        photo=types.FSInputFile(path=f"{ProjectPath.personal_media}/{ProjectPath.personal_photo}/Vano.jpg"),
-        caption="SkodaRacingVano24 -> Синяя изолента",
+        photo=types.FSInputFile(path=f"{ProjectPath.personal_photo}/Vano.jpg"),
+        caption="@skodaracing24 -> Синяя изолента",
     )
     await cmd_logginger(message, log_type, text)
     await msg_default(message)
 
 
 # Хэндлер на текст лостикслешик + отправка с локального хранилища
-@router.message(F.text.lower() == "лостикслешик")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num6)
 async def secret_admin_message_lostik(message: types.Message):
     try:
         text = f"Пасхалка 6 лостикслешик найдена!"
@@ -117,8 +134,7 @@ async def secret_admin_message_lostik(message: types.Message):
 
         # Вывод сообщения-гифки пользователю
         await message.reply_animation(
-            animation=types.FSInputFile(path=f"{ProjectPath.personal_media}"
-                                             f"/{ProjectPath.personal_gif}/ЛжеРайяПрайм.mp4")
+            animation=types.FSInputFile(path=f"{ProjectPath.personal_gif}/ЛжеРайяПрайм.mp4")
         )
 
         # Активация логгера
@@ -132,7 +148,8 @@ async def secret_admin_message_lostik(message: types.Message):
 
 
 # Хэндлер на текст ещкере
-@router.message(F.text.lower() == "ещкере")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num7)
 async def secret_admin_message_finaki(message: types.Message):
     text = "Пасхалка 7 ещкере найдена!"
 
@@ -164,7 +181,8 @@ async def secret_admin_message_finaki(message: types.Message):
 
 
 # Хэндлер на текст маз
-@router.message(F.text.lower() == "маз")
+@router.message(F.from_user.id.func(lambda user_id: str(user_id) in DataID.important.keys()),
+                F.text.lower() == EastEggsName.Num8)
 async def secret_admin_message_finaki(message: types.Message):
     text = "Пасхалка 8 маз найдена!"
 
