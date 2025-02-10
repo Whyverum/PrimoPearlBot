@@ -1,4 +1,4 @@
-# BotLibrary/library/time.py
+# BotLibrary/library/timers/time.py
 # Библиотека поиски времени
 
 import pytz
