@@ -6,8 +6,7 @@ from .bots import *
 from .logger import *
 from .edit_bot import *
 from .directory import *
-from .time import *
 
 from art import *
 from colorama import *
-from termcolor import *
+from termcolor import *От
