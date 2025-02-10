@@ -19,7 +19,7 @@ async def set_all():
     await set_bot_name()
     await set_bot_description()
     await set_bot_short_description()
-    return f"Автономная настройка бота - завершена!"
+    return "Автономная настройка бота - завершена!"
 
 
 # Функция установки имени бота с проверкой на ограничения
@@ -69,9 +69,9 @@ async def set_adm_rights():
     current_rights = await bot.get_my_default_administrator_rights()
     if current_rights != rights:
         await bot.set_my_default_administrator_rights(rights)
-        return f"Админ права бота изменены!"
+        return "Админ права бота изменены!"
     else:
-        return f"Админ права уже установлены и не требуют изменений."
+        return "Админ права уже установлены и не требуют изменений."
 
 
 # Функция установки описания бота с проверкой на ограничения
@@ -87,9 +87,9 @@ async def set_bot_description():
     # Проверяем, совпадает ли текущее описание с тем, которое мы хотим установить
     if current_description != BotEdit.description:
         await bot.set_my_description(description=BotEdit.description)
-        return f"Описание бота изменено!"
+        return "Описание бота изменено!"
     else:
-        return f"Описание бота уже установлено и не требует изменений."
+        return "Описание бота уже установлено и не требует изменений."
 
 
 # Функция установки короткого описания бота с проверкой на ограничения
@@ -105,6 +105,6 @@ async def set_bot_short_description():
     # Проверяем, совпадает ли текущее короткое описание с тем, которое мы хотим установить
     if current_short_description != BotEdit.short_description:
         await bot.set_my_short_description(short_description=BotEdit.short_description)
-        return f"Короткое описание бота изменено!"
+        return "Короткое описание бота изменено!"
     else:
-        return f"Короткое описание бота уже установлено и не требует изменений."
+        return "Короткое описание бота уже установлено и не требует изменений."
