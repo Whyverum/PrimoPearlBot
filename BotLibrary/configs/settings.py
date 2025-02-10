@@ -8,6 +8,14 @@ from dotenv import load_dotenv
 # Базовая кодировка файлов
 default_encod = "utf-8"
 
+# Создание класса с временными параметрами
+class TimeVariable:
+    format = "%Y-%m-%d %H:%M:%S"
+    another_format = "%S:%M:%H %d-%m-%Y"
+    choice_main_utc = "Asia/Novosibirsk"
+    choice_utc_msk = "Europe/Moscow"
+    choice_utc_krsk = "Asia/Krasnoyarsk"  # Новый выбор для Красноярска
+
 
 # Класс с параметрами бота
 class BotEdit:
