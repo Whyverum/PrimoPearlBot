@@ -37,5 +37,3 @@ async def main():
 # Вечная загрузка бота
 if __name__ == "__main__":  # Исправлено: правильное именование
     asyncio.run(main())
-    # app = App()
-    # app.mainloop()
