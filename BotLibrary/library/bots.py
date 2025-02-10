@@ -4,12 +4,11 @@
 from aiogram import Dispatcher, Bot, F
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
-from aiogram.types import InlineKeyboardMarkup, ReplyKeyboardMarkup
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-from BotLibrary.timers.time import *
-from ..configs import bot_token, BotVariables
+from ..timers import *
+from ..configs import bot_token, BotVariables, TimeVariable
 
 # Настройка экспорта из этого модуля
 __all__ = ("dp", "rkb", "ikb", "bot", "scheduler",
@@ -22,7 +21,7 @@ rkb = ReplyKeyboardBuilder()
 ikb = InlineKeyboardBuilder()
 
 # Настройка параметров диспатчера
-dp["started_at"] = host_time
+dp["started_at"] = get_choice_time(TimeVariable.choice_utc_krsk)
 dp["started_at_msk"] = get_choice_time(TimeVariable.choice_utc_msk)
 dp["is_active"] = True  # Флаг активности бота
 dp["logs"] = []
